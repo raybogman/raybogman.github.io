@@ -14,7 +14,7 @@
   <meta property="og:type" content="website" />
   <meta property="og:title" content="{% if title %}{{ title }}{% elsif page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}" />
   <meta property="og:description" content="{% if excerpt %}{{ excerpt }}{% elsif page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}" />
-  <meta property="og:url" content="{{ site.url }}{% if site.url %}/{{ site.url }}{% endif %}{{ page.url | remove: '/' }}" />
+  <meta property="og:url" content="{% if site.url %}/{{ site.url }}{% endif %}" />
   <meta property="og:image" content="{{ site.url }}/{% if page.cover %}{{ page.cover }}{% else %}{{ site.cover }}{% endif %}" />
   <meta property="fb:app_id" content="{{ site.fb_app_id }}" />
   <meta property="article:publisher" content="https://www.facebook.com/{{ site.facebook }}" />{% if excerpt %}
@@ -26,8 +26,8 @@
   <meta name="twitter:card" content="summary_large_image" />
   <meta name="twitter:title" content="{% if title %}{{ title }}{% elsif page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}" />
   <meta name="twitter:description" content="{% if excerpt %}{{ excerpt }}{% elsif page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}" />
-  <meta name="twitter:url" content="{{ site.url }}{{ site.url }}" />
-  <meta name="twitter:image" content="{{ site.url }}{{ site.url }}{% if page.cover %}{{ page.cover }}{% else %}{{ site.cover }}{% endif %}" />
+  <meta name="twitter:url" content="{{ page.url }}" />
+  <meta name="twitter:image" content="{{ site.url }}{% if page.cover %}{{ page.cover }}{% else %}{{ site.cover }}{% endif %}" />
   <meta name="twitter:label1" content="Written by" />
   <meta name="twitter:data1" content="{{ site.title }}" />{% if page.tags.size > 0 %}
   <meta name="twitter:label2" content="Filed under" />
