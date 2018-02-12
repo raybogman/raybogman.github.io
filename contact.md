@@ -4,8 +4,6 @@ title: Contact
 permalink: /contact/
 ---
 
-<amp-img width="600" height="300" layout="responsive" src="../assets/images/cathryn-lavery-67852.jpg"></amp-img>
-
 <main class="flex flex-wrap justify-around align-item items-center" markdown="0">
 <form id="contactform" action-xhr="//formspree.io/hello@raybogman.com" method="POST">
   <input type="hidden" name="redirect_to" value="//raybogman.com/thanks/">
