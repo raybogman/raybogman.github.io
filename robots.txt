@@ -1,0 +1,9 @@
+---
+layout: 
+---
+
+User-agent: *
+
+Sitemap: {{ site.url }}/sitemap.xml
+Sitemap: {{ site.url }}/post-sitemap.xml
+Sitemap: {{ site.url }}/page-sitemap.xml

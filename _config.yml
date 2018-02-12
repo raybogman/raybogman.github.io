@@ -8,6 +8,8 @@ favicon: assets/images/favicon.png
 baseurl: "/" # the subpath of your site, e.g. /blog/ or / for root
 url: "https://raybogman.com" # the base hostname & protocol for your site
 robots: NOINDEX,NOFOLLOW
+email: hello@raybogman.com
+fb_app_id: 560465084319172
 paginate:	5 # The number of posts to show per page on your homepage
 
 # Social
