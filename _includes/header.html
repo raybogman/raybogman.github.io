@@ -19,7 +19,7 @@
     <ul class="list-reset m0 p0 ampstart-label">
         {% for entry in site.data.navigation %}
             {% if entry.url == current_page %}
-                {% assign current = 'current' %}
+                {% assign current = current %}
             {% else %}
                 {% assign current = null %}
             {% endif %}

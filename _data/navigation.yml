@@ -2,13 +2,13 @@
   url:
 
 - title: Speaker
-  url: speaker
+  url: /speaker/
 
 - title: Trainer
-  url: trainer
+  url: /trainer/
 
 - title: Author
-  url: author
+  url: /author/
 
 - title: About
-  url: about
+  url: /about/
