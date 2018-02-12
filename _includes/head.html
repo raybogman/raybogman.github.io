@@ -14,7 +14,7 @@
   <meta property="og:type" content="website" />
   <meta property="og:title" content="{% if title %}{{ title }}{% elsif page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}" />
   <meta property="og:description" content="{% if excerpt %}{{ excerpt }}{% elsif page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}" />
-  <meta property="og:url" content="{% if site.url %}/{{ site.url }}{% endif %}" />
+  <meta property="og:url" content="{{ page.url }}" />
   <meta property="og:image" content="{{ site.url }}/{% if page.cover %}{{ page.cover }}{% else %}{{ site.cover }}{% endif %}" />
   <meta property="fb:app_id" content="{{ site.fb_app_id }}" />
   <meta property="article:publisher" content="https://www.facebook.com/{{ site.facebook }}" />{% if excerpt %}
