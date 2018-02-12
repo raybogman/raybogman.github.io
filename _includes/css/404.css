@@ -1,0 +1,14 @@
+html {
+ background-color: rgb(0, 0, 0);
+}
+
+.data {
+text-align: center
+}
+
+.cent {
+margin: 20px auto;
+max-width: 100%;
+display:block;
+height: auto;
+}
