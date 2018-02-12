@@ -1,0 +1,24 @@
+version: '2'
+services:
+    jekyll:
+          container_name: jekyll
+          restart: always
+          image: jekyll/jekyll:3.6.2
+#          image: jekyll/jekyll:pages
+          hostname: jekyll
+#          command: jekyll build --watch --incremental --profile
+#          command: jekyll build --watch --incremental --profile --config _config.yml,_config-dev.yml
+          command: jekyll build --watch --incremental --profile --config _config-dev.yml
+          ports:
+            - 4000:4000
+          volumes:
+            - .:/srv/jekyll
+    nginx:
+          container_name: nginx
+          restart: always
+          image: nginx
+          hostname: nginx
+          ports:
+            - 80:80
+          volumes:
+            - ./_site:/usr/share/nginx/html

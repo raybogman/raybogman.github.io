@@ -1,0 +1,50 @@
+# Site settings
+title: Ray Bogman
+domain: raybogman.com
+description: Entrepeneur | Speaker | Trainer | Author | Consultant
+cover: assets/images/raybogman.jpg
+logo: assets/images/logo.png
+favicon: assets/images/favicon.png
+baseurl: "/" # the subpath of your site, e.g. /blog/ or / for root
+url: "https://raybogman.com" # the base hostname & protocol for your site
+robots: NOINDEX,NOFOLLOW
+paginate:	5 # The number of posts to show per page on your homepage
+
+# Social
+linkedin: raybogman
+facebook: raybogman
+instagram: raybogman
+twitter: raybogman
+github:  raybogman
+prezi: raybogman
+
+#Additional Pages
+about: about
+contact: contact
+#privacy-policy: privacy-policy
+
+
+permalink: /:title
+
+
+# Google Analytics
+analytics_id: ""
+
+# Build settings
+markdown: kramdown
+
+kramdown:
+  parse_block_html: true
+
+plugins:
+  - jekyll-paginate
+
+exclude:
+  - README.md
+  - Rakefile
+  - Gemfile
+  - Gemfile.lock
+  - changelog.md
+  - "*.Rmd"
+  - vendor
+  - .travis.yml

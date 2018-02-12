@@ -1,0 +1,28 @@
+<footer class="ampstart-footer flex flex-column items-center px3">
+    {% include social.html %}
+    <nav class="ampstart-footer-nav">
+        <ul class="list-reset flex flex-wrap mb3">
+            {% if site.about %}
+
+            <li class="px1">
+                <a class="text-decoration-none ampstart-label" href="{{site.baseurl}}{{site.about}}">About</a>
+            </li>
+            {% endif %} {% if site.contact %}
+
+            <li class="px1">
+                <a class="text-decoration-none ampstart-label" href="{{site.baseurl}}{{site.contact}}">Contact</a>
+            </li>
+            {% endif %} {% if site.privacy-policy %}
+
+            <li class="px1">
+                <a class="text-decoration-none ampstart-label" href="{{site.baseurl}}{{site.privacy-policy}}">Privacy Policy</a>
+            </li>
+            {% endif %}
+
+        </ul>
+    </nav>
+    <small>
+  		&copy; {{ site.time | date: '%Y' }}, last updated {{ site.time | date: "%H:%M %d %B %Y"  }}
+      <a href="{{site.baseurl}}">{{site.domain}}</a> &nbsp; | &nbsp;  All Rights Reserved.
+    </small>
+</footer>
