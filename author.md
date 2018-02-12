@@ -4,4 +4,4 @@ title: Author
 permalink: /author/
 ---
 
-<h1>Author</h1>
+<p>Author stuff</p>

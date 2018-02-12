@@ -4,4 +4,4 @@ title: Trainer
 permalink: /trainer/
 ---
 
-<h1>Trainer</h1>
+<p>Trainer stuff</p>
