@@ -19,11 +19,11 @@
     <ul class="list-reset m0 p0 ampstart-label">
         {% for entry in site.data.navigation %}
             {% if entry.url == current_page %}
-                {% assign current = ' class="current"' %}
+                {% assign current = 'current' %}
             {% else %}
                 {% assign current = null %}
             {% endif %}
-      <li class="ampstart-nav-item ampstart-nav-dropdown relative {{ entry.title }}" {{ current }}>
+      <li class="ampstart-nav-item ampstart-nav-dropdown relative {{ current }}">
           <li class="ampstart-faq-item"><a href="{{ site.url }}{{ site.baseurl }}{{ entry.url }}" class="text-decoration-none">{{ entry.title }}</a></li>
       </li>
       {% endfor %}
