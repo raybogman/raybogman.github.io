@@ -5,7 +5,7 @@ permalink: /contact/
 ---
 
 <main class="flex flex-wrap justify-around align-item items-center" markdown="0">
-<form id="contactform" action-xhr="//formspree.io/hello@raybogman.com" method="POST">
+<form id="contactform" action-xhr="//formspree.io/hello@raybogman.com" method="POST" target="_blank">
   <input type="hidden" name="redirect_to" value="//raybogman.com/thanks/">
   <div class="flex flex-column items-center">
     <div class="ampstart-input inline-block relative m0 p0 mb3 ">
