@@ -344,12 +344,12 @@ body {
     blockquote {
       margin: 0 0 30px;
       margin-left: -26px;
-      border-left: 3px solid #57ad68;
+      border-left: $theme-color 0.4em solid;
       padding-left: 20px;
       p {
         letter-spacing: 0.01rem;
         font-weight: 400;
-        mborder-left: 3px solid #57ad68;
+        mborder-left: $theme-color 0.4em solid;
         mpadding-left: 20px;
         mmargin-left: -26px;
         padding-bottom: 3px;
@@ -656,18 +656,6 @@ th, td {
 
 tr:nth-child(odd), th {
     background-color: #f2f2f2;
-}
-
-blockquote {
-    -moz-box-sizing: border-box;
-    box-sizing: border-box;
-    margin: 1.75em 1.5rem 1.75em 0;
-    padding: 0 0 0 2rem;
-    border-left: $theme-color 0.4em solid;
-}
-
-blockquote {
-    display: block;
 }
 
 .recommended {
