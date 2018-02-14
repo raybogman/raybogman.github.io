@@ -17,7 +17,7 @@ permalink: /speaker/
   <li>Meet Magento Spain (2016/2017)</li>
   <li>Bargento France (2011)</li>
   <li>J and Beyound (2011)</li>
-  <li>Joomladays Netherlands (since 2005)<li>
+  <li>Joomladays Netherlands (since 2005)</li>
   <li>Webwinkelvakdagen (2013/2014/2015)</li>
   <li>M-Commerce Event (2014)</li>
   <li>Webperfdays Amsterdam (since 2013)</li>
@@ -26,5 +26,4 @@ permalink: /speaker/
   <li>Magento Developers Paradise (Summer and Winter editions since 2010)</li>
 </li>
 
-</p>
 <p>Besides speaking at events I host a monthly Magento User Group in Amsterdam since 2010. Also sharing knowledge as the Magento Doctor at Meet Magento events since 2012 worldwide.</p>
