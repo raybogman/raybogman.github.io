@@ -11,6 +11,6 @@ permalink: /about/
 
 <p>At Magento events (worldwide) he has been a regular speaker since 2009. He has participated in reviewing Mastering Magento (2012), Mastering Magento Theme Design (2014), Magento Administration Guide (2014), Learning Magento Theme Development (2014), and the video, Mastering Magento (2013), all by Packt Publishing. He is also known as the Magento Doctor at Meet Magento events where is helps clients. Ray is a Certified Magento Solution Specialist, Certified Ethical Hacker, Red Hat Certified Engineer and besides Magento, PHP and Linux he loves to go deep on Security, Performance, Mobile and SEO.</p>
 
-<p>In 2016 his first Magento book got pushished, Magento 2 Cookbook. By the end of 2016 he created a new Magento Performance Open Source project called: Mage.coach (<a target="_blank" href="https://mage.coach" alt="mage.coach">https://mage.coach</a>).</p>
+<p>In 2016 his first Magento book got pushished, Magento 2 Cookbook. By the end of 2016 he created a new Magento Performance Open Source project called: Mage.coach (<a target="_blank" href="https://mage.coach" title="mage.coach">https://mage.coach</a>).</p>
 
 <p>Currently he is working for Magento as a Business Solutions Architect in the EMEA region.</p>
