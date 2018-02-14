@@ -24,6 +24,6 @@ permalink: /speaker/
   <li>Magento Live UK (2015)</li>
   <li>Magento Imagine Las Vegas (2016)</li>
   <li>Magento Developers Paradise (Summer and Winter editions since 2010)</li>
-</li>
+</ul>
 
 <p>Besides speaking at events I host a monthly Magento User Group in Amsterdam since 2010. Also sharing knowledge as the Magento Doctor at Meet Magento events since 2012 worldwide.</p>
