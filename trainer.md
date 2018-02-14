@@ -24,3 +24,11 @@ permalink: /trainer/
 </ul>
 
 <p>All Magento training modules related to Magento 1 and Magento 2</p>  
+
+<h3>Customer reviews</h3>
+
+<blockquote>
+<p>"Ray offered what he said he would and went beyond that in helping me with some questions even though he was not a support consultant. Ray was easy to work with and even helped me at times that were probably not the best for him since there was a 7 hour difference. I will use Ray again if I need other Magento help."
+<cite>Top qualities: Great Results, Good Value, High Integrity - David Talso - Exact Software</cite>
+</p>
+</blockquote>
