@@ -27,8 +27,13 @@ permalink: /trainer/
 
 <h3>Customer reviews</h3>
 
+{% for entry in site.data.review | sort: 'position' %}
+{% if entry.status == 'active' %}
 <blockquote>
-<p>"Ray offered what he said he would and went beyond that in helping me with some questions even though he was not a support consultant. Ray was easy to work with and even helped me at times that were probably not the best for him since there was a 7 hour difference. I will use Ray again if I need other Magento help."
-<cite>Top qualities: Great Results, Good Value, High Integrity - David Talso - Exact Software</cite>
+<p>{{ entry.review }}</p>
+<p>
+  <cite>Top qualities: {{ entry.qualities }} - {{ entry.name }}</cite>
 </p>
 </blockquote>
+{% endif %}
+{% endfor %}
