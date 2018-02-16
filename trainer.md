@@ -32,8 +32,10 @@ permalink: /trainer/
 <blockquote>
 <p>{{ entry.review }}</p>
 <p>
-  <cite>Top qualities: {{ entry.qualities }} - {{ entry.name }}</cite>
+  <b>Top qualities: {{ entry.qualities }}</b>
+  <cite> -- {{ entry.name }}</cite>
 </p>
 </blockquote>
+<br>
 {% endif %}
 {% endfor %}
