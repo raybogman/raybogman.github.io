@@ -15,3 +15,21 @@
   qualities: Great Results, Good Value, High Integrity
   position: 3
   status: active
+
+- name: Drs. Julie Cai-Pan - CXP Holland B.V.
+  review: "Dear Ray, Thank you for your time and effort. I really appreciate that you shared so much of your knowledge with me. Your training provided me a solid basis for the company I am currently building."
+  qualities: Great Results, Personable, High Integrity
+  position: 4
+  status: active
+
+- name: Marieke Vos - Pasopshop.nl
+  review: "Ray is speaking very enthoustic about his work. After the workshop you will get also enthoustic about it"
+  qualities: Personable, Expert, Creative
+  position: 5
+  status: active
+
+- name:
+  review: ""
+  qualities: Great Results, Good Value, High Integrity
+  position: 99
+  status: inactive
