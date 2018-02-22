@@ -5,25 +5,23 @@ title: speaker
 permalink: /speaker/
 ---
 
-<p>Sharing knowledge is one of my pleasures, so I am a regular speaker at Magento, Joomla, Mobile, Performance, Security and E-commerce events world-wide.</p>
-<p>Here is a list of some of the events:</p>
+Sharing knowledge is one of my pleasures, so I am a regular speaker at Magento, Joomla, Mobile, Performance, Security and E-commerce events world-wide.
+Here is a list of some of the events:
 
-<ul>
-  <li>Meet Magento Netherlands (since 2009)</li>
-  <li>Meet Magento Germany (2010/2017)</li>
-  <li>Meet Magento Zwiterland (2014/2015)</li>
-  <li>Meet Magento Belgian (2017)</li>
-  <li>Meet Magento Denmark (2017)</li>
-  <li>Meet Magento Spain (2016/2017)</li>
-  <li>Bargento France (2011)</li>
-  <li>J and Beyound (2011)</li>
-  <li>Joomladays Netherlands (since 2005)</li>
-  <li>Webwinkelvakdagen (2013/2014/2015)</li>
-  <li>M-Commerce Event (2014)</li>
-  <li>Webperfdays Amsterdam (since 2013)</li>
-  <li>Magento Live UK (2015)</li>
-  <li>Magento Imagine Las Vegas (2016)</li>
-  <li>Magento Developers Paradise (Summer and Winter editions since 2010)</li>
-</ul>
+- Meet Magento Netherlands (since 2009)
+- Meet Magento Germany (2010/2017)
+- Meet Magento Zwiterland (2014/2015)
+- Meet Magento Belgian (2017)
+- Meet Magento Denmark (2017)
+- Meet Magento Spain (2016/2017)
+- Bargento France (2011)
+- J and Beyound (2011)
+- Joomladays Netherlands (since 2005)
+- Webwinkelvakdagen (2013/2014/2015)
+- M-Commerce Event (2014)
+- Webperfdays Amsterdam (since 2013)
+- Magento Live UK (2015)
+- Magento Imagine Las Vegas (2016)
+- Magento Developers Paradise (Summer and Winter editions since 2010)
 
-<p>Besides speaking at events I host a monthly Magento User Group in Amsterdam since 2010. Also sharing knowledge as the Magento Doctor at Meet Magento events since 2012 worldwide.</p>
+Besides speaking at events I host a monthly Magento User Group in Amsterdam since 2010. Also sharing knowledge as the Magento Doctor at Meet Magento events since 2012 worldwide.
