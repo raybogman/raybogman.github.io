@@ -1,7 +1,7 @@
 ---
 layout: page
 cover: 'assets/images/raybogman-speaker.jpg'
-title: speaker
+title: Speaker
 permalink: /speaker/
 ---
 

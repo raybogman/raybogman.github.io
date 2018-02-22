@@ -1,7 +1,7 @@
 ---
 layout: page
 cover: 'assets/images/raybogman-author.jpg'
-title: Author Ray Bogman
+title: Author
 permalink: /author/
 ---
 
