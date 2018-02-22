@@ -5,36 +5,35 @@ title: Trainer & Coach
 permalink: /trainer/
 ---
 
-<p>Ray is a active Trainer and Coach since the beginning of 2000. Over the years he has trained over 750 people in Joomla! and more than 1000 people in the 'Art of Magento' worldwide.</p>
+Ray is a active Trainer and Coach since the beginning of 2000. Over the years he has trained over 750 people in Joomla! and more than 1000 people in the 'Art of Magento' worldwide.
 
-<p>The Magento training program varies from a basic webmaster training to an advanced developers level. Here is a list of the different training modules:</p>
+The Magento training program varies from a basic webmaster training to an advanced developers level. Here is a list of the different training modules:
 
-<ul>
-  <li>Magento Basics</li>
-  <li>Magento Webmasters</li>
-  <li>Magento Theming</li>
-  <li>Magento Bootcamp</li>
-  <li>Magento Enterprise</li>
-  <li>Magento SEO</li>
-  <li>Magento Performance</li>
-  <li>Magento Security</li>
-  <li>Magento Mobile</li>
-  <li>Magento Hosting</li>
-  <li>Magento Custom Workshop</li>
-</ul>
 
-<p>All Magento training modules related to Magento 1 and Magento 2</p>  
+- Magento Basics
+- Magento Webmasters
+- Magento Theming
+- Magento Bootcamp
+- Magento Enterprise
+- Magento SEO
+- Magento Performance
+- Magento Security
+- Magento Mobile
+- Magento Hosting
+- Magento Custom Workshop
 
-<h3>Customer reviews</h3>
+All Magento training modules related to Magento 1 and Magento 2  
+
+### Customer reviews
 
 {% for entry in site.data.review | sort: 'position' %}
 {% if entry.status == 'active' %}
 <blockquote>
-<p>{{ entry.review }}</p>
-<p>
+{{ entry.review }}
+
   <b>Top qualities: {{ entry.qualities }}</b>
   <cite> -- {{ entry.name }}</cite>
-</p>
+
 </blockquote>
 <br>
 {% endif %}

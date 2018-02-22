@@ -23,5 +23,6 @@ Here is a list of some of the events:
 - Magento Live UK (2015)
 - Magento Imagine Las Vegas (2016)
 - Magento Developers Paradise (Summer and Winter editions since 2010)
+- Exact meets Ecommerce (2015/2016/2017)
 
 Besides speaking at events I host a monthly Magento User Group in Amsterdam since 2010. Also sharing knowledge as the Magento Doctor at Meet Magento events since 2012 worldwide.

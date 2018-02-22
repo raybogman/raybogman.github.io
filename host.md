@@ -5,4 +5,8 @@ title: Host Ray Bogman
 permalink: /host/
 ---
 
-<p>Host stuff</p>
+### Magento User Group Amsterdam
+
+### WebPerfDays Amsterdam
+
+### TEDxAmstelveen
