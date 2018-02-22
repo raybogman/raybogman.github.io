@@ -2,7 +2,7 @@
 layout: page
 cover: 'assets/images/raybogman-host.jpg'
 title: Host Ray Bogman
-permalink: /author/
+permalink: /host/
 ---
 
 <p>Host stuff</p>
