@@ -3,22 +3,27 @@
     <nav class="ampstart-footer-nav">
         <ul class="list-reset flex flex-wrap mb3">
             {% if site.about %}
-
             <li class="px1">
-                <a class="text-decoration-none ampstart-label" href="{{site.url}}/{{site.about}}">About</a>
+                <a class="text-decoration-none ampstart-label" href="{{site.url}}{{site.about}}">About</a>
             </li>
-            {% endif %} {% if site.contact %}
-
+            {% endif %}
+            {% if site.contact %}
             <li class="px1">
-                <a class="text-decoration-none ampstart-label" href="{{site.url}}/{{site.contact}}">Contact</a>
+                <a class="text-decoration-none ampstart-label" href="{{site.url}}{{site.contact}}">Contact</a>
             </li>
-            {% endif %} {% if site.privacy-policy %}
-
+            {% endif %}
+            {% if site.privacy-policy %}
             <li class="px1">
                 <a class="text-decoration-none ampstart-label" href="{{site.url}}/{{site.privacy-policy}}">Privacy Policy</a>
             </li>
             {% endif %}
-
+        </ul>
+        <ul class="list-reset flex flex-wrap mb3">
+          {% for entry in site.data.navigation %}
+            <li class="px1">
+                <a class="text-decoration-none ampstart-label" href="{{ site.url }}{{ site.baseurl }}{{ entry.url }}">{{ entry.title }}</a>
+            </li>
+          {% endfor %}
         </ul>
     </nav>
     <small>
