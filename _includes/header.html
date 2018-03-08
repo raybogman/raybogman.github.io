@@ -33,11 +33,14 @@
   {% include social.html %}
 
   <ul class="ampstart-sidebar-faq list-reset m0">
+  {% if site.about %}
+      <li class="ampstart-faq-item"><a href="{{ site.url }}{{ site.about }}" class="text-decoration-none">About</a></li>
+    {% endif %}
   {% if site.contact %}
-    <li class="ampstart-faq-item"><a href="{{ site.baseurl }}{{ site.contact }}" class="text-decoration-none">Contact</a></li>
+    <li class="ampstart-faq-item"><a href="{{ site.url }}{{ site.contact }}" class="text-decoration-none">Contact</a></li>
   {% endif %}
   {% if site.privacy-policy %}
-    <li class="ampstart-faq-item"><a href="{{ site.baseurl }}{{ site.privacy-policy }}" class="text-decoration-none">Privacy Policy</a></li>
+    <li class="ampstart-faq-item"><a href="{{ site.url }}{{ site.privacy-policy }}" class="text-decoration-none">Privacy Policy</a></li>
   {% endif %}
   </ul>
 </amp-sidebar>
