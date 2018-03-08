@@ -6,12 +6,12 @@
 <html ⚡ lang="en">
   {% include head.html %}
   <body>
+    {% include analytics.html %}
     {% include header.html %}
 
     {{ content }}
 
     {% comment %}
-        {% include analytics.html %}
     {% endcomment %}
   </body>
 </html>

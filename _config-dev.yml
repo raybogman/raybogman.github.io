@@ -28,7 +28,7 @@ contact: contact
 permalink: /:title
 
 # Google Analytics
-analytics_id: "UA-115396940-1"
+analytics_id: UA-115396940-1
 
 # Build settings
 markdown: kramdown
