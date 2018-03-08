@@ -5,7 +5,8 @@ permalink: /contact/
 ---
 
 <main class="flex flex-wrap justify-around align-item items-center" markdown="0">
-<form id="contactform" action-xhr="//mail.raybogman.com" method="POST" target="_top">
+<form method="post" action-xhr="https://mail.raybogman.com" target="_top">
+
   <div class="flex flex-column items-center">
     <div class="ampstart-input inline-block relative m0 p0 mb3 ">
       <input type="email" name="email" id="ip1" class="block border-none p0 m0 user-valid valid" placeholder="Your email">
