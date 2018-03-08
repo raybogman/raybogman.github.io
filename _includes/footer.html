@@ -1,6 +1,5 @@
 <footer class="ampstart-footer flex flex-column items-center px3">
     {% include social.html %}
-    <nav class="ampstart-footer-nav">
         <ul class="list-reset flex flex-wrap mb3">
             {% if site.about %}
             <li class="px1">
@@ -18,15 +17,16 @@
             </li>
             {% endif %}
         </ul>
-    </nav>
 
-    <ul class="list-reset flex flex-wrap mb3">
+    <nav class="ampstart-footer-nav">
+      <ul class="list-reset flex flex-wrap mb3">
       {% for entry in site.data.navigation %}
         <li class="px1">
             <a class="text-decoration-none ampstart-label" href="{{ site.url }}{{ site.baseurl }}{{ entry.url }}">{{ entry.title }}</a>
         </li>
       {% endfor %}
-    </ul>
+      </ul>
+    </nav>
 
     <small>
   		&copy; {{ site.time | date: '%Y' }}, last updated {{ site.time | date: "%H:%M %d %B %Y"  }}
