@@ -7,7 +7,7 @@ logo: assets/images/logo.png
 favicon: assets/images/favicon.png
 baseurl: "/" # the subpath of your site, e.g. /blog/ or / for root
 url: "http://localhost" # the base hostname & protocol for your site
-robots: NOINDEX,NOFOLLOW
+robots: INDEX,FOLLOW
 email: hello@raybogman.com
 fb_app_id: 560465084319172
 paginate:	5 # The number of posts to show per page on your homepage
@@ -28,7 +28,7 @@ contact: contact
 permalink: /:title
 
 # Google Analytics
-analytics_id: ""
+analytics_id: "UA-115396940-1"
 
 # Build settings
 markdown: kramdown
