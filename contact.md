@@ -21,5 +21,6 @@ permalink: /contact/
     <button id="sendBtn" class="ampstart-btn" type="submit">Send</button>
   </div>
 </form>
-<p>You can contact me via the form or mail "hello[at]raybogman.com". In case you prefer to call/text: <a href="tel:0031610884153">00 31 6 1088 4153</a> [please no spam or sales inquiries]</p>
+<p>You can contact me via the form or mail "hello[at]raybogman.com".<p>
+<p>In case you prefer to call/text: <a href="tel:0031610884153">00 31 6 1088 4153</a> [please no spam or sales inquiries]</p>
 </main>
