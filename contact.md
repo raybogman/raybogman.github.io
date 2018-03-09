@@ -5,7 +5,7 @@ permalink: /contact/
 ---
 
 <main class="flex flex-wrap justify-around align-item items-center" markdown="0">
-<form method="post" action-xhr="https://mail.raybogman.com" target="_top">
+<form method="post" action-xhr="https://www.getform.org/f/ed3107a6-4bbc-447a-a856-c31336033a1e" target="_top">
 
   <div class="flex flex-column items-center">
     <div class="ampstart-input inline-block relative m0 p0 mb3 ">
