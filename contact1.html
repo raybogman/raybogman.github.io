@@ -1,13 +1,61 @@
----
-layout: page
-title: Contact
-permalink: /contact1/
----
-
-<main class="flex flex-wrap justify-around align-item items-center">
-<form method="post" action-xhr="https://mail.raybogman.com" target="_top">
-          <input type="text" name="email" value="bogman@bogman.info">
-          <textarea name="message" placeholder="Your message"></textarea>
-          <input type="submit"/>
-      </form>
-</main>
+<!doctype html>
+<html amp>
+    <head>
+        <meta charset="utf-8">
+        <title>AMP Form</title>
+        <link rel="canonical" href="https://raybogman.com" />
+        <script async src="https://cdn.ampproject.org/v0.js"></script>
+        <script async custom-element="amp-form" src="https://cdn.ampproject.org/v0/amp-form-0.1.js"></script>
+        <script async custom-template="amp-mustache" src="https://cdn.ampproject.org/v0/amp-mustache-0.1.js"></script>
+        <meta name="viewport" content="width=device-width,minimum-scale=1,initial-scale=1">
+        <style amp-boilerplate>body{-webkit-animation:-amp-start 8s steps(1,end) 0s 1 normal both;-moz-animation:-amp-start 8s steps(1,end) 0s 1 normal both;-ms-animation:-amp-start 8s steps(1,end) 0s 1 normal both;animation:-amp-start 8s steps(1,end) 0s 1 normal both}@-webkit-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-moz-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-ms-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-o-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}</style><noscript><style amp-boilerplate>body{-webkit-animation:none;-moz-animation:none;-ms-animation:none;animation:none}</style></noscript>
+        <style amp-custom>
+            form.amp-form-submit-success [submit-success] {
+                color: green;
+            }
+            form.amp-form-submit-error [submit-error] {
+                color: red;
+            }
+        </style>
+    </head>
+    <body>
+        <h4>How can we help?</h4>
+        <form method="post" action-xhr="https://mail.raybogman.com" target="_top">
+          <div class="ampstart-input inline-block relative mb3">
+    <input type="text"
+      name="name"
+      placeholder="Name..."
+      required>
+  </div>
+   <div class="ampstart-input inline-block relative mb3">
+    <input type="email"
+      name="email"
+      placeholder="Email...">
+  </div>
+     <div class="ampstart-input inline-block relative mb3">
+    <input type="text-area"
+      name="enquiry"
+      placeholder="How can we help?">
+  </div>
+  <div class="ampstart-input inline-block relative mb3">
+    <input type="tel"
+      name="my_tel"
+      placeholder="Contact Number">
+  </div>
+  <input type="submit"
+    value="Contact Me"
+    class="ampstart-btn caps">
+      <div submit-success>
+    <template type="amp-mustache">
+      Success! Thanks {{name}}. Our design specialists will contact you shortly.
+    </template>
+  </div>
+  <div submit-error>
+    <template type="amp-mustache">
+      Error! Thanks {{name}} for trying the
+      <code>amp-form</code> demo with an error response.
+    </template>
+  </div>
+        </form>
+    </body>
+</html>
