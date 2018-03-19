@@ -336,10 +336,18 @@ body {
       border: 0;
       padding: 0;
       display: block;
-      width: 15%;
       margin: 30px auto;
       border: 0px solid #dddddd;
-      border-top: 1px solid #dddddd;
+      border-top: medium double #dddddd;
+      :after {
+        content: "§";
+        display: inline-block;
+        position: relative;
+        top: -0.7em;
+        font-size: 1.5em;
+        padding: 0 0.25em;
+        background: white;
+      }
     }
     blockquote {
       margin: 0 0 30px;
