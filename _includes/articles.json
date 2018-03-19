@@ -8,7 +8,7 @@
   "headline": "{{page.title}}",
   "image": {
     "@type": "ImageObject",
-    "url": "{{site.url}}{{page.image}}",
+    "url": "{{site.url}}/{{page.image}}",
     "width": "{{page.width}}",
     "height": "{{page.height}}"
   },
@@ -23,7 +23,7 @@
     "name": "{{site.title}}",
     "logo": {
       "@type": "ImageObject",
-      "url": "{{site.url}}{{site.image}}",
+      "url": "{{site.url}}/{{site.image}}",
       "width": 203,
       "height": 60
     }
