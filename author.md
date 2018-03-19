@@ -21,7 +21,7 @@ He has participated in:
 - Learning Magento Theme Development (2014)
 - Mastering Magento (2013)
 
-In 2016 his first Magento book got published, [Magento 2 Cookbook](https://mage2cookbook.com/). In March 2017 **Magento 2 - Build World-Class online stores** got published which is a 698 pages Magento 2 book based combined on the Magento 2 Cookbook, Magento 2 Development and Mastering Magento 2.
+In 2016 his first Magento book got published, [Magento 2 Cookbook](https://mage2cookbook.com/). In March 2017 **Magento 2 - Build World-Class online stores** got published which is a 698 pages Magento 2 book and based on the Magento 2 Cookbook, Magento 2 Development and Mastering Magento 2.
 
 ### Web Designer Magazine
 Since the beginning of 2012 Ray started as a guest writer for **Web Designer Magazine** and has written several stories on **Magento**.
