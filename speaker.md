@@ -26,3 +26,5 @@ Here is a list of some of the events:
 - Exact meets Ecommerce (2015/2016/2017)
 
 Besides speaking at events I host a monthly Magento User Group in Amsterdam since 2010. Also sharing knowledge as the Magento Doctor at Meet Magento events since 2012 worldwide.
+
+{% include reviews.html %}

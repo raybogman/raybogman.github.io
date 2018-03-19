@@ -6,3 +6,7 @@ permalink: /services/
 ---
 
 ### services
+
+
+
+{% include reviews.html %}

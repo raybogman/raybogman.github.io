@@ -24,17 +24,4 @@ The Magento training program varies from a basic webmaster training to an advanc
 
 All Magento training modules related to Magento 1 and Magento 2  
 
-### Customer reviews
-
-{% for entry in site.data.review | sort: 'position' %}
-{% if entry.status == 'active' %}
-<blockquote>
-{{ entry.review }}
-
-  <b>Top qualities: {{ entry.qualities }}</b>
-  <cite> -- {{ entry.name }}</cite>
-
-</blockquote>
-<br>
-{% endif %}
-{% endfor %}
+{% include reviews.html %}

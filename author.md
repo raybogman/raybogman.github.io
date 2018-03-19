@@ -39,3 +39,5 @@ As CTO of [SupportDesk](https://www.supportdesk.nu/blog) Ray posted many article
 - [Snelste Magento Mobile webshop in de Wereld!](https://www.supportdesk.nu/blog/114-snelste-magento-mobile-webshop-in-de-wereld)
 - [Is je website "Mobile Friendly"?](https://www.supportdesk.nu/blog/154-is-je-website-mobile-friendly)
 - [Waarom zijn Magento Security patches zo belangrijk?](https://www.supportdesk.nu/blog/228-waarom-zijn-magento-security-patches-zo-belangrijk)
+
+{% include reviews.html %}

@@ -41,3 +41,5 @@ Here is a short list of some of my clients:
 - Leef
 
 Ray is a creative person and likes to think out of the box when helping clients. He loves to spitball with the client and is open-minded and realistic on what solution would be best.
+
+{% include reviews.html %}

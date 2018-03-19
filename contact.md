@@ -25,3 +25,5 @@ permalink: /contact/
 <br>In case you prefer to call/text: <a href="tel:0031610884153">00 31 6 1088 4153</a> [please no spam or sales inquiries]
 </p>
 </main>
+
+{% include reviews.html %}

@@ -29,3 +29,5 @@ In 2017 Ray joined the TEDxAmstelveen team as **Tech Lead** and is responsible a
 
 
 **-- Start Sharing now! Sharing is Carring**
+
+{% include reviews.html %}
