@@ -17,8 +17,11 @@ Here is a short list of some of my clients:
 - Safeshops [Condoom Anoniem]
 - Justbrands [PME Legend, Vangard, Cast Iron]
 - Claudia Strater
+- David Nieper
 - Hunkemoller
 - Byte Internet
+- Exact Software
+- OV Fiets
 - CloudVPS
 - Feyenoord Fanshop
 - KPN Telecom
@@ -27,6 +30,7 @@ Here is a short list of some of my clients:
 - Duijvestein-wintersport
 - Pietzoomers
 - Yourtablet
+- Leon Verdonschot
 - Yumeko
 - Holland & Barrett
 - Brouwmarkt
@@ -35,6 +39,7 @@ Here is a short list of some of my clients:
 - Zoekarssen
 - Koffievoordeel
 - Tuinmaximaal
+- Loungeset
 - Labbe GmbH
 - Bema
 - KiKa

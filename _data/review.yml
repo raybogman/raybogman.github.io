@@ -28,8 +28,44 @@
   position: 5
   status: active
 
+- name: Daan Beverdam
+  review: "Ray is a great person to work with, both on a personal and technical level. He's kind, open minded and has a real passion for tech and Magento in particular. I'm sure his dedication and hard work will inspire many more!"
+  qualities: Great Results, Good Value, High Integrity
+  position: 6
+  status: active
+
+- name: Ronald Bethlehem
+  review: "Ray is always up to date on the latest tech, and inspiring to work with."
+  qualities: Great Results, Good Value, High Integrity
+  position: 7
+  status: active
+
+- name: Enno Stuurman
+  review: "I have been working closely with Ray for more than five years now. It has always been a great pleasure to work with him. Ray in bulletpoints: - Ray is a great CTO, teacher, and a passionate , driven webprofessional with a sharp instinct for new technologies and technical improvements. His knowledge spans all web areas: from server to search engine (SEO) and everything in between. - besides being technical proficient, Ray has a great feel for (e)-commerce. - Ray has always been an Open Source supporter. - last but but not least, Ray is a straightforward person. He always challenges himself and others with an open mind. I am sure his drive and passion will be a valuable asset for Magento Inc. for many years to come!"
+  qualities: Great Results, Good Value, High Integrity
+  position: 8
+  status: active
+
+- name: Yoav Kutner
+  review: "Ray Bogman is one of the top PHP engineers I have met. He has vast knowledge of web-technologies, security and of the Magento platform. He is a rare and great professional to do business with."
+  qualities: Great Results, Good Value, High Integrity
+  position: 9
+  status: active
+
+- name: Guido Jansen
+  review: "Ray helped me a lot with my own business by providing me with useful feedback. He is enthusiastic, cooperative and works proactive on ICT security issues."
+  qualities: Great Results, Good Value, High Integrity
+  position: 10
+  status: active
+
+- name: Martin Willekes
+  review: "Ray is a very qualified and experienced requirements engineer. Ray is a creative individual with a well-developed talent for unconventional approaches to problem-solving. Keep track on the problem and if he can tries to solve it. Or address it to the correct person in a correct and proper manner."
+  qualities: Great Results, Good Value, High Integrity
+  position: 11
+  status: active
+
 - name:
   review: ""
   qualities: Great Results, Good Value, High Integrity
   position: 99
-  status: inactive
+  status: active
