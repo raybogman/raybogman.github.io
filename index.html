@@ -36,7 +36,7 @@ layout: default
   <div class="cf frame">
     {% for post in paginator.posts %}
       <article class="post" itemscope itemtype="http://schema.org/BlogPosting" role="article">
-          <link itemprop="mainEntityOfPage" rel="canonical" href="{{ site.url }}{{ page.url | replace:'index.html','' }}">
+          <link itemprop="mainEntityOfPage">
           <meta itemprop="author" content="Ray Bogman"/>
           <meta itemprop="image" content="{{ site.url }}/{{site.data.author["author"]["assets"]}}"/>
         <div class="article-item">
