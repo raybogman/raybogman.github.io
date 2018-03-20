@@ -47,7 +47,7 @@ layout: default
 
             {% if site.data.author["author"]["assets"] %}
             <amp-img width="24" height="24" class="author-thumb" layout="responsive" src="{{ site.url }}/{{site.data.author["author"]["assets"]}}" alt="{{site.data.author["author"]["name"]}}"/></amp-img>{% endif %}
-            <p itemprop="author">{{site.data.author["author"]["name"]}}</p>
+            <div itemprop="author">{{site.data.author["author"]["name"]}}
 
             {% if post.tags.size > 0 %}
                 in
@@ -59,7 +59,8 @@ layout: default
                     {% endif %}
                 {% endfor %}
             {% endif %}
-              <time class="post-date" datetime="{{ post.date | date:'%Y-%m-%d' }}">{{ post.date | date_to_string }}</time>
+            </div>
+              <time itemprop="datePublished" class="post-date" datetime="{{ post.date | date:'%Y-%m-%d' }}">{{ post.date | date_to_string }}</time>
           </div>
         </div>
       </article>
