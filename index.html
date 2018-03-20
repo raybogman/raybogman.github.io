@@ -36,6 +36,7 @@ layout: default
   <div class="cf frame">
     {% for post in paginator.posts %}
       <article class="post" itemscope itemtype="http://schema.org/BlogPosting" role="article">
+          <link itemprop="mainEntityOfPage" rel="canonical" href="{{ site.url }}{{ page.url | replace:'index.html','' }}">
           <meta itemprop="author" content="Ray Bogman"/>
           <meta itemprop="image" content="{{ site.url }}/{{site.data.author["author"]["assets"]}}"/>
         <div class="article-item">
@@ -50,7 +51,7 @@ layout: default
 
             <div itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
               <div itemprop="logo" itemscope itemtype="https://schema.org/ImageObject">
-                   <img src="{{ site.url }}/{{site.data.author["author"]["assets"]}}"/>
+                   <amp-img src="{{ site.url }}/{{site.data.author["author"]["assets"]}}"></amp-img>
                    <meta itemprop="url" content="{{ site.url }}/{{site.data.author["author"]["assets"]}}">
                    <meta itemprop="width" content="600">
                    <meta itemprop="height" content="600">
