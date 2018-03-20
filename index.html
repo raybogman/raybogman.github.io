@@ -36,6 +36,9 @@ layout: default
   <div class="cf frame">
     {% for post in paginator.posts %}
       <article class="post" itemscope itemtype="http://schema.org/BlogPosting" role="article">
+          <meta itemprop="author" content="Ray Bogman"/>
+          <meta itemprop="image" content="{{ site.url }}/{{site.data.author["author"]["assets"]}}"/>
+        <div class="article-item">
         <div class="article-item">
           <header class="post-header">
             <h2 class="post-title" itemprop="headline"><a href="{{ site.baseurl }}{{ post.url | remove: '/'}}" itemprop="url">{{ post.title }}</a></h2>
@@ -64,7 +67,8 @@ layout: default
                 {% endfor %}
             {% endif %}
 
-              <p><time itemprop="datePublished" class="post-date" datetime="{{ post.date | date:'%Y-%m-%d' }}">{{ post.date | date_to_string }}</time></p>
+              <time itemprop="datePublished" class="post-date" datetime="{{ post.date | date:'%Y-%m-%d' }}">{{ post.date | date_to_string }}</time>
+              <meta itemprop="dateModified" content="{{ post.date | date:'%Y-%m-%d' }}"/>
           </div>
         </div>
       </article>
