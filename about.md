@@ -15,8 +15,10 @@ In 2016 his first Magento book got published, Magento 2 Cookbook. By the end of 
 
 Currently he is working for **Magento** as a **Business Solutions Architect** in the EMEA region.
 
+
 - [Download Bio]({{site.url}}/assets/Bio - Ray Bogman.txt)
-- [Download Profile Photo]({{site.url}}/assets/images/raybogman-magento-doctor.png)
 - [Download Résumé]({{site.url}}/assets/Resume - Ray Bogman.pdf)
+- [Download Profile Photo]({{site.url}}/assets/images/raybogman-magento-doctor.png)
+
 
 {% include reviews.html %}
