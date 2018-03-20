@@ -18,8 +18,8 @@
    }
  },
  "url": "{{ site.baseurl }}{{ post.url | remove: '/'}}",
- "datePublished": "{{ post.date | date:'%Y-%m-%d' }}",
- "dateModified": "{{ post.date | date:'%Y-%m-%d' }}",
+ "datePublished": "{{ page.date | date:'%Y-%m-%d' }}",
+ "dateModified": "{{ page.date | date:'%Y-%m-%d' }}",
  "description": "{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}",
    "author": {
     "@type": "Person",
