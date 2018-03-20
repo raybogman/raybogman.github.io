@@ -6,7 +6,7 @@
       },
  "headline": "{% if page.title %}{{ page.title | escape }}{% else %}{{ site.title | escape }}{% endif %}",
  "alternativeHeadline": "??",
- "image": "{{site.data.author["author"]["assets"]}}",
+ "image": "{{site.url}}/{{site.data.author["author"]["assets"]}}",
  "editor": "{{site.data.author["author"]["name"]}}",
  "publisher": {
    "@type": "Organization",
