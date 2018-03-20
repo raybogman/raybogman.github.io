@@ -42,7 +42,7 @@
   <meta property="og:image:height" content="666" />{% endif %}
 
   <link rel="canonical" href="{{ site.url }}{% if site.url %}{{ site.url }}{% endif %}{{ page.url | remove: '/' }}" />
-  <link rel="alternate" type="application/rss+xml" title="{{ site.title }}" href="{{ "feed.xml" | prepend: site.url | prepend: site.url }}">
+  <link rel="alternate" type="application/rss+xml" title="{{ site.title }}" href="{{ site.url}}/{{ feed.xml }}">
 
   <script type="application/ld+json">
   {% include metadata.json %}

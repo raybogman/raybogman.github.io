@@ -9,7 +9,7 @@
   "description": "{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}",
   "author": {
     "@type": "Person",
-    "name": "{{ site.name }}"
+    "name": "{{ site.title }}"
   },
   "publisher": {
     "@type": "Organization",
