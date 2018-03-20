@@ -47,7 +47,7 @@ layout: default
 
             {% if site.data.author["author"]["assets"] %}
             <amp-img itemprop="image" width="24" height="24" class="author-thumb" layout="responsive" src="{{ site.url }}/{{site.data.author["author"]["assets"]}}" alt="{{site.data.author["author"]["name"]}}"/></amp-img>{% endif %}
-            <div itemprop="author">{{site.data.author["author"]["name"]}}</div>
+            <div itemprop="author" itemprop="publisher">{{site.data.author["author"]["name"]}}</div>
             {% if post.tags.size > 0 %}
                 in
                 {% for tag in post.tags %}
