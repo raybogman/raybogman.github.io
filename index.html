@@ -50,6 +50,9 @@ layout: default
 
             <div itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
               <meta itemprop="image" content="{{ site.url }}/{{site.data.author["author"]["assets"]}}"/>
+              <meta itemprop="logo" content="{{ site.url }}/{{site.data.author["author"]["assets"]}}"/>
+              <meta itemprop="width" content="600">
+              <meta itemprop="height" content="600">
               {% if site.data.author["author"]["assets"] %}
                 <amp-img width="24" height="24" class="author-thumb" layout="responsive" src="{{ site.url }}/{{site.data.author["author"]["assets"]}}" alt="{{site.data.author["author"]["name"]}}"/></amp-img>
               {% endif %}
