@@ -31,8 +31,6 @@ layout: default
     </figcaption>
   </figure>
 
-<script type="application/ld+json">{% include blogposting.json %}</script>
-
 <main id="content" role="main" class="content">
 
   <div class="cf frame">
@@ -40,6 +38,10 @@ layout: default
       <article class="post" itemscope itemtype="http://schema.org/BlogPosting" role="article">
         <div itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
           <meta itemprop="name" content"{{site.title}}"/>
+          <meta itemprop="image" content="{{ site.url }}/{{site.data.author["author"]["assets"]}}"/>
+        </div>
+        <div itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+          <b itemprop="name">{{site.title}}</b>
         </div>
         <div class="article-item">
           <header class="post-header">
