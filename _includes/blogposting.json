@@ -1,0 +1,29 @@
+{ "@context": "http://schema.org",
+ "@type": "BlogPosting",
+  "mainEntityOfPage": {
+         "@type": "WebPage",
+         "@id": "{{ page.url | replace:'index.html','' | prepend: site.url }}"
+      },
+ "headline": "{% if page.title %}{{ page.title | escape }}{% else %}{{ site.title | escape }}{% endif %}",
+ "alternativeHeadline": "??",
+ "image": "{{site.data.author["author"]["assets"]}}",
+ "editor": "{{site.data.author["author"]["name"]}}",
+ "publisher": {
+   "@type": "Organization",
+   "name": "{{ site.title }}",
+   "logo": {
+     "@type": "ImageObject",
+     "url": "{{site.url}}/{{site.logo}}",
+     "width": "60",
+     "height": "60"
+   }
+ },
+ "url": "{{ site.baseurl }}{{ post.url | remove: '/'}}",
+ "datePublished": "{% if page.date %}{{ page.date | date_to_xmlschema }}{% else %}{{ site.time | date_to_xmlschema }}{% endif %}",
+ "dateModified": "{% if page.date %}{{ page.date | date_to_xmlschema }}{% else %}{{ site.time | date_to_xmlschema }}{% endif %}",
+ "description": "{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}",
+   "author": {
+    "@type": "Person",
+    "name": "{{site.data.author["author"]["name"]}}"
+  }
+ }
