@@ -38,6 +38,8 @@ layout: default
   <div class="cf frame">
     {% for post in paginator.posts %}
       <article class="post" itemscope itemtype="http://schema.org/BlogPosting" role="article">
+        <div itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+          <meta itemprop="name" content"{{site.title}}"/>
         </div>
         <div class="article-item">
           <header class="post-header">
@@ -51,8 +53,8 @@ layout: default
             {% if site.data.author["author"]["assets"] %}
             <amp-img width="24" height="24" class="author-thumb" layout="responsive" src="{{ site.url }}/{{site.data.author["author"]["assets"]}}" alt="{{site.data.author["author"]["name"]}}"/></amp-img>
             <meta itemprop="image" content="{{ site.url }}/{{site.data.author["author"]["assets"]}}"/>
-            {% endif %}   
-            <div itemprop="author publisher" itemscope itemtype="http://schema.org/Person">{{site.data.author["author"]["name"]}}</div>
+            {% endif %}
+            <div itemprop="author">{{site.data.author["author"]["name"]}}</div>
             {% if post.tags.size > 0 %}
                 in
                 {% for tag in post.tags %}
