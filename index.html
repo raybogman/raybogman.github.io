@@ -36,13 +36,6 @@ layout: default
   <div class="cf frame">
     {% for post in paginator.posts %}
       <article class="post" itemscope itemtype="http://schema.org/BlogPosting" role="article">
-        <div itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-          <meta itemprop="name" content"{{site.title}}"/>
-          <meta itemprop="image" content="{{ site.url }}/{{site.data.author["author"]["assets"]}}"/>
-        </div>
-        <div itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-          <b itemprop="name">{{site.title}}</b>
-        </div>
         <div class="article-item">
           <header class="post-header">
             <h2 class="post-title" itemprop="headline"><a href="{{ site.baseurl }}{{ post.url | remove: '/'}}" itemprop="url">{{ post.title }}</a></h2>
@@ -50,14 +43,15 @@ layout: default
           <section class="post-excerpt" itemprop="description">
             <p class="post-description">{{ post.excerpt | strip_html | truncatewords: 50 }}</p>
           </section>
-          <div class="post-meta">
+          <div class="post-meta" itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+              <meta itemprop="image" content="{{ site.url }}/{{site.data.author["author"]["assets"]}}"/>
 
-            {% if site.data.author["author"]["assets"] %}
-            <amp-img width="24" height="24" class="author-thumb" layout="responsive" src="{{ site.url }}/{{site.data.author["author"]["assets"]}}" alt="{{site.data.author["author"]["name"]}}"/></amp-img>
-            <meta itemprop="image" content="{{ site.url }}/{{site.data.author["author"]["assets"]}}"/>
-            {% endif %}
-            <div itemprop="author">{{site.data.author["author"]["name"]}}</div>
-            {% if post.tags.size > 0 %}
+              {% if site.data.author["author"]["assets"] %}
+                <amp-img width="24" height="24" class="author-thumb" layout="responsive" src="{{ site.url }}/{{site.data.author["author"]["assets"]}}" alt="{{site.data.author["author"]["name"]}}"/></amp-img>
+                <meta itemprop="image" content="{{ site.url }}/{{site.data.author["author"]["assets"]}}"/>
+              {% endif %}
+              <div itemprop="author name">{{site.data.author["author"]["name"]}}</div>
+              {% if post.tags.size > 0 %}
                 in
                 {% for tag in post.tags %}
                     {% if forloop.index == post.tags.size %}
