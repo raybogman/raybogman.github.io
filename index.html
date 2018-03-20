@@ -41,7 +41,7 @@ layout: default
             <h2 class="post-title" itemprop="name"><a href="{{ site.baseurl }}{{ post.url | remove: '/'}}" itemprop="url">{{ post.title }}</a></h2>
           </header>
           <section class="post-excerpt" itemprop="description">
-            <p itemprop="headline" class="post-description">{{ post.excerpt | strip_html | truncatewords: 50 }}</p>
+            <p class="post-description">{{ post.excerpt | strip_html | truncatewords: 50 }}</p>
           </section>
           <div class="post-meta">
 
