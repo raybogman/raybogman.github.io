@@ -48,7 +48,9 @@ layout: default
           <div class="post-meta">
 
             {% if site.data.author["author"]["assets"] %}
-            <amp-img itemprop="image" width="24" height="24" class="author-thumb" layout="responsive" src="{{ site.url }}/{{site.data.author["author"]["assets"]}}" alt="{{site.data.author["author"]["name"]}}"/></amp-img>{% endif %}
+            <amp-img width="24" height="24" class="author-thumb" layout="responsive" src="{{ site.url }}/{{site.data.author["author"]["assets"]}}" alt="{{site.data.author["author"]["name"]}}"/></amp-img>
+            <meta itemprop="image" content="{{ site.url }}/{{site.data.author["author"]["assets"]}}"></meta>
+            {% endif %}
             <div itemprop="author" itemprop="publisher">{{site.data.author["author"]["name"]}}</div>
             {% if post.tags.size > 0 %}
                 in
