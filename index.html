@@ -43,14 +43,16 @@ layout: default
           <section class="post-excerpt" itemprop="description">
             <p class="post-description">{{ post.excerpt | strip_html | truncatewords: 50 }}</p>
           </section>
-          <div class="post-meta" itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-              <meta itemprop="image" content="{{ site.url }}/{{site.data.author["author"]["assets"]}}"/>
+          <div class="post-meta">
 
+            <div itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+              <meta itemprop="image" content="{{ site.url }}/{{site.data.author["author"]["assets"]}}"/>
               {% if site.data.author["author"]["assets"] %}
                 <amp-img width="24" height="24" class="author-thumb" layout="responsive" src="{{ site.url }}/{{site.data.author["author"]["assets"]}}" alt="{{site.data.author["author"]["name"]}}"/></amp-img>
-                <meta itemprop="image" content="{{ site.url }}/{{site.data.author["author"]["assets"]}}"/>
               {% endif %}
-              <div itemprop="author name">{{site.data.author["author"]["name"]}}</div>
+              <div itemprop="name">{{site.data.author["author"]["name"]}}</div>
+            </div>
+
               {% if post.tags.size > 0 %}
                 in
                 {% for tag in post.tags %}
@@ -61,6 +63,7 @@ layout: default
                     {% endif %}
                 {% endfor %}
             {% endif %}
+
               <p><time itemprop="datePublished" class="post-date" datetime="{{ post.date | date:'%Y-%m-%d' }}">{{ post.date | date_to_string }}</time></p>
           </div>
         </div>
