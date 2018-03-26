@@ -8,7 +8,7 @@ layout: null
   "theme_color": "#f46f25",
   "background_color": "#fff",
   "display": "browser",
-  "Scope": "/",
+  "scope": "/",
   "start_url": "/",
   "icons": [
     {
