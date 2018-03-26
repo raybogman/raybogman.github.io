@@ -2,7 +2,7 @@
 layout: null
 ---
 {
-  "name": "{{ site.title }}{{ site.description }}",
+  "name": "{{ site.title }} - {{ site.description }}",
   "short_name": "{{ site.title }}",
   "description": "{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}",
   "theme_color": "#f46f25",
