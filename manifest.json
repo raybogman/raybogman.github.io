@@ -10,6 +10,8 @@ layout: null
   "display": "browser",
   "scope": "/",
   "start_url": "/",
+  "lang"; : "",
+  "orientation"; : "any",
   "icons": [
     {
       "src": "assets/icons/icon-72x72.png",
