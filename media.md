@@ -33,32 +33,32 @@ Over the years several media engagement taken place. Here you can find a overvie
 
 ### Video's - Youtube/Vimeo
 
-####
-<amp-youtube data-videoid="speykHKEpRs" layout="responsive" width="480" height="270"></amp-youtube>
-
-####
-<amp-youtube data-videoid="Uw2gOTvV3XU" layout="responsive" width="480" height="270"></amp-youtube>
-
-####
+#### Magenticians interview with Ray Bogman (2017)
 <amp-youtube data-videoid="KNl1snrt6eY" layout="responsive" width="480" height="270"></amp-youtube>
 
-####
-<amp-youtube data-videoid="SD9ZU9FgICw" layout="responsive" width="480" height="270"></amp-youtube>
-
-####
-<amp-youtube data-videoid="s_FxSXyrhsY" layout="responsive" width="480" height="270"></amp-youtube>
-
-####
+#### Meet Magento Madrid (2017) - Measure your performance with Mage.coach by Ray Bogman
 <amp-youtube data-videoid="J9OG2dj_h_M" layout="responsive" width="480" height="270"></amp-youtube>
 
-####
+#### Meet Magento Polen (2017) - Measure your performance with Mage.coach by Ray Bogman
 <amp-youtube data-videoid="FEsnJ--58QQ" layout="responsive" width="480" height="270"></amp-youtube>
 
-####
+#### Meet Magento Madrid (2016) - SSL Offloading with Magento 2 and Varnish by Ray Bogman
+<amp-youtube data-videoid="SD9ZU9FgICw" layout="responsive" width="480" height="270"></amp-youtube>
+
+#### Magento 2 Cookbook promo (2016) by Ray Bogman & Vladimir Kerkhoff
+<amp-youtube data-videoid="Uw2gOTvV3XU" layout="responsive" width="480" height="270"></amp-youtube>
+
+#### Meet Magento Switzerland (2015) - Business Metrics for everyone by Ray Bogman
 <amp-youtube data-videoid="ovK2vUqt27g" layout="responsive" width="480" height="270"></amp-youtube>
 
-####
-<amp-youtube data-videoid="FEsnJ--58QQ" layout="responsive" width="480" height="270"></amp-youtube>
+#### Meet Magento Switzerland (2014) - How to increase your revenue by 85% in 1 year by Ray Bogman
+<amp-youtube data-videoid="2f8LzWFkpcA&t" layout="responsive" width="480" height="270"></amp-youtube>
+
+#### Magento Doctors promo (2014) with Ray Bogman & Guido Jansen
+<amp-youtube data-videoid="speykHKEpRs" layout="responsive" width="480" height="270"></amp-youtube>
+
+#### Magento Developers Paradise (2012) - 101's Magento's hidden Secrets by Ray Bogman & Jikke Broxterman
+<amp-youtube data-videoid="s_FxSXyrhsY" layout="responsive" width="480" height="270"></amp-youtube>
 
 #### First Meet Magento in the world (2009) - Magento Google Optimizer by Ray Bogman
 <amp-vimeo data-videoid="3255690" layout="responsive" width="480" height="270"></amp-vimeo>
