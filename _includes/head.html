@@ -9,7 +9,7 @@
 
   <title>{% if page.title %}{{ page.title | escape }}{% else %}{{ site.title | escape }}{% endif %}</title>
 
-  <meta name="description" content="{% if page.description | truncate: 320 %}{% else %}{{ site.description | truncate: 320 }}{% endif %}">
+  <meta name="description" content="{% if page.description %}{{ page.description | truncate: 320 }}{% else %}{{ site.description | truncate: 320 }}{% endif %}">
   <meta name="theme-color" content="#f46f25">
   <meta property="og:site_name" content="{{ site.title }}" />
   <meta property="og:type" content="website" />
