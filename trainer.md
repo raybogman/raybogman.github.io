@@ -1,7 +1,9 @@
 ---
 layout: page
 cover: 'assets/images/raybogman-trainer.jpg'
-title: Trainer & Coach
+intro: Trainer & Coach
+title: Ray Bogman as Trainer & Coach
+description:
 permalink: /trainer/
 ---
 

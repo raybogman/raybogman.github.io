@@ -1,7 +1,9 @@
 ---
 layout: page
 cover: 'assets/images/raybogman-speaker.jpg'
-title: Speaker
+intro: Speaker
+title: Ray Bogman as Speaker
+description:
 permalink: /speaker/
 ---
 

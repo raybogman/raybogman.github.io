@@ -1,7 +1,9 @@
 ---
 layout: page
 cover: 'assets/images/raybogman-consultant.jpg'
-title: Consultant
+intro: Consultant
+title: Ray Bogman as Consultant
+description:
 permalink: /consultant/
 ---
 

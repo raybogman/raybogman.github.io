@@ -1,7 +1,9 @@
 ---
 layout: page
 cover: 'assets/images/magento-snowcamp-slowmo-2sec.gif'
-title: Services
+intro: Services
+title: Ray Bogman Services
+description:
 permalink: /services/
 ---
 

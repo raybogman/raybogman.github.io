@@ -1,7 +1,9 @@
 ---
 layout: page
 cover: 'assets/images/raybogman-about.jpg'
-title: About
+intro: About
+title: About Ray Bogman
+description:
 permalink: /about/
 ---
 

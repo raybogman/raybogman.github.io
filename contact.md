@@ -1,6 +1,9 @@
 ---
 layout: page
-title: Contact
+cover:
+intro: Contact
+title: Contact Ray Bogman
+description:
 permalink: /contact/
 ---
 

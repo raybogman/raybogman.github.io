@@ -1,7 +1,9 @@
 ---
 layout: page
 cover: 'assets/images/raybogman-host.jpg'
-title: Host
+intro: Host
+title: Ray Bogman as Host
+description:
 permalink: /host/
 ---
 
