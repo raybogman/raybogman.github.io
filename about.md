@@ -3,7 +3,7 @@ layout: page
 cover: 'assets/images/raybogman-about.jpg'
 intro: About
 title: About Ray Bogman
-description:
+description: About Ray Bogman - Ray is an IT professional and Magento evangelist from the Netherlands. Over the last years he co-founded many businesses as a CTO (Jira ICT, Yireo, Wild Hibiscus, Rapido and SupportDesk.) As a trainer/consultant he has trained over 1,000 Magento experts worldwide since 2008. By the end of 2016 he created a new Magento Performance Open Source project called: Mage.coach. Currently he is working for Magento as a Business Solutions Architect in the EMEA region.
 permalink: /about/
 ---
 
