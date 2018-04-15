@@ -3,7 +3,7 @@ layout: page
 cover: 'assets/images/raybogman-speaker.jpg'
 intro: Speaker
 title: Ray Bogman as Speaker
-description:
+description: 'Sharing knowledge is one of my pleasures, so Ray Bogman is a regular speaker at Magento, Joomla, Mobile, Performance, Security and E-commerce events world-wide.'
 permalink: /speaker/
 ---
 

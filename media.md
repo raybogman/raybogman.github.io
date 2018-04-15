@@ -3,7 +3,7 @@ layout: page
 cover: 'assets/images/raybogman-media.jpg'
 intro: In the Media
 title: Ray Bogman in the Media
-description: Ray Bogman in the Media - A collation of interviews, podcasts, blogs or presentations.
+description: 'Ray Bogman in the Media - A collation of interviews, podcasts, blogs or presentations.'
 permalink: /media/
 ---
 

@@ -3,7 +3,7 @@ layout: page
 cover: 'assets/images/raybogman-author.jpg'
 intro: Author
 title: Ray Bogman as Author
-description:
+description: 'Ray Bogman is a well know author in the IT world. He has covered several topics, from Security to web Performance, Joomla! to Magento and Mobile to SEO.'
 permalink: /author/
 ---
 

@@ -3,7 +3,7 @@ layout: page
 cover: 'assets/images/raybogman-consultant.jpg'
 intro: Consultant
 title: Ray Bogman as Consultant
-description:
+description: 'Ray Bogman is an allround consultant in many different areas like: Security, (Mobile) Performance, SEO, Magento, Joomla!, Hosting.'
 permalink: /consultant/
 ---
 

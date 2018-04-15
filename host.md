@@ -3,7 +3,7 @@ layout: page
 cover: 'assets/images/raybogman-host.jpg'
 intro: Host
 title: Ray Bogman as Host
-description:
+description: 'Ray Bogman has hosted several events over the years, like: Magento User Group Amsterdam, Magento Doctor, WebPerfDays Amsterdam, Guest lecturer (VU Amsterdam),TEDxAmstelveen.'
 permalink: /host/
 ---
 

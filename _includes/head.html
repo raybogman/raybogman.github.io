@@ -14,7 +14,7 @@
   <meta property="og:site_name" content="{{ site.title }}" />
   <meta property="og:type" content="website" />
   <meta property="og:title" content="{% if title %}{{ title }}{% elsif page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}" />
-  <meta property="og:description" content="{% if excerpt %}{{ excerpt }}{% elsif page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}" />
+  <meta property="og:description" content="{% if excerpt %}{{ excerpt }}{% elsif page.description %}{{ page.description | truncate: 320 }}{% else %}{{ site.description | truncate: 320 }}{% endif %}" />
   <meta property="og:url" content="{{site.url}}{% if page.url %}{{ page.url }}{% endif %}" />
   <meta property="og:image" content="{{ site.url }}/{% if page.cover %}{{ page.cover }}{% else %}{{ site.cover }}{% endif %}" />
   <meta property="fb:app_id" content="{{ site.fb_app_id }}" />
@@ -28,7 +28,7 @@
   <meta name="robots" content="{{ site.robots }}"/>
   <meta name="twitter:card" content="summary_large_image" />
   <meta name="twitter:title" content="{% if title %}{{ title }}{% elsif page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}" />
-  <meta name="twitter:description" content="{% if excerpt %}{{ excerpt }}{% elsif page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}" />
+  <meta name="twitter:description" content="{% if excerpt %}{{ excerpt }}{% elsif page.description %}{{ page.description | truncate: 320 }}{% else %}{{ site.description | truncate: 320 }}{% endif %}" />
   <meta name="twitter:url" content="{{site.url}}{% if page.url %}{{ page.url }}{% endif %}" />
   <meta name="twitter:image" content="{{ site.url }}/{% if page.cover %}{{ page.cover }}{% else %}{{ site.cover }}{% endif %}" />
   <meta name="twitter:label1" content="Written by" />
