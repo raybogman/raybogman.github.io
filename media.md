@@ -57,7 +57,7 @@ Over the years several media engagement taken place. Here you can find a overvie
 <amp-youtube data-videoid="ovK2vUqt27g" layout="responsive" width="480" height="270"></amp-youtube>
 
 #### Meet Magento Switzerland (2014) - How to increase your revenue by 85% in 1 year by Ray Bogman
-<amp-youtube data-videoid="2f8LzWFkpcA&t" layout="responsive" width="480" height="270"></amp-youtube>
+<amp-youtube data-videoid="2f8LzWFkpcA" layout="responsive" width="480" height="270"></amp-youtube>
 
 #### Magento Doctors promo (2014) with Ray Bogman & Guido Jansen
 <amp-youtube data-videoid="speykHKEpRs" layout="responsive" width="480" height="270"></amp-youtube>
