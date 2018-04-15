@@ -3,7 +3,7 @@ layout: page
 cover: 'assets/images/raybogman-trainer.jpg'
 intro: Trainer & Coach
 title: Ray Bogman as Trainer & Coach
-description:
+description: 'Ray is a active Trainer and Coach since the beginning of 2000. Over the years he has trained over 750 people in Joomla! and more than 1000 people in the 'Art of Magento' worldwide.'
 permalink: /trainer/
 ---
 
