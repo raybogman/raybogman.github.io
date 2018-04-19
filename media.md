@@ -29,6 +29,12 @@ Over the years several media engagement taken place. Here you can find a overvie
 ### Shoppimon
 - [https://www.shoppimon.com/2016/03/magento-2-migration/](https://www.shoppimon.com/2016/03/magento-2-migration/)
 
+### True
+- [https://www.true.nl/blog/tag/ray-bogman/](https://www.true.nl/blog/tag/ray-bogman/)
+
+### Packtpub
+- [https://www.packtpub.com/books/info/authors/ray-bogman](https://www.packtpub.com/books/info/authors/ray-bogman)
+
 ### The OSTraining Podcast
 - [https://www.stitcher.com/podcast/ostraining/the-ostraining-podcast/e/52359361](https://www.stitcher.com/podcast/ostraining/the-ostraining-podcast/e/52359361)
 
