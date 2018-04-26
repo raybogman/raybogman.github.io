@@ -7,7 +7,7 @@ tags: magento imagine 2018 pwa 2.2.4
 author: Ray Bogman
 ---
 
-It's a wrap, **Magento Imagine 2018** was a big success. More than 3000 Magento export and ecommerce professionals addented this years Magento Imagine at the Wynn in Las Vegas. Here is a small summary of all important **Magento** news.
+It's a wrap, **Magento Imagine 2018** was a big success. More than 3000 Magento experts and ecommerce professionals addented this years Magento Imagine at the Wynn in Las Vegas. Here is a small summary of all important **Magento** news.
 
 ### Magento Imagine Excellence Awards
 After receiving a record-breaking 250 submissions, last night Magento honored 16 recipients for their outstanding achievements in commerce.
