@@ -71,6 +71,9 @@ Over the years several media engagement taken place. Here you can find a overvie
 #### Magento Developers Paradise (2012) - 101's Magento's hidden Secrets by Ray Bogman & Jikke Broxterman
 <amp-youtube data-videoid="s_FxSXyrhsY" layout="responsive" width="480" height="270"></amp-youtube>
 
+#### J and Beyond (2011) - SEO? Why bother if your site is dead slow? by Ray Bogman
+<amp-vimeo data-videoid="25084501" layout="responsive" width="480" height="270"></amp-vimeo>
+
 #### First Meet Magento in the world (2009) - Magento Google Optimizer by Ray Bogman
 <amp-vimeo data-videoid="3255690" layout="responsive" width="480" height="270"></amp-vimeo>
 
