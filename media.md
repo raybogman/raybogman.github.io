@@ -12,6 +12,7 @@ Over the years several media engagement taken place. Here you can find a overvie
 ### Dutchento
 - [https://www.dutchento.org/author/raybogman/](https://www.dutchento.org/author/raybogman/)
 - [https://www.dutchento.org/interview-met-ray-bogman-over-zijn-overstap-naar-magento/](https://www.dutchento.org/interview-met-ray-bogman-over-zijn-overstap-naar-magento/)
+- [https://www.dutchento.org/adobe-neemt-magento-over/](https://www.dutchento.org/adobe-neemt-magento-over/)
 
 ### MageTalk
 - [https://magetalk.com/tag/ray-bogman/](https://magetalk.com/tag/ray-bogman/)
@@ -43,6 +44,9 @@ Over the years several media engagement taken place. Here you can find a overvie
 - [http://www.blogtalkradio.com/southlasalle/2011/01/11/the-bob-bloom-show-tbbs26-magento-and-joomla-part-two-with-ray-bogman](http://www.blogtalkradio.com/southlasalle/2011/01/11/the-bob-bloom-show-tbbs26-magento-and-joomla-part-two-with-ray-bogman)
 
 ### Video's - Youtube/Vimeo
+
+#### Magento gaat verder onder vlag van Adobe! (2018)
+<amp-youtube data-videoid="yx5G43I17Fk" layout="responsive" width="480" height="270"></amp-youtube>
 
 #### Magenticians interview with Ray Bogman (2017)
 <amp-youtube data-videoid="KNl1snrt6eY" layout="responsive" width="480" height="270"></amp-youtube>
