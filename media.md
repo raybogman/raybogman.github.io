@@ -13,6 +13,7 @@ Over the years several media engagement taken place. Here you can find a overvie
 - [https://www.dutchento.org/author/raybogman/](https://www.dutchento.org/author/raybogman/)
 - [https://www.dutchento.org/interview-met-ray-bogman-over-zijn-overstap-naar-magento/](https://www.dutchento.org/interview-met-ray-bogman-over-zijn-overstap-naar-magento/)
 - [https://www.dutchento.org/adobe-neemt-magento-over/](https://www.dutchento.org/adobe-neemt-magento-over/)
+- [https://soundcloud.com/dutchento/adobe-neemt-magento-over](https://soundcloud.com/dutchento/adobe-neemt-magento-over)
 
 ### MageTalk
 - [https://magetalk.com/tag/ray-bogman/](https://magetalk.com/tag/ray-bogman/)
