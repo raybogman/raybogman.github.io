@@ -17,6 +17,7 @@ Here is a list of some of the events:
 - Meet Magento Denmark (2017)
 - Meet Magento Spain (2016/2017)
 - Meet Magento Italia (2018)
+- Meet Magento Sweden (2018)
 - Bargento France (2011)
 - J and Beyound (2011)
 - Joomladays Netherlands (since 2005)
@@ -28,6 +29,7 @@ Here is a list of some of the events:
 - Magento Developers Paradise (Summer and Winter editions since 2010)
 - Exact meets Ecommerce (2015/2016/2017)
 - Emerce Ecommerce live! (2018)
+- Youwe Fundamentals Magento 1 to Magento 2 (2018) 
 
 Besides speaking at events I host a monthly Magento User Group in Amsterdam since 2010. Also sharing knowledge as the Magento Doctor at Meet Magento events since 2012 worldwide.
 
