@@ -14,6 +14,11 @@ Over the years several media engagement taken place. Here you can find a overvie
 - [https://www.dutchento.org/interview-met-ray-bogman-over-zijn-overstap-naar-magento/](https://www.dutchento.org/interview-met-ray-bogman-over-zijn-overstap-naar-magento/)
 - [https://www.dutchento.org/adobe-neemt-magento-over/](https://www.dutchento.org/adobe-neemt-magento-over/)
 - [https://soundcloud.com/dutchento/adobe-neemt-magento-over](https://soundcloud.com/dutchento/adobe-neemt-magento-over)
+- [https://www.dutchento.org/podcast-waar-ben-je-zonder-kussentjes/](https://www.dutchento.org/podcast-waar-ben-je-zonder-kussentjes/)
+- [https://soundcloud.com/dutchento/waar-ben-je-zonder-kussentjes](https://soundcloud.com/dutchento/waar-ben-je-zonder-kussentjes)
+
+### Emerce
+- [https://www.emerce.nl/achtergrond/toekomst-vanmagentoin-5-vragen-antwoorden](https://www.emerce.nl/achtergrond/toekomst-vanmagentoin-5-vragen-antwoorden)
 
 ### MageTalk
 - [https://magetalk.com/tag/ray-bogman/](https://magetalk.com/tag/ray-bogman/)
