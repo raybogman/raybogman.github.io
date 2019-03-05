@@ -4,7 +4,7 @@
 <p>At SupportDesk B.V., he is a Magento, Joomla, OroCRM, web / server / mobile performance specialist, and security evangelist. His focus during the day is business/product development and training webmasters and consultants about the power of Magento, from the basics up to an advanced level. He has trained over 1,000 Magento and 750 Joomla experts worldwide since 2005.</p>
 <p>At Magento events such as Magento Developers Paradise, Meet Magento, Magento Live and Magento Imagine, he has been a regular speaker since 2009. He has participated in reviewing Mastering Magento (2012), Mastering Magento Theme Design (2014), Magento Administration Guide (2014), Learning Magento Theme Development (2014), and the video, Mastering Magento (2013), all by Packt Publishing.</p>
 <p>In 2016 his first Magento book got pushished, Magento 2 Cookbook. By the end of 2016 he created a new Magento Performance Open Source project called: Mage.coach (https://mage.coach)</p>
-<p>Currently he is working for Magento as a Business Solutions Architect in the EMEA region. </p>
+<p>Currently he is working for Magento as a Senior Business Solutions Architect in the EMEA/APAC region. </p>
 
 <h1>NL</h1>
 <p>Ray Bogman is een IT-professional en Magento evangelist. In 1993 begon hij met computers te werken als hobby. In het verleden heeft hij gewerkt voor KPN, een groot Nederlands Telecombedrijf, als senior security officer.</p>
@@ -12,4 +12,4 @@
 <p>Bij SupportDesk B.V. is hij een Magento, Joomla, Oro, web / server / mobile performance specialist en security evangelist. Zijn focus tijdens de dag is business / product development en trainen van webmasters en consultants over de kracht van Magento, van de basis tot een geavanceerd niveau. Hij heeft sinds 2005 meer dan 1000 Magento en 750 Joomla-experts over de hele wereld opgeleid.
 <p>Tijdens Magento-evenementen zoals Magento Developers Paradise, Meet Magento, Magento Live en Magento Imagine, is hij sinds 2009 een vaste spreker. Hij heeft meegeholpen aan het beoordelen van Mastering Magento (2012), Mastering Magento Theme Design (2014), Magento Administration Guide 2014), Magento Theme Development (2014), en de video, Mastering Magento (2013), gepubliceerd door Packt Publishing.</p>
 <p>In 2016 werd zijn eerste Magento boek gepubliceerd, Magento 2 Cookbook. Eind 2017 publiceerde hij een nieuw Magento Open Source project voor performance en UX testen genaamd https://mage.coach/.</p>
-<p>Momenteel is hij werkzaam bij Magento als Business Solutions Architect in the EMEA region.</p>
+<p>Momenteel is hij werkzaam bij Magento als Senior Business Solutions Architect in the EMEA/APAC region.</p>
