@@ -15,7 +15,7 @@ At Magento events (worldwide) he has been a regular speaker since 2009. He has p
 
 In 2016 his first Magento book got published, Magento 2 Cookbook. By the end of 2016 he created a new Magento Performance Open Source project called: Mage.coach [https://mage.coach](https://mage.coach).
 
-Currently he is working for **Magento** as a **Business Solutions Architect** in the EMEA region.
+Currently he is working for **Magento** as a **Senior Business Solutions Architect** in the EMEA region.
 
 Files:
 - [Download Bio]({{site.url}}/assets/Bio - Ray Bogman.txt)
