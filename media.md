@@ -49,8 +49,11 @@ Over the years several media engagement taken place. Here you can find a overvie
 - [http://www.blogtalkradio.com/southlasalle/2011/01/11/the-bob-bloom-show-tbbs25-magento-and-joomla-part-one-with-ray-bogman](http://www.blogtalkradio.com/southlasalle/2011/01/11/the-bob-bloom-show-tbbs25-magento-and-joomla-part-one-with-ray-bogman)
 - [http://www.blogtalkradio.com/southlasalle/2011/01/11/the-bob-bloom-show-tbbs26-magento-and-joomla-part-two-with-ray-bogman](http://www.blogtalkradio.com/southlasalle/2011/01/11/the-bob-bloom-show-tbbs26-magento-and-joomla-part-two-with-ray-bogman)
 
-### Video's - Youtube/Vimeo
+### Video's - Youtube/Vimeo/Wistia
 
+### Migrating from Magento 1 to Magento Commerce 2: Strategic Planning for Business Leaders (2019)
+<amp-wistia-player data-media-hashed-id="7nh7qkmlo3" width="512" height="360"></amp-wistia-player>
+    
 #### Magento gaat verder onder vlag van Adobe! (2018)
 <amp-youtube data-videoid="yx5G43I17Fk" layout="responsive" width="480" height="270"></amp-youtube>
 
