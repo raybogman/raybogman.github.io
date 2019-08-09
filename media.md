@@ -5,6 +5,7 @@ intro: In the Media
 title: Ray Bogman in the Media
 description: 'Ray Bogman in the Media - A collation of interviews, podcasts, blogs or presentations.'
 permalink: /media/
+nav: media
 ---
 
 Over the years several media engagement taken place. Here you can find a overview of several interviews, podcasts, blogs or presentations.
