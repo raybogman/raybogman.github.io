@@ -21,6 +21,11 @@ twitter: raybogman
 github:  raybogman
 prezi: raybogman
 
+# cert
+M2CPCD: assets/images/small_professional_cloud_developer.png
+M2SSC: assets/images/small_solution_specialist_m2.png
+MCSS: assets/images/small_solution_specialist.png
+
 #Additional Pages
 about: /about/
 contact: /contact/
