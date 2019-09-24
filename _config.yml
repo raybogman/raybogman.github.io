@@ -31,9 +31,7 @@ about: /about/
 contact: /contact/
 #privacy-policy: privacy-policy
 
-
 permalink: /:title
-
 
 # Google Analytics
 analytics_id: UA-115396940-1
