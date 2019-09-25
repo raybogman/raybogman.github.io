@@ -22,9 +22,9 @@ github:  raybogman
 prezi: raybogman
 
 # cert
-m2cpcd: assets/images/small_professional_cloud_developer.jpg
-M2SSC: assets/images/small_solution_specialist_m2.png
-MCSS: assets/images/small_solution_specialist.png
+m2cpcd: assets/images/small_professional_cloud_developer.png
+m2ccs: assets/images/small_solution_specialist_m2.png
+mcss: assets/images/small_solution_specialist.png
 
 #Additional Pages
 about: /about/
