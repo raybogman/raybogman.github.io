@@ -2,7 +2,7 @@
 layout: post
 cover: 'assets/images/magento-pwa-studio-production-setup.jpg'
 title: Magento PWA Studio Production setup
-date: 2018-10-20 00:00:00
+date: 2019-10-20 00:00:00
 tags: magento 2019 pwa studio 2.3.3
 author: Ray Bogman
 ---
