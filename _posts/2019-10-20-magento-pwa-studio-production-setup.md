@@ -32,20 +32,20 @@ and add the following config.
 <pre>
 server {
     listen 80;
-    server_name pwa.bogman.info;
+    server_name www.frontend-url.com;
     rewrite ^/(.*) https://$host/$1 permanent;
     }
 
 server {
     listen 443 ssl http2;
     port_in_redirect off;
-    server_name pwa.bogman.info;
+    server_name www.frontend-url.com;
 
     access_log /var/log/nginx/pwa-access.log;
     error_log /var/log/nginx/pwa-error.log;
 
     location / {
-        proxy_pass https://pwa.bogman.info:8080;
+        proxy_pass https://www.frontend-url.com:8080;
         proxy_set_header X-Real-IP  $remote_addr;
         proxy_set_header X-Forwarded-For $proxy_add_x_forwarded_for;
         proxy_set_header X-Forwarded-Proto https;
@@ -54,8 +54,8 @@ server {
         proxy_set_header Connection "";
     }
 
-    ssl_certificate /etc/ssl/certs/pwa.bogman.info.crt;
-    ssl_certificate_key /etc/ssl/certs/pwa.bogman.info.key;
+    ssl_certificate /etc/ssl/certs/www.frontend-url.com.crt;
+    ssl_certificate_key /etc/ssl/certs/www.frontend-url.com.key;
 
     ssl_session_timeout 1d;
     ssl_session_cache shared:SSL:50m;
@@ -100,11 +100,11 @@ yarn install
 
 Copy the following **.env** data to the packages/venia-concept directory (and update to your specific needs).
 <pre>
-MAGENTO_BACKEND_URL=https://www.yourdomain.com/
+MAGENTO_BACKEND_URL=https://www.backend-url.com/
 #CUSTOM_ORIGIN_ENABLED=true
 #CUSTOM_ORIGIN_ADD_UNIQUE_HASH=true
 #CUSTOM_ORIGIN_SUBDOMAIN=
-CUSTOM_ORIGIN_EXACT_DOMAIN=pwa.bogman.info
+CUSTOM_ORIGIN_EXACT_DOMAIN=www.frontend-url.com
 #DEV_SERVER_HOST=
 #DEV_SERVER_PORT=
 #DEV_SERVER_SERVICE_WORKER_ENABLED=
