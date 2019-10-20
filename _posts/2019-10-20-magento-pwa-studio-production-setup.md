@@ -87,7 +87,7 @@ service nginx restart
 
 ### Setup PWA studio
 
-Now Nginx is ready, we can setup your PWA project. Please review the [https://magento.github.io/pwa-studio/venia-pwa-concept/setup/](PWA Studio official guidelines) as well.
+Now Nginx is ready, we can setup your PWA project. Please review the [PWA Studio official guidelines](https://magento.github.io/pwa-studio/venia-pwa-concept/setup/) as well.
 
 For this setup we use our **/home** directory as a base.
 <pre>
@@ -134,7 +134,7 @@ yarn run build && yarn run stage:venia
 Lets check if everything is working fine, submit your PWA url in your browser and your mobile device of course.
 Happy PWA Studio time!
 
-Some use full command along the line.
+#### Some use full command along the line.
 <pre>
 lsof -i :8080 = check which process runs on port 8080 (most likely nodejs in this case. The PID id may be need to kill the process)
 kill -9 'PID id nodejs' = incase ctrl + c  does not work killing nodejs
