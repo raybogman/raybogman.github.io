@@ -24,7 +24,7 @@ Create dhparam file
 openssl dhparam -out /etc/ssl/certs/dhparam.pem 2048
 </pre>
 
-Create free (https://www.sslforfree.com/) SSL certificate or use your own SSL certs and move/replace them within your pwa-studio project directory like **/home/pwa-studio/docker/certs**
+Create your free [https://www.sslforfree.com/](https://www.sslforfree.com/) SSL certificate or use your own SSL certs and move/replace them within your SSL directory like **/etc/ssl/certs**.
 
 Remove the ‘default’ symlink in **/etc/nginx/sites-enabled** and create a new config file like **pwa.conf**
 and add the following config.  
@@ -54,8 +54,8 @@ server {
         proxy_set_header Connection "";
     }
 
-    ssl_certificate /home/pwa-studio/docker/certs/pwa.bogman.info.crt;
-    ssl_certificate_key /home/pwa-studio/docker/certs/pwa.bogman.info.key;
+    ssl_certificate /etc/ssl/certs/pwa.bogman.info.crt;
+    ssl_certificate_key /etc/ssl/certs/pwa.bogman.info.key;
 
     ssl_session_timeout 1d;
     ssl_session_cache shared:SSL:50m;
@@ -70,3 +70,73 @@ server {
     ssl_dhparam /etc/ssl/certs/dhparam.pem;
     }
 </pre>
+
+Update the following config elements incl. your personal setup need: server_name, proxy_pass, ssl_certificate, ssl_certificate_key
+
+Save and close the file and run the following command.
+
+<pre>
+service nginx configtest
+</pre>
+
+If the result is **"Testing Nginx configuration [ OK ]”** you are ready to restart the Nginx server using the following command.
+
+<pre>
+service nginx restart
+</pre>
+
+### Setup PWA studio
+
+Now Nginx is ready, we can setup your PWA project. Please review the [https://magento.github.io/pwa-studio/venia-pwa-concept/setup/](PWA Studio official guidelines) as well.
+
+For this setup we use our **/home** directory as a base.
+<pre>
+git clone https://github.com/magento/pwa-studio.git
+</pre>
+
+<pre>
+yarn install
+</pre>
+
+Copy the following **.env** data to the packages/venia-concept directory (and update to your specific needs).
+<pre>
+MAGENTO_BACKEND_URL=https://www.yourdomain.com/
+#CUSTOM_ORIGIN_ENABLED=true
+#CUSTOM_ORIGIN_ADD_UNIQUE_HASH=true
+#CUSTOM_ORIGIN_SUBDOMAIN=
+CUSTOM_ORIGIN_EXACT_DOMAIN=pwa.bogman.info
+#DEV_SERVER_HOST=
+#DEV_SERVER_PORT=
+#DEV_SERVER_SERVICE_WORKER_ENABLED=
+#DEV_SERVER_WATCH_OPTIONS_USE_POLLING=
+STAGING_SERVER_HOST=0.0.0.0
+STAGING_SERVER_PORT=8080
+#IMAGE_SERVICE_PUBLIC_PATH=/img/
+#IMAGE_SERVICE_CACHE_EXPIRES=1 hour
+#IMAGE_SERVICE_CACHE_DEBUG=
+#IMAGE_SERVICE_CACHE_REDIS_CLIENT=
+#UPWARD_JS_UPWARD_PATH=upward.yml
+#UPWARD_JS_BIND_LOCAL=true
+#UPWARD_JS_LOG_URL=true
+#CHECKOUT_BRAINTREE_TOKEN=sandbox_8yrzsvtm_s2bg8fs563crhqzk
+</pre>
+
+Now run the following command to create custom SSL certificate based on your domain set (CUSTOM_ORIGIN_EXACT_DOMAIN)  in the **.env** file.
+<pre>
+yarn buildpack create-custom-origin packages/venia-concept
+</pre>
+
+The last step will built the PWA Studio setup and will run venia in staging mode.
+<pre>
+yarn run build && yarn run stage:venia
+</pre>
+
+Lets check if everything is working fine, submit your PWA url in your browser and your mobile device of course.
+Happy PWA Studio time!
+
+Some use full command alone the line.
+<pre>
+lsof -i :8080 = check which process runs on port 8080 (most likely nodejs in this case. The PID id may be need to kill the process)
+kill -9 <PID id nodejs> = incase ctrl + c  does not work killing nodejs
+netstat -tulpn = shows all ports and applications
+</pre> 
