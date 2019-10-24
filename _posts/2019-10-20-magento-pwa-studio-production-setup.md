@@ -7,11 +7,11 @@ tags: magento 2019 pwa studio 2.3.3
 author: Ray Bogman
 ---
 
-It's have been some time since my last blog or any writing at all. My latest work dates back to the [**Magento 2 Cookbook**](https://raybogman.com/magento-2-cookbook) published in 2016. I myself are a big fan of small tutorials or recipes style blogs and could not resist to created a new one on **Magento's PWA Studio**. And the main reason for this was while search on the internet I could not find any good stuff on this yet. So I like to share an approach which did the trick for me. Time will tell if this is the correct approach. So please be aware where running this on a production site. It works great for a demo or any kind of testing.
+It's have been some time since my last blog or any writing at all. My latest work dates back to the [**Magento 2 Cookbook**](https://raybogman.com/magento-2-cookbook) published in 2016. I am a big fan of small tutorials or recipes style blogs and could not resist creating a new one on **Magento's PWA Studio**. And the main reason for this was while a search on the internet I could not find any good stuff on this yet. So I like to share an approach that did the trick for me. Time will tell if this is the correct approach. So please be aware were running this on a production site. It works great for a demo or any kind of testing.
 
-All thought there are many routes to Rome I am picking the highroad on this one. Easy setup using a clean Ubuntu 16.04 including Nginx as a **reverse proxy** for SSL termination. I am aware using **docker**, but for this case I needed to use Nginx for multiple ports on the background and not only serving **PWA Studio**. And I didn't want to built a very complex **docker-compose** script to serve multiple vhost. Using this approach I could create multiple Nginx vhost and connect them to many ports and multiple single docker apps running on the background.
+All thought there are many routes to Rome I am picking the high road on this one. Easy setup using a clean Ubuntu 16.04 including Nginx as a **reverse proxy** for SSL termination. I am aware of using **docker**, but for this case, I needed to use Nginx for multiple ports on the background and not only serving **PWA Studio**. And I didn't want to build a very complex **docker-compose** script to serve multiple vhost. Using this approach I could create multiple Nginx vhost and connect them to many ports and multiple single docker apps running on the background.
 
-So please follow me on a journey to run Magento's PWA Studio on a production like setup.
+So please follow me on a journey to run Magento's PWA Studio on a production-like setup.
 
 ### Install the essentials
 Please run the following command from the shell on a clean setup.
