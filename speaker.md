@@ -25,6 +25,7 @@ Here is a list of some of the events:
 - M-Commerce Event (2014)
 - Webperfdays Amsterdam (since 2013)
 - Magento Live UK (2015)
+- Magento Live EU (2019)
 - Magento Imagine Las Vegas (2016/2019)
 - Magento Developers Paradise (Summer and Winter editions since 2010)
 - Exact meets Ecommerce (2015/2016/2017)
