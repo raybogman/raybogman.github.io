@@ -31,6 +31,9 @@ Over the years several media engagement taken place. Here you can find a overvie
 ### Commerce Hero
 - [https://commercehero.io/raybogman](https://commercehero.io/raybogman)
 
+### Cloudways
+- [https://www.cloudways.com/blog/cwchat-with-ray-bogman/](https://www.cloudways.com/blog/cwchat-with-ray-bogman/)
+
 ### FireGento
 - [https://firegento.com/blog/2017/12/15/turchen-15-magento-performance-monitoring-with-grafana-dashboards-and-alerts/](https://firegento.com/blog/2017/12/15/turchen-15-magento-performance-monitoring-with-grafana-dashboards-and-alerts/)
 
