@@ -19,6 +19,7 @@ Over the years several media engagement taken place. Here you can find a overvie
 - [https://soundcloud.com/dutchento/waar-ben-je-zonder-kussentjes](https://soundcloud.com/dutchento/waar-ben-je-zonder-kussentjes)
 
 ### AskMathijs
+- [https://www.askmathijs.com/shows/ray-bogman/](https://www.askmathijs.com/shows/ray-bogman/) I 
 - [https://www.askmathijs.com/podcast/magento-2-snelheid-pwa-amp-implementatie/](https://www.askmathijs.com/podcast/magento-2-snelheid-pwa-amp-implementatie/)
 
 ### Emerce
