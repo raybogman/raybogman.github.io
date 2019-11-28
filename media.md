@@ -61,6 +61,9 @@ Over the years several media engagement taken place. Here you can find a overvie
 
 #### Migrating from Magento 1 to Magento Commerce 2: Strategic Planning for Business Leaders (2019)
 <amp-wistia-player data-media-hashed-id="7nh7qkmlo3" width="480" height="270"></amp-wistia-player>
+
+#### AskMathijs Podcast: Magento 2: Snelheid, PWA, AMP, Implementatie (2019)
+<amp-youtube data-videoid="JT0egKFE83k" layout="responsive" width="480" height="270"></amp-youtube>
     
 #### Magento gaat verder onder vlag van Adobe! (2018)
 <amp-youtube data-videoid="yx5G43I17Fk" layout="responsive" width="480" height="270"></amp-youtube>
