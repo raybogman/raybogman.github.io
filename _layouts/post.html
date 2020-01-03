@@ -126,19 +126,19 @@ layout: default
     <!-- End Related article -->
 <hr>
 
-<div class="author-section mb4">
+<div class="author-section mb4 flow">
     {% if site.data.author["author"]["assets"] %}
-        <amp-img width="100" height="100" class="author-thumb-post" layout="responsive" src="{{ site.baseurl }}{{site.data.author["author"]["assets"]}}" alt="Author image"/></amp-img>
+    <amp-img width="150" height="150" class="author-thumb-post" layout="responsive" src="{{ site.baseurl }}{{site.data.author["author"]["assets"]}}" alt="{{site.data.author["author"]["name"]}}"/></amp-img>
     {% endif %}
-    <h4 class="author-name">{{site.data.author["author"]["name"]}}</h4>
+    <a href="{{site.url}}/authors/#{{site.data.author["author"]["name"]}}"><h4 class="author-name">{{site.data.author["author"]["name"]}}</h4></a>
     <p class="mb4 px3">{{site.data.author["author"]["bio"]}}</p>
+    <!-- Start Socialbox -->
+    <div class="ampstart-social-box mb4">
+      {% include social-share.html %}
+    </div>
+    <!-- End Socialbox -->
 </div>
 
-<!-- Start Socialbox -->
-<div class="ampstart-social-box mb4">
-  {% include social-share.html %}
-</div>
-<!-- End Socialbox -->
 </article>
 </main>
 
