@@ -172,7 +172,7 @@ Run the following commands and follow the correct steps:
 ? What would you like to name the project? Project Name
 ? Where is the project's code hosted? https://github.com/your-project/your-repo
 Created project Project Name (00db0b2e-84c8-4ba4-ad3d-d5b885dd47c4)!
-Use token MyPrivateToken-00b5-436b-9819-0b79a064d6a3 to connect.
+Use token MyToken-00b5-436b-9819-0b79a064d6a3 to connect.
 {% endhighlight %}
 
 Again store the <strong>LHCI_TOKEN</strong> somewhere safe.
