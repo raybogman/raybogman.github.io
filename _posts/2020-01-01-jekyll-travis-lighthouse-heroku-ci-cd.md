@@ -104,7 +104,7 @@ Make sure to copy/paste the <strong>LHCI_GITHUB_APP_TOKEN</strong> since this wi
 <amp-img src="/assets/images/lhci-github-app-token.jpg" width="611" height="263" layout="responsive" alt="LHCI_GITHUB_APP_TOKEN"></amp-img>
 
 Please open Travis CI and go to 'settings' under need your repository and look for 'Environment Variables'.
-Add 'Name': LHCI_GITHUB_APP_TOKEN and the 'Value': <secret token> into the settings. The LHCI_GITHUB_APP_TOKEN will be used later during the built and will update your Github "Status Checks" in the 'commit' section.
+Add 'Name': LHCI_GITHUB_APP_TOKEN and the 'Value': <private token> into the settings. The LHCI_GITHUB_APP_TOKEN will be used later during the built and will update your Github "Status Checks" in the 'commit' section.
 <amp-img src="/assets/images/lhci-github-travis.jpg" width="600" height="186" layout="responsive" alt="add LHCI_GITHUB_APP_TOKEN into Travis"></amp-img>
 
 ### 5. Signup at Heroku
