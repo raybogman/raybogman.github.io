@@ -27,7 +27,7 @@ And keep in mind always <strong>Design for Performance</strong>!
 5. Signup at Heroku
 6. Install Heroku CLI
 7. Create Heroku config and push the app to production
-8. Run lhci-wizard
+8. Run lhci wizard
 9. Add LHCI_TOKEN to env in Travis
 10. Update serverBaseUrl in lighthouserc.yml
 11. Push code to Git and let the magic do its thing!
@@ -104,7 +104,7 @@ Make sure to copy/paste the <strong>LHCI_GITHUB_APP_TOKEN</strong> since this wi
 <amp-img src="/assets/images/lhci-github-app-token.jpg" width="611" height="263" layout="responsive" alt="LHCI_GITHUB_APP_TOKEN"></amp-img>
 
 Please open Travis CI and go to 'settings' under need your repository and look for 'Environment Variables'.
-Add 'Name': LHCI_GITHUB_APP_TOKEN and the 'Value': <private token> into the settings. The LHCI_GITHUB_APP_TOKEN will be used later during the built and will update your Github "Status Checks" in the 'commit' section.
+Add 'Name': LHCI_GITHUB_APP_TOKEN and the 'Value': <token> into the settings. The LHCI_GITHUB_APP_TOKEN will be used later during the built and will update your Github "Status Checks" in the 'commit' section.
 <amp-img src="/assets/images/lhci-github-travis.jpg" width="600" height="186" layout="responsive" alt="add LHCI_GITHUB_APP_TOKEN into Travis"></amp-img>
 
 ### 5. Signup at Heroku
@@ -162,11 +162,11 @@ git add -A && git commit -m 'update LHCI'
 git push heroku master
 {% endhighlight %}
 
-### 8. Run lhci-wizard
-Since we installed <strong>lhci</strong> during the first step we are now able to run the lhci-wizard and connect our app to the <strong>Heroku LHCI Dashboard</strong>.
+### 8. Run lhci wizard
+Since we installed <strong>lhci</strong> during the first step we are now able to run the lhci wizard and connect our app to the <strong>Heroku LHCI Dashboard</strong>.
 
 Run the following commands and follow the correct steps:
-<code>lhci-wizard</code>
+<code>lhci wizard</code>
 {% highlight language-x %}
 ? Which wizard do you want to run? new-project
 ? What would you like to name the project? Project Name
