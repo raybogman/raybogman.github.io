@@ -1,21 +1,25 @@
 ---
 layout: post
-cover: 'assets/images/jekyll-travis-lighthouse-heroku-ci-cd.jpg'
-title: Jekyll+Travis+Lighthouse+Heroku=CI/CD
-date: 2020-01-01 00:00:00
-tags: Jekyll Travis Lighthouse Heroku ci/cd
+cover: 'assets/images/magento-pwa-studio-lighthouse-server.jpg'
+title: Magento PWA Studio Lighthouse server
+date: 2020-01-07 00:00:00
+tags: Magento PWA Studio Travis Lighthouse Heroku ci/cd
 author: Ray Bogman
 ---
 
-Ever since Github started supporting <strong>Jekyll</strong> within <strong>[Github Pages](https://pages.github.com/)</strong> I was sold. As you may know, I love <strong>Magento</strong> since 2008. But before that, I supported Joomla and Mambo for many years and still love building small CMS sites. So when Jekyll became my main CMS system I could not stop building and used them ever since for my small CMS projects. Even this site is build using Jekyll (+AMP ;-) ).
+<strong>Magento</strong> + <strong>PWA Studio</strong> = <strong>High Performance</strong>! OOTB (Out Of The Box) ;-)
+But please keep in mind that every custom theme/layout/template or whatever style you prefer to implement could have some minor or major drawbacks in regards to web performance. Making sure your <strong>Magento PWA</strong> still fires up when requesting a page is pretty important.
 
-So when it comes to easy, fast, stable, flexible, security free and <strong>high-performance websites</strong> I like to build them in Jekyll. Not because I can (since there are other great static website generators e.g. Gatsby, Hugo out there), but because I liked "Free Hosting" back in the day ;-). And creating a CMS is a matter of seconds now on Github Pages.
+So unless you have not read my previous blog on how to build a <strong>[Lighthouse server](https://raybogman.com/jekyll-travis-lighthouse-heroku-ci-cd)</strong>, please do before you continue.
+Or continue this one and switch back on some of the tips and tricks from the previous one if needed ;-).
 
-But choosing <strong>Jekyll</strong> is not the topic of this blog. I like to share a topic on <strong>Continuous development</strong> and <strong>Continuous Integration</strong>. When working with <strong>Magento</strong> I always preferred to be aware of the code quality I or my team wrote. And so I build several <strong>Performance Monitoring Tools</strong> which helped me to check the quality and Best Practice. From [Mage.coach](https://mage.coach/) (also build in Jekyll ;-) ) to Grafana/Graphite Dashboards and much much more during last years.
+When it comes to using <strong>Google Lighthouse Server</strong> I think it's possible to use two approaches.
+1. Basic  - Using a CI server (Travis CI, Circle CI, Jenkins, AWS CodeBuild etc...) and testing your URL(s) remotely.
+2. Advanced - Using a CI server (Travis CI, Circle CI, Jenkins, AWS CodeBuild etc...) and testing your internally build URL(s).
 
-But I still preferred having this quality check building into the <code>git push</code> when using a Github system. All thought <strong>Mage.coach</strong> could do that (after lots of rework), I chose to have a look at [<strong>Lighthouse Project</strong>](https://developers.google.com/web/tools/lighthouse) and the <strong>Lighthouse CI</strong> and <strong>Lighthouse Server</strong> toolset. And I was very surprised at how cool they are.
+For this blog, I prefer addressing the "Basic" version for now. Maybe later I will create an "Advanced" version as well. The main reason for the "Basic" is that I like to test the live "realtime" public-facing version, running on a production environment. Compare to the "Advanced" version it shows the real performance metric on the actual speed of your application.
 
-So before developing this on future <strong>Magento</strong> projects, I needed to test it on my Jekyll CMS project first. The following steps will guide you on how to setup a <strong>Continuous development</strong> and <strong>Continuous Integration</strong> developing stream on <strong>Jekyll</strong> using <strong>Lighthouse CI</strong>, <strong>Lighthouse Server</strong>, <strong>Travis CI</strong>, and <strong>Heroku</strong>.
+The recipe is really simple, we need a PWA Studio codebase, Lighthouse Server, Travis CI, Github account, .travis.yml and lighthouserc.yml.
 
 And keep in mind always <strong>Design for Performance</strong>!
 
@@ -41,7 +45,7 @@ npm install -g @lhci/cli@0.3.x
 ### 2. Signup and create .travis.yml file
 If not already, signup for [Travis-ci](https://travis-ci.com/) and connect the Travis CI [Github Apps](https://github.com/apps/travis-ci) to your Github profile repository. (Detailed config is beyond the scope of this blog if you need more help on how to setup Travis CI or any other CI tool please search the internet ;-) )
 
-<amp-img src="/assets/images/approve-install-travis-ci.jpg" width="549" height="764" layout="responsive" alt="Approve & Install Travis CI"></amp-img>
+<amp-img src="/assets/images/pwa-studio-install-travis-ci.jpg" width="531" height="692" layout="responsive" alt="Magento PWA Studio & Install Travis CI"></amp-img>
 
 Once Travis CI is connected to your Github account create <code>.travis.yml</code> in your root directory from your repository and copy the following config.
 {% highlight language-x %}
@@ -61,7 +65,7 @@ after_success:
 {% endhighlight %}
 
 Notice some tweak options in the config if you need to run it to "temporary public storage".
-The echo "Notice - no test specified" row is to skip the <code>npm test</code> command and automatically run the Lighthouse CI command.
+The echo "Notice - no test specified" row is to skip the <code>npm test</code> command and automatically run the Lighthouse CI command. We will not use Travis CI for any Magento PWA Studio additional test. This could be a part of the "Advanced" version.
 
 ### 3. Create lighthouserc.yml with the following config
 
@@ -91,7 +95,7 @@ ci:
           aggregationMethod: optimistic
   upload:
     target: lhci
-    serverBaseUrl: https://your-app-url.herokuapp.com/
+    serverBaseUrl: https://your-app-url.herokuapp.com/ #Only Static URL is Allowed
     token: $LHCI_TOKEN
 {% endhighlight %}
 If needed you can tweak <code>numberOfRuns</code>, <code>url</code>, <code>assertions</code> and much much more to your needs. Besides <code>url</code>, the 2 most important elements, for now, are <code>serverBaseUrl</code> and <code>token</code>. We will configure those at the end.
@@ -190,22 +194,22 @@ git add -A && git commit -m 'LHCI first run'
 git push origin master
 
 Let's follow the build in <strong>Travis CI</strong> and open your Travis project link.
-<amp-img src="/assets/images/travis-ci-build.jpg" width="563" height="743" layout="responsive" alt="Travis CI Build"></amp-img>
+<amp-img src="/assets/images/pwa-studio-travis-ci-build.jpg" width="563" height="603" layout="responsive" alt="PWA Studio Travis CI Build"></amp-img>
 
 Within this example we see two export TOKENS, install of LHCI, skipping npm test, validate configuration of the LHCI settings, running URLs and test results including upload to our LHCI server and Github repository.
-<amp-img src="/assets/images/lhci-dashboard.jpg" width="652" height="320" layout="responsive" alt="Lighthouse Dashboard"></amp-img>
+<amp-img src="/assets/images/pwa-studio-lhci-dashboard.jpg" width="653" height="624" layout="responsive" alt="PWA Studio Lighthouse Dashboard"></amp-img>
 
-<amp-img src="/assets/images/lhci-dashboard-details.jpg" width="652" height="569" layout="responsive" alt="Lighthouse Dashboard"></amp-img>
+<amp-img src="/assets/images/pwa-studio-lhci-dashboard-details.jpg" width="653" height="584" layout="responsive" alt="PWA Studio Lighthouse Dashboard"></amp-img>
 
 Don't forget visiting your Github commit section including the new 'status checks'. This hopefully helps to create better-performing code out there ;-).
-<amp-img src="/assets/images/github-status-check.jpg" width="464" height="280" layout="responsive" alt="Lighthouse Dashboard"></amp-img>
+<amp-img src="/assets/images/pwa-studio-github-status-check.jpg" width="495" height="268" layout="responsive" alt="PWA Studio Lighthouse Dashboard"></amp-img>
 
 ### It's a wrap!
 I hope you liked building it, well it did when prepping this.
 
-Beside <strong>Jekyll</strong>, many other solutions could benefit from a <strong>Continuous development</strong> and <strong>Continuous Integration</strong> building stream.
+Beside <strong>Magento PWA Studio</strong>, many other solutions could benefit from a <strong>Continuous development</strong> and <strong>Continuous Integration</strong> building stream.
 
-My next blog could be introducing <strong>Lighthouse CI</strong> using <strong>[magento-pwa-studio-lighthouse-server](Magento PWA)</strong> or <strong>Lighthouse CI</strong> using <strong>Magento Cloud</strong>.
+My next blog could be introducing <strong>Lighthouse CI</strong> using <strong>Magento PWA Studio "Advanced"</strong> or <strong>Lighthouse CI</strong> using <strong>Magento Cloud</strong>.
 So until next time!
 
 ### Manual LHCI autorun
