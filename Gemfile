@@ -1,7 +1,13 @@
-source 'https://rubygems.org'
+source "https://rubygems.org"
 
-gem "jekyll", "~> 3.6.2"
-gem 'jekyll-compose', group: [:jekyll_plugins]
-gem "github-pages", "~> 168"
-gem "rake", "~> 12.3.0"
-gem 'jekyll-paginate'
+gem "jekyll", "~> 3.8.6"
+
+group :jekyll_plugins do
+  gem "jekyll-feed"
+  gem "jekyll-paginate"
+  gem 'jekyll-tagging'
+  gem 'jekyll-archives'
+  gem 'jekyll-seo-tag'
+  gem 'jekyll-webp'
+  gem 'jekyll-redirect-from'
+end

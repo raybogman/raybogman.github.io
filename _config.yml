@@ -54,3 +54,15 @@ exclude:
   - "*.Rmd"
   - vendor
   - .travis.yml
+
+webp:
+  enabled: true
+  quality: 75
+  img_dir: ["/assets/images/"]
+  nested: true
+  formats: [".jpeg", ".jpg", ".png", ".tiff"]
+  gifs: [".gif"]
+  regenerate: false
+  webp_path: nil
+  exclude: []
+  append_ext: false
