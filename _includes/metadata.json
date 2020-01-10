@@ -4,6 +4,11 @@
   "@type": "NewsArticle",
   "mainEntityOfPage": "{{ page.url | replace:'index.html','' | prepend: site.url }}",
   "headline": "{% if page.title %}{{ page.title | escape }}{% else %}{{ site.title | escape }}{% endif %}",
+  "image": [
+  "{{site.url}}/{{page.img1}}",
+  "{{site.url}}/{{page.img4}}",
+  "{{site.url}}/{{page.img16}}"
+  ],
   "datePublished": "{% if page.date %}{{ page.date | date_to_xmlschema }}{% else %}{{ site.time | date_to_xmlschema }}{% endif %}",
   "dateModified": "{% if page.date %}{{ page.date | date_to_xmlschema }}{% else %}{{ site.time | date_to_xmlschema }}{% endif %}",
   "description": "{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}",
@@ -16,15 +21,7 @@
     "name": "{{ site.title }}",
     "logo": {
       "@type": "ImageObject",
-      "url": "{{site.url}}/{{site.logo}}",
-      "width": "60",
-      "height": "60"
+      "url": "{{site.url}}/{{site.logo}}"
     }
-  },
-  "image": {
-    "@type": "ImageObject",
-    "url": "{{site.url}}/{{site.logo}}",
-    "height": "60",
-    "width": "60"
   }
 }

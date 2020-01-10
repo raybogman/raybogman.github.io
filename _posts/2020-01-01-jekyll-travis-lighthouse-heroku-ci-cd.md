@@ -5,6 +5,9 @@ title: Jekyll+Travis+Lighthouse+Heroku=CI/CD
 date: 2020-01-01 00:00:00
 tags: Jekyll Travis Lighthouse Heroku ci/cd
 author: Ray Bogman
+img1: assets/images/1x1/jekyll-travis-lighthouse-heroku-ci-cd.jpg
+img4: assets/images/4x3/jekyll-travis-lighthouse-heroku-ci-cd.jpg
+img16: assets/images/16x9/jekyll-travis-lighthouse-heroku-ci-cd.jpg
 ---
 
 Ever since Github started supporting <strong>Jekyll</strong> within <strong>[Github Pages](https://pages.github.com/)</strong> I was sold. As you may know, I love <strong>Magento</strong> since 2008. But before that, I supported Joomla and Mambo for many years and still love building small CMS sites. So when Jekyll became my main CMS system I could not stop building and used them ever since for my small CMS projects. Even this site is build using Jekyll (+AMP ;-) ).

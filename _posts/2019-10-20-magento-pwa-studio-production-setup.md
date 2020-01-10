@@ -5,6 +5,9 @@ title: Magento PWA Studio Production setup
 date: 2019-10-20 00:00:00
 tags: magento 2019 pwa studio 2.3.3
 author: Ray Bogman
+img1: assets/images/1x1/magento-pwa-studio-production-setup.jpg
+img4: assets/images/4x3/magento-pwa-studio-production-setup.jpg
+img16: assets/images/16x9/magento-pwa-studio-production-setup.jpg
 ---
 
 It's have been some time since my last blog or any writing at all. My latest work dates back to the [**Magento 2 Cookbook**](https://raybogman.com/magento-2-cookbook) published in 2016. I am a big fan of small tutorials or recipes style blogs and could not resist creating a new one on **Magento's PWA Studio**. And the main reason for this was while a search on the internet I could not find any good stuff on this yet. So I like to share an approach that did the trick for me. Time will tell if this is the correct approach. So please be aware were running this on a production site. It works great for a demo or any kind of testing.

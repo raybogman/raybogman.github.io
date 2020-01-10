@@ -5,6 +5,9 @@ title: Magento PWA Studio Lighthouse server
 date: 2020-01-07 00:00:00
 tags: Magento PWA Studio Travis Lighthouse Heroku ci/cd
 author: Ray Bogman
+img1: assets/images/1x1/magento-pwa-studio-lighthouse-server.jpg
+img4: assets/images/4x3/magento-pwa-studio-lighthouse-server.jpg
+img16: assets/images/16x9/magento-pwa-studio-lighthouse-server.jpg
 ---
 
 <strong>Magento</strong> + <strong>PWA Studio</strong> = <strong>High Performance</strong>! OOTB (Out Of The Box) ;-)

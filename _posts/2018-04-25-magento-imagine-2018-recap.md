@@ -5,6 +5,9 @@ title: Magento Imagine 2018 Recap
 date: 2018-04-25 00:00:00
 tags: magento imagine 2018 pwa 2.2.4
 author: Ray Bogman
+img1: assets/images/1x1/magento-imagine-2018-recap.jpg
+img4: assets/images/4x3/magento-imagine-2018-recap.jpg
+img16: assets/images/16x9/magento-imagine-2018-recap.jpg
 ---
 
 It's a wrap, **Magento Imagine 2018** was a big success. More than 3000 Magento experts and ecommerce professionals addented this years Magento Imagine at the Wynn in Las Vegas. Here is a small summary of all important **Magento** news.

@@ -5,6 +5,9 @@ title: Magento 2 Cookbook
 date: 2016-04-01 00:00:00
 tags: magento magento2 book 2016
 author: Ray Bogman
+img1: assets/images/1x1/mage2cookbook-medium.jpg
+img4: assets/images/4x3/mage2cookbook-medium.jpg
+img16: assets/images/16x9/mage2cookbook-medium.jpg
 ---
 
 <p>The Magento 2 Cookbook is a project created and written by Ray Bogman & Vladimir Kerkhoff.</p>
