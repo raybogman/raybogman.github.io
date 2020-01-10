@@ -2,6 +2,7 @@
 layout: post
 cover: 'assets/images/mage2cookbook-medium.jpg'
 title: Magento 2 Cookbook
+description: 'The Magento 2 Cookbook is a project created and written by Ray Bogman & Vladimir Kerkhoff. The following 8 chapters will give you a good overview on how to start working with Magento 2. More than 342 pages and 50 indepth Magento 2 recipes'
 date: 2016-04-01 00:00:00
 tags: magento magento2 book 2016
 author: Ray Bogman
@@ -11,7 +12,7 @@ img16: assets/images/16x9/mage2cookbook-medium.jpg
 ---
 
 <p>The Magento 2 Cookbook is a project created and written by Ray Bogman & Vladimir Kerkhoff.</p>
-<p>The following 8 chapters will give you a good overview on how to start working with Magento 2. More than 342 pages and 50 indepth Magento 2 recipes</p>
+<p>The following 8 chapters will give you a good overview on how to start working with Magento 2. More than 342 pages and 50 indepth Magento 2 recipes.</p>
 
 <h3>Install Magento 2 on Apache and Nginx</h3>
 <p>Installing Magento 2 is a total different ball game compared to Magento 1. Where Magento 1 could be installed thru FTP or SSH for an experienced webmaster is Magento 2 only installable via the command-line interface (SSH). A major change installing Magento is the need to use Composer. Currently Apache and Nginx are still one of the most used webservers to use with Magento.</p>

@@ -2,6 +2,7 @@
 layout: post
 cover: 'assets/images/magento-pwa-studio-lighthouse-server.jpg'
 title: Magento PWA Studio Lighthouse server
+description: 'Magento + PWA Studio = High Performance! OOTB (Out Of The Box). Use Lighthouse Server now and monitor your Magento PWA Studio Performance on every Git push.'
 date: 2020-01-07 00:00:00
 tags: Magento PWA Studio Travis Lighthouse Heroku ci/cd
 author: Ray Bogman

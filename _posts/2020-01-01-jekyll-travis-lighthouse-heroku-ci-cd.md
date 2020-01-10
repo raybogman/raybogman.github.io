@@ -2,6 +2,7 @@
 layout: post
 cover: 'assets/images/jekyll-travis-lighthouse-heroku-ci-cd.jpg'
 title: Jekyll+Travis+Lighthouse+Heroku=CI/CD
+description: 'Jekyll+Travis+Lighthouse+Heroku=CI/CD. Use Lighthouse Server now and monitor your Jekyll Performance on every Git push.'
 date: 2020-01-01 00:00:00
 tags: Jekyll Travis Lighthouse Heroku ci/cd
 author: Ray Bogman
