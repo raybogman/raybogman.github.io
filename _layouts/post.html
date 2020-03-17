@@ -45,7 +45,7 @@ layout: default
       </div>
 
       <div class="mb4 px3" align="left">
-        {% include social-share.html %}
+        {% include_cached social-share.html %}
       </div>
 
   {% else %}
@@ -134,7 +134,7 @@ layout: default
     <p class="mb4 px3">{{site.data.author["author"]["bio"]}}</p>
     <!-- Start Socialbox -->
     <div class="ampstart-social-box mb4">
-      {% include social-share.html %}
+      {% include_cached social-share.html %}
     </div>
     <!-- End Socialbox -->
 </div>
@@ -142,4 +142,4 @@ layout: default
 </article>
 </main>
 
-{% include footer.html %}
+{% include_cached footer.html %}
