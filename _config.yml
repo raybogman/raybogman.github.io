@@ -44,6 +44,7 @@ kramdown:
 
 plugins:
   - jekyll-paginate
+  - jekyll-include-cache
 
 exclude:
   - README.md
