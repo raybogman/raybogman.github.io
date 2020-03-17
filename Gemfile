@@ -1,9 +1,12 @@
 source "https://rubygems.org"
 
-gem "jekyll", "~> 3.8.6"
+gem "jekyll", github: "jekyll/jekyll"
+gem "minima", "~> 2.0"
+gem "liquid-c"
 
 group :jekyll_plugins do
-  gem "jekyll-feed"
+  gem 'jekyll-feed'
+  gem 'jekyll-include-cache'
   gem "jekyll-paginate"
   gem 'jekyll-tagging'
   gem 'jekyll-archives'
