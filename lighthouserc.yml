@@ -4,14 +4,14 @@ ci:
     additive: true
     url:
       - https://raybogman.com/
-#      - https://raybogman.com/speaker/
-#      - https://raybogman.com/trainer/
-#      - https://raybogman.com/author/
-#      - https://raybogman.com/host/
-#      - https://raybogman.com/media/
-#      - https://raybogman.com/consultant/
-#      - https://raybogman.com/about/
-#      - https://raybogman.com/contact/
+      - https://raybogman.com/speaker/
+      - https://raybogman.com/trainer/
+      - https://raybogman.com/author/
+      - https://raybogman.com/host/
+      - https://raybogman.com/media/
+      - https://raybogman.com/consultant/
+      - https://raybogman.com/about/
+      - https://raybogman.com/contact/
   assert:
     lighthouse: all
     assertions:
