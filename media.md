@@ -59,6 +59,9 @@ Over the years several media engagement taken place. Here you can find a overvie
 
 ### Video's - Youtube/Vimeo/Wistia
 
+#### Meet Magento UK (2020) Ten Building Blocks of Digital Transformation - Innovation Matrix by Ray Bogman
+<amp-youtube data-videoid="ci5Mc9KWNmI" layout="responsive" width="480" height="270"></amp-youtube>
+
 #### Migrating from Magento 1 to Magento Commerce 2: Strategic Planning for Business Leaders (2019)
 <amp-wistia-player data-media-hashed-id="7nh7qkmlo3" width="480" height="270"></amp-wistia-player>
 
