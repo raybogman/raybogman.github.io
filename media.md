@@ -25,6 +25,9 @@ Over the years several media engagement taken place. Here you can find a overvie
 ### Emerce
 - [https://www.emerce.nl/achtergrond/toekomst-vanmagentoin-5-vragen-antwoorden](https://www.emerce.nl/achtergrond/toekomst-vanmagentoin-5-vragen-antwoorden)
 
+### Elsner
+- [https://www.elsner.com/exclusive-interview-with-ray-bogman/](https://www.elsner.com/exclusive-interview-with-ray-bogman/)
+
 ### MageTalk
 - [https://magetalk.com/tag/ray-bogman/](https://magetalk.com/tag/ray-bogman/)
 
