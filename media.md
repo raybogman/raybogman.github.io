@@ -63,7 +63,7 @@ Over the years several media engagement taken place. Here you can find a overvie
 ### Video's - Youtube/Vimeo/Wistia
 
 #### Magento 1 EOL: tijd voor afscheid! (Guido Jansen, Sander Mangel, Ray Bogman)
-<amp-video-iframe src="https://www.linkedin.com/video/live/urn:li:ugcPost:6683719378959126528/" layout="responsive" width="480" height="270"></amp-video-iframe>
+<amp-video-iframe src="https://www.linkedin.com/video/live/urn:li:ugcPost:6683719378959126528/" layout="responsive" width="480" height="270" poster="https://raybogman.com/assets/images/logo.png" ></amp-video-iframe>
 
 #### Meet Magento UK (2020) Ten Building Blocks of Digital Transformation - Innovation Matrix by Ray Bogman
 <amp-youtube data-videoid="ci5Mc9KWNmI" layout="responsive" width="480" height="270"></amp-youtube>
