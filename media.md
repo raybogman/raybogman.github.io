@@ -22,6 +22,9 @@ Over the years several media engagement taken place. Here you can find a overvie
 - [https://www.askmathijs.com/shows/ray-bogman/](https://www.askmathijs.com/shows/ray-bogman/) I 
 - [https://www.askmathijs.com/podcast/magento-2-snelheid-pwa-amp-implementatie/](https://www.askmathijs.com/podcast/magento-2-snelheid-pwa-amp-implementatie/)
 
+### Ecommerce Cafe
+- [https://ecommercecafe.nl/de-toekomst-van-magento/](https://ecommercecafe.nl/de-toekomst-van-magento/)
+
 ### Emerce
 - [https://www.emerce.nl/achtergrond/toekomst-vanmagentoin-5-vragen-antwoorden](https://www.emerce.nl/achtergrond/toekomst-vanmagentoin-5-vragen-antwoorden)
 
