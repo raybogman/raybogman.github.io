@@ -65,6 +65,9 @@ Over the years several media engagement taken place. Here you can find a overvie
 
 ### Video's - Youtube/Vimeo/Wistia
 
+#### Ecommerce Cafe (2020) De toekomst van Magento, met Ray Bogman
+<amp-youtube data-videoid="RUP7BEm-U_Y" layout="responsive" width="480" height="270"></amp-youtube>
+
 #### Magento 1 EOL: tijd voor afscheid! (Guido Jansen, Sander Mangel, Ray Bogman)
 <amp-video-iframe src="https://www.linkedin.com/video/live/urn:li:ugcPost:6683719378959126528/" layout="responsive" width="480" height="270" poster="https://raybogman.com/assets/images/logo.png" ></amp-video-iframe>
 
