@@ -138,3 +138,78 @@ AWS Directory Services - (AWS Managed AD, AD Connector [proxy], Simple AD)
 AWS Quick Starts - Quick Starts are built by AWS solutions architects and partners to help you deploy popular technologies on AWS quickly
 AWS Cloud9 - Is a cloud-based integrated development environment (IDE) that lets you write, run, and debug your code with just a browser.
 Amazon Quicksight - is a scalable, serverless, embeddable, machine learning-powered business intelligence (BI) service built for the cloud
+
+
+### AWS Support Plans
+- Basic
+- Developer
+- Business
+- Enterprise
+
+
+
+### AWS Trusted Advisor -  Analyze your AWS accounts and provides recommendation:
+- Cost Optimization
+- Performance
+- Security
+- Fault Tolerance
+- Service Limits
+
+
+### Well Architected Framework
+- Operational Excellence
+- Security
+- Reliability
+- Performance Efficiency
+- Cost Optimisation
+
+
+AWS Professional Services
+APN - AWS Partner Network
+APN Technology Partners
+APN Consulting Partners
+AWS Training Partners
+AWS Competency Partners
+AWS Navigate Program
+
+### AWS Simple Monthly Calculator
+
+The <u>Simple Monthly Calculator</u> provides an estimate of usage charges for AWS services based on certain information you provide. It helps customers and prospects <strong>estimate their monthly</strong> AWS bill more efficiently.
+
+This calculator provides a visual interface to enter details about the AWS services that you plan to use and then it outputs a detailed estimate of the monthly AWS bill. Please see the illustration for more details: 
+
+### AWS Total Cost of Ownership (TCO) Calculator
+
+<u>TCO calculator</u> helps to <strong>compare the cost</strong> of your applications in an <strong>on-premises</strong> or <strong>traditional hosting environment</strong> to AWS.
+
+AWS helps reduce Total Cost of Ownership (TCO) by reducing the need to invest in large capital expenditures and providing a pay-as-you-go model that empowers to invest in the capacity you need and use it only when the business requires it.
+
+Once you describe your on-premises or hosting environment configuration, it produces a detailed cost comparison with AWS.
+TCO Calculator cannot provide the estimate of the monthly AWS bill based on the list of AWS services.
+
+### AWS Cost Explorer
+
+AWS Cost Explorer has an easy-to-use interface that lets you <strong>visualize</strong>, <strong>understand</strong>, and <strong>manage</strong> your <strong><u>AWS costs and usage over time</u><strong>.
+
+AWS Cost Explorer includes a default report that helps you visualize the costs and usage associated with your top five cost-accruing AWS services, and gives you a detailed breakdown of all services in the table view.
+
+The reports let you adjust the time range to view historical data going back up to twelve months to gain an understanding of your <strong>cost trends</strong>.
+
+AWS Cost Explorer cannot provide the estimate of the monthly AWS bill based on the list of AWS services.
+
+### AWS Budgets
+
+AWS Budgets gives the ability to <strong>set custom budgets</strong> that <strong><u>alert</u></strong> you when your costs or <strong>usage exceed</strong> (or are forecasted to exceed) your budgeted amount. Y
+
+You can also use AWS Budgets to set <u>reservation utilization</u> or <u>coverage targets</u> and receive alerts when your utilization drops below the threshold you define. Budgets can be created at the monthly, quarterly, or yearly level, and you can customize the start and end dates. You can further refine your budget to track costs associated with multiple dimensions, such as AWS service, linked account, tag, and others.
+
+AWS Budgets cannot provide the estimate of the monthly AWS bill based on the list of AWS services.
+
+## Additional Resources
+[https://aws.amazon.com/ru/quickstart/architecture/magento/](https://aws.amazon.com/ru/quickstart/architecture/magento/)
+[https://docs.aws.amazon.com/quickstart/latest/magento/welcome.html](https://docs.aws.amazon.com/quickstart/latest/magento/welcome.html)
+[https://d1.awsstatic.com/whitepapers/migrating-magento-to-aws.pdf](https://d1.awsstatic.com/whitepapers/migrating-magento-to-aws.pdf)
+[https://aws.amazon.com/marketplace/pp/Bitnami-Magento-Container-Solution/B07LGF9MK7](https://aws.amazon.com/marketplace/pp/Bitnami-Magento-Container-Solution/B07LGF9MK7)
+[https://www.coursera.org/lecture/containerized-apps-on-aws/introduction-to-aws-fargate-psW4r](https://www.coursera.org/lecture/containerized-apps-on-aws/introduction-to-aws-fargate-psW4r)
+[https://www.examtopics.com/exams/amazon/aws-certified-cloud-practitioner/view/](https://www.examtopics.com/exams/amazon/aws-certified-cloud-practitioner/view/)
+[https://www.exam4training.com/one-of-the-advantages-to-moving-infrastructure-from-an-on-premises-data-center-to-the-aws-cloud-is-2/](https://www.exam4training.com/one-of-the-advantages-to-moving-infrastructure-from-an-on-premises-data-center-to-the-aws-cloud-is-2/)
