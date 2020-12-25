@@ -11,21 +11,30 @@ img4: assets/images/4x3/amazon-aws-certified-cloud-practitioner-exam-preparation
 img16: assets/images/16x9/amazon-aws-certified-cloud-practitioner-exam-preparation.jpg
 ---
 
+Getting AWS certified can be a challenge for some of us. The main question remains, where do i start?
+I understand it can be overwhelming, so many product, some many names, so many configurations to tryout and learn.
 
+Depending on the level of entry some parts maybe common if you have been working in IT for a while, but where other new components maybe totally new and can be hard to manage at first. Since there are many ways to study I would like to share mine. It maybe be not the best, but it was the most fun (which i guess is also important). Being a dyslexic person, and have to read so many pdf's, docs, white papers etc. is not the most efficient way for me. And if not mistaken to many IT folks out there (It appears many IT nerds suffer from dyslexia).
 
+So my method was watching most of all online training video's. The one I most liked was created by <strong>Stephane Maarek</strong> posted on <strong>Udemy.com</strong> [Ultimate AWS Certified Cloud Practitioner - 2021]  (https://www.udemy.com/course/aws-certified-cloud-practitioner-new/).
+
+This <strong>Ultimate AWS Certified Cloud Practitioner - CLF-C01</strong> online training contains:
+* 11 hours on-demand video
+* 5 docs
+* 1 practice exams
+* livelong Access
+* access via PC, App or TV
+
+Although you have a single option to test your gained knowledge I recommend signing up for the additional practice exams. 5 extra practice exams cannot hurt I guess.
+* [5 extra practice exams](https://www.udemy.com/course/practice-exams-aws-certified-cloud-practitioner/)
 
 ### White Papers
 
 * [Overview of Amazon Web Services](https://d0.awsstatic.com/whitepapers/aws-overview.pdf)
-
 * [Architecting for the Cloud: Best Practices](https://aws.amazon.com/blogs/aws/new-whitepaper-architecting-for-the-cloud-best-practices/)
-
 * [How AWS Pricing Works](http://d1.awsstatic.com/whitepapers/aws_pricing_overview.pdf)
-
 * [Compare AWS Support Plans](https://aws.amazon.com/premiumsupport/plans/)
-
 * [AWS well architected framework](https://d1.awsstatic.com/whitepapers/architecture/AWS_Well-Architected_Framework.pdf)
-
 * [AWS disaster recovery (optional)](https://aws.amazon.com/cloudendure-disaster-recovery/)
 
 ## Resources
