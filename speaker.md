@@ -18,6 +18,7 @@ Here is a list of some of the events:
 - Meet Magento Spain (2016/2017)
 - Meet Magento Italia (2018)
 - Meet Magento Sweden (2018)
+- Meet Magento UK (2020)
 - Bargento France (2011)
 - J and Beyound (2011)
 - Joomladays Netherlands (since 2005)
@@ -34,6 +35,7 @@ Here is a list of some of the events:
 - Magento E-commerce Diner REM Eiland Amsterdam (2018)
 - Magento E-commerce Diner Galgenwaard Utrecht (2019)
 - Magento Merchant 2 Merchant Amsterdam (2019)
+- Magento PWA Webinar (2020)
 
 Besides speaking at events I host a monthly Magento User Group in Amsterdam since 2010. Also sharing knowledge as the Magento Doctor at Meet Magento events since 2012 worldwide.
 

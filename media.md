@@ -19,11 +19,17 @@ Over the years several media engagement taken place. Here you can find a overvie
 - [https://soundcloud.com/dutchento/waar-ben-je-zonder-kussentjes](https://soundcloud.com/dutchento/waar-ben-je-zonder-kussentjes)
 
 ### AskMathijs
-- [https://www.askmathijs.com/shows/ray-bogman/](https://www.askmathijs.com/shows/ray-bogman/) I 
+- [https://www.askmathijs.com/shows/ray-bogman/](https://www.askmathijs.com/shows/ray-bogman/)
 - [https://www.askmathijs.com/podcast/magento-2-snelheid-pwa-amp-implementatie/](https://www.askmathijs.com/podcast/magento-2-snelheid-pwa-amp-implementatie/)
+
+### Ecommerce Cafe
+- [https://ecommercecafe.nl/de-toekomst-van-magento/](https://ecommercecafe.nl/de-toekomst-van-magento/)
 
 ### Emerce
 - [https://www.emerce.nl/achtergrond/toekomst-vanmagentoin-5-vragen-antwoorden](https://www.emerce.nl/achtergrond/toekomst-vanmagentoin-5-vragen-antwoorden)
+
+### Elsner
+- [https://www.elsner.com/exclusive-interview-with-ray-bogman/](https://www.elsner.com/exclusive-interview-with-ray-bogman/)
 
 ### MageTalk
 - [https://magetalk.com/tag/ray-bogman/](https://magetalk.com/tag/ray-bogman/)
@@ -58,6 +64,15 @@ Over the years several media engagement taken place. Here you can find a overvie
 - [http://www.blogtalkradio.com/southlasalle/2011/01/11/the-bob-bloom-show-tbbs26-magento-and-joomla-part-two-with-ray-bogman](http://www.blogtalkradio.com/southlasalle/2011/01/11/the-bob-bloom-show-tbbs26-magento-and-joomla-part-two-with-ray-bogman)
 
 ### Video's - Youtube/Vimeo/Wistia
+
+#### Ecommerce Cafe (2020) De toekomst van Magento, met Ray Bogman
+<amp-youtube data-videoid="RUP7BEm-U_Y" layout="responsive" width="480" height="270"></amp-youtube>
+
+#### Magento 1 EOL: tijd voor afscheid! (Guido Jansen, Sander Mangel, Ray Bogman)
+<amp-video-iframe src="https://www.linkedin.com/video/live/urn:li:ugcPost:6683719378959126528/" layout="responsive" width="480" height="270" poster="https://raybogman.com/assets/images/logo.png" ></amp-video-iframe>
+
+#### Meet Magento UK (2020) Ten Building Blocks of Digital Transformation - Innovation Matrix by Ray Bogman
+<amp-youtube data-videoid="ci5Mc9KWNmI" layout="responsive" width="480" height="270"></amp-youtube>
 
 #### Migrating from Magento 1 to Magento Commerce 2: Strategic Planning for Business Leaders (2019)
 <amp-wistia-player data-media-hashed-id="7nh7qkmlo3" width="480" height="270"></amp-wistia-player>
