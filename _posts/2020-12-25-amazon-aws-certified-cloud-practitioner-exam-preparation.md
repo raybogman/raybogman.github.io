@@ -40,6 +40,12 @@ Don't worry about time, and in case you need more time please watch the "Ultimat
 
 <amp-img src="/assets/images/amazon-aws-certified-cloud-practitioner-exam-score.jpg" width="730" height="327" layout="responsive" alt="Amazon AWS Certified Cloud Practitioner Exam Score"></amp-img>
 
+### Getting started
+
+Below you will find a ton of links, white papers, product names/acronyms, screenshots and much more. These notes helped me to structure what I needed to pass the <strong>Amazon AWS Certified Cloud Practitioner Exam</strong>.
+
+Take all the time you need, but depending on the study time you have prepping for the exam is doable within 2 months time. Ofcourse depending on your background knowledge. I spend on average 1.5 hours per day, 4 days per week over the period of 2 months on it.
+
 ### White Papers
 
 * [Overview of Amazon Web Services](https://d0.awsstatic.com/whitepapers/aws-overview.pdf)
@@ -49,7 +55,7 @@ Don't worry about time, and in case you need more time please watch the "Ultimat
 * [AWS well architected framework](https://d1.awsstatic.com/whitepapers/architecture/AWS_Well-Architected_Framework.pdf)
 * [AWS disaster recovery (optional)](https://aws.amazon.com/cloudendure-disaster-recovery/)
 
-## Resources
+### Resources
 [https://infrastructure.aws/](https://infrastructure.aws/)
 [https://aws.amazon.com/compliance/shared-responsibility-model/](https://aws.amazon.com/compliance/shared-responsibility-model/)
 [https://aws.amazon.com/s3/storage-classes/](https://aws.amazon.com/s3/storage-classes/)
@@ -243,3 +249,12 @@ AWS Budgets cannot provide the estimate of the monthly AWS bill based on the lis
 [https://www.coursera.org/lecture/containerized-apps-on-aws/introduction-to-aws-fargate-psW4r](https://www.coursera.org/lecture/containerized-apps-on-aws/introduction-to-aws-fargate-psW4r)
 [https://www.examtopics.com/exams/amazon/aws-certified-cloud-practitioner/view/](https://www.examtopics.com/exams/amazon/aws-certified-cloud-practitioner/view/)
 [https://www.exam4training.com/one-of-the-advantages-to-moving-infrastructure-from-an-on-premises-data-center-to-the-aws-cloud-is-2/](https://www.exam4training.com/one-of-the-advantages-to-moving-infrastructure-from-an-on-premises-data-center-to-the-aws-cloud-is-2/)
+
+
+Enjoy your journey to get AWS Certified!
+
+### Why getting AWS Certified?
+
+Being a member of the <strong>Magento</strong>/<strong>Adobe</strong> company and working on a daily basis with one of the largest ecommerce companies over the world I liked to upscale my knowledge to support them. Since the future of Magento and Adobe product ain't standing still and new inspiring product releases are ahead of us my goal was to be ready. The new <strong>Magento Cloud</strong> and <strong>Adobe AEP (Adobe Experience Platform)</strong> are all based on Amazon AWS this was a no-brainer.
+
+The next journey is to become a certified <strong>AWS Solutions Architect Associate</strong>. So many more prep notes to come...
