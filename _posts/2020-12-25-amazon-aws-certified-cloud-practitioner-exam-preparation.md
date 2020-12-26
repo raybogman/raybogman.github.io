@@ -16,7 +16,7 @@ I understand it can be overwhelming, so many product, some many names, so many c
 
 Depending on the level of entry some parts maybe common if you have been working in IT for a while, but where other new components maybe totally new and can be hard to manage at first. Since there are many ways to study I would like to share mine. It maybe be not the best, but it was the most fun (which i guess is also important). Being a dyslexic person, and have to read so many pdf's, docs, white papers etc. is not the most efficient way for me. And if not mistaken to many IT folks out there (It appears many IT nerds suffer from dyslexia).
 
-So my method was watching most of all online training video's. The one I most liked was created by <strong>Stephane Maarek</strong> posted on <strong>Udemy.com</strong> [Ultimate AWS Certified Cloud Practitioner - 2021]  (https://www.udemy.com/course/aws-certified-cloud-practitioner-new/).
+So my method was watching most of all online training video's. The one I most liked was created by <strong>Stephane Maarek</strong> posted on <strong>Udemy.com</strong> [Ultimate AWS Certified Cloud Practitioner - 2021](https://www.udemy.com/course/aws-certified-cloud-practitioner-new/).
 
 This <strong>Ultimate AWS Certified Cloud Practitioner - CLF-C01</strong> online training contains:
 * 11 hours on-demand video
@@ -34,7 +34,9 @@ In case you like to do some more testing and prep yourself for the exam then got
 
 ### Exam score
 
-To pass the AWS Certified Cloud Practitioner exam you need a score of 700 or higher. This sounds doable and it is, but only if you prepped well. The exam has 65 single and multiple choice questions. Some are easy, some harder but the takeaway lies in reading the question multiple times before you pick your answer. Take your time, you have 90 minutes which should be fine. In case you have prepped well and taken multiple practice exams it will take you on average ~60 minutes to complete the exam. Don't worry about time, and in case you need more time please watch the "Ultimate AWS Certified Cloud Practitioner" video on Udemy. The last chapter well share a tip to gain 30 extra minutes during the live exam. This means you can have 120 minutes to PASS the <strong>AWS Certified Cloud Practitioner - CLF-C01 exam</strong>.
+To pass the AWS Certified Cloud Practitioner exam you need a score of 700 or higher. This sounds doable and it is, but only if you prepped well. The exam has 65 single and multiple choice questions. Some are easy, some harder but the takeaway lies in reading the question multiple times before you pick your answer. Take your time, you have 90 minutes which should be fine. In case you have prepped well and taken multiple practice exams it will take you on average ~60 minutes to complete the exam.
+
+Don't worry about time, and in case you need more time please watch the "Ultimate AWS Certified Cloud Practitioner" video on Udemy. The last chapter well share a tip to gain 30 extra minutes during the live exam. This means you can have 120 minutes to PASS the <strong>AWS Certified Cloud Practitioner - CLF-C01 exam</strong>.
 
 <amp-img src="/assets/images/amazon-aws-certified-cloud-practitioner-exam-score.jpg" width="730" height="327" layout="responsive" alt="Amazon AWS Certified Cloud Practitioner Exam Score"></amp-img>
 
@@ -169,6 +171,8 @@ The following AWS products/acronyms are important to know by heart. Lots of them
 - Fault Tolerance
 - Service Limits
 
+<amp-img src="/assets/images/aws-trusted-advisor.png" width="2192" height="528" layout="responsive" alt="AWS Trusted Advisor"></amp-img>
+
 
 ### Well Architected Framework
 - Operational Excellence
@@ -177,20 +181,29 @@ The following AWS products/acronyms are important to know by heart. Lots of them
 - Performance Efficiency
 - Cost Optimisation
 
+<amp-img src="/assets/images/aws-well-architected-framework.png" width="690" height="307" layout="responsive" alt="AWS Well Architected Framework"></amp-img>
 
-AWS Professional Services
-APN - AWS Partner Network
-APN Technology Partners
-APN Consulting Partners
-AWS Training Partners
-AWS Competency Partners
-AWS Navigate Program
+### AWS Shared Responsibility Model
+
+<amp-img src="/assets/images/aws-shared-responsibility-model.jpg" width="971" height="526" layout="responsive" alt="AWS Shared Responsibility Model"></amp-img>
+
+
+### AWS Partner Network
+- AWS Professional Services
+- APN - AWS Partner Network
+- APN Technology Partners
+- APN Consulting Partners
+- AWS Training Partners
+- AWS Competency Partners
+- AWS Navigate Program
+
 
 ### AWS Simple Monthly Calculator
 
 The <u>Simple Monthly Calculator</u> provides an estimate of usage charges for AWS services based on certain information you provide. It helps customers and prospects <strong>estimate their monthly</strong> AWS bill more efficiently.
 
 This calculator provides a visual interface to enter details about the AWS services that you plan to use and then it outputs a detailed estimate of the monthly AWS bill. Please see the illustration for more details: 
+
 
 ### AWS Total Cost of Ownership (TCO) Calculator
 
@@ -200,6 +213,7 @@ AWS helps reduce Total Cost of Ownership (TCO) by reducing the need to invest in
 
 Once you describe your on-premises or hosting environment configuration, it produces a detailed cost comparison with AWS.
 TCO Calculator cannot provide the estimate of the monthly AWS bill based on the list of AWS services.
+
 
 ### AWS Cost Explorer
 
@@ -211,6 +225,7 @@ The reports let you adjust the time range to view historical data going back up 
 
 AWS Cost Explorer cannot provide the estimate of the monthly AWS bill based on the list of AWS services.
 
+
 ### AWS Budgets
 
 AWS Budgets gives the ability to <strong>set custom budgets</strong> that <strong><u>alert</u></strong> you when your costs or <strong>usage exceed</strong> (or are forecasted to exceed) your budgeted amount. Y
@@ -218,6 +233,7 @@ AWS Budgets gives the ability to <strong>set custom budgets</strong> that <stron
 You can also use AWS Budgets to set <u>reservation utilization</u> or <u>coverage targets</u> and receive alerts when your utilization drops below the threshold you define. Budgets can be created at the monthly, quarterly, or yearly level, and you can customize the start and end dates. You can further refine your budget to track costs associated with multiple dimensions, such as AWS service, linked account, tag, and others.
 
 AWS Budgets cannot provide the estimate of the monthly AWS bill based on the list of AWS services.
+
 
 ## Additional Resources
 [https://aws.amazon.com/ru/quickstart/architecture/magento/](https://aws.amazon.com/ru/quickstart/architecture/magento/)
