@@ -159,6 +159,7 @@ The following AWS products/acronyms are important to know by heart. Lots of them
 - Business
 - Enterprise
 
+<amp-img src="/assets/images/comparison-of-aws-support-plans.jpg" width="986" height="580" layout="responsive" alt="Comparison of AWS support plans"></amp-img>
 
 
 ### AWS Trusted Advisor -  Analyze your AWS accounts and provides recommendation:
