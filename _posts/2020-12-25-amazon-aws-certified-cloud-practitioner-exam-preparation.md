@@ -25,8 +25,18 @@ This <strong>Ultimate AWS Certified Cloud Practitioner - CLF-C01</strong> online
 * livelong Access
 * access via PC, App or TV
 
+### Practice exams
+
 Although you have a single option to test your gained knowledge I recommend signing up for the additional practice exams. 5 extra practice exams cannot hurt I guess.
 * [5 extra practice exams](https://www.udemy.com/course/practice-exams-aws-certified-cloud-practitioner/)
+
+In case you like to do some more testing and prep yourself for the exam then goto [https://www.examtopics.com/](https://www.examtopics.com/exams/amazon/aws-certified-cloud-practitioner/view/). They have more then 520 questions to test yourself against.
+
+### Exam score
+
+To pass the AWS Certified Cloud Practitioner exam you need a score of 700 or higher. This sounds doable and it is, but only if you prepped well. The exam has 65 single and multiple choice questions. Some are easy, some harder but the takeaway lies in reading the question multiple times before you pick your answer. Take your time, you have 90 minutes which should be fine. In case you have prepped well and taken multiple practice exams it will take you on average ~60 minutes to complete the exam. Don't worry about time, and in case you need more time please watch the "Ultimate AWS Certified Cloud Practitioner" video on Udemy. The last chapter well share a tip to gain 30 extra minutes during the live exam. This means you can have 120 minutes to PASS the <strong>AWS Certified Cloud Practitioner - CLF-C01 exam</strong>.
+
+<amp-img src="/assets/images/amazon-aws-certified-cloud-practitioner-exam-score.jpg" width="730" height="327" layout="responsive" alt="Amazon AWS Certified Cloud Practitioner Exam Score"></amp-img>
 
 ### White Papers
 
