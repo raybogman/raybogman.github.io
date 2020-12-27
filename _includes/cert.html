@@ -1,14 +1,21 @@
 <ul class="ampstart-social-follow list-reset flex justify-around items-center flex-wrap m0 mb4">
+  {% if site.clf-c01 %}
+  <li class="cert">
+    <a target="_blank" rel="noopener" title="Amazon AWS Certified Cloud Practitioner (CLF-C01)" href="https://www.youracclaim.com/earner/earned/badge/efdaa120-09b4-449a-b7de-4d1ec7838b02">
+       <amp-img src="{{ site.url }}/{{ site.clf-c01 }}" width="32" height="58" layout="responsive" alt="Amazon AWS Certified Cloud Practitioner (CLF-C01)"></amp-img>
+    </a>
+  </li>
+  {% endif %}
   {% if site.m2cpcd %}
   <li class="cert">
-    <a target="_blank" rel="noopener" title="Magento Professional Cloud Developer (M2CPCD)" href="https://u.magento.com/certification/directory/dev/42440/">
+    <a target="_blank" rel="noopener" title="Magento Professional Cloud Developer (M2CPCD)" href="https://www.youracclaim.com/earner/earned/badge/9a8f2225-d879-4a3a-8f43-f767c91fec0b">
        <amp-img src="{{ site.url }}/{{ site.m2cpcd }}" width="32" height="58" layout="responsive" alt="Magento Professional Cloud Developer (M2CPCD)"></amp-img>
     </a>
   </li>
   {% endif %}
   {% if site.m2ccs %}
   <li class="cert">
-    <a target="_blank" rel="noopener" title="Magento 2 Solutions Specialist (M2SSC)" href="https://u.magento.com/certification/directory/dev/42440/">
+    <a target="_blank" rel="noopener" title="Magento 2 Solutions Specialist (M2SSC)" href="https://www.youracclaim.com/earner/earned/badge/53551d1a-5fe7-44f8-b767-7c3a3fded4f5">
        <amp-img src="{{ site.url }}/{{ site.m2ccs }}" width="32" height="58" layout="responsive" alt="Magento 2 Solutions Specialist (M2SSC)"></amp-img>
     </a>
   </li>
@@ -17,6 +24,20 @@
   <li class="cert">
     <a target="_blank" rel="noopener" title="Magento Certified Solution Specialist (MCSS)" href="https://u.magento.com/certification/directory/dev/42440/">
            <amp-img src="{{ site.url }}/{{ site.mcss }}" width="32" height="58" layout="responsive" alt="Magento Certified Solution Specialist (MCSS)"></amp-img>
+    </a>
+  </li>
+  {% endif %}
+  {% if site.psm1 %}
+  <li class="cert">
+    <a target="_blank" rel="noopener" title="Professional Scrum Master I (PSM I)" href="https://eu.badgr.com/public/assertions/external?url=https:%2F%2Fwww.scrum.org%2Fbadges%2Fawards%2F540447">
+           <amp-img src="{{ site.url }}/{{ site.psm1 }}" width="32" height="58" layout="responsive" alt="Professional Scrum Master I (PSM I)"></amp-img>
+    </a>
+  </li>
+  {% endif %}
+  {% if site.cspo %}
+  <li class="cert">
+    <a target="_blank" rel="noopener" title="Certified Scrum Product Owner (CSPO)" href="https://www.scrumalliance.org/community/profile/rbogman">
+           <amp-img src="{{ site.url }}/{{ site.mcss }}" width="32" height="58" layout="responsive" alt="Certified Scrum Product Owner (CSPO)"></amp-img>
     </a>
   </li>
   {% endif %}

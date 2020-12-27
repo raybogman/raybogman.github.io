@@ -22,9 +22,12 @@ github:  raybogman
 prezi: raybogman
 
 # cert
+clf-c01: assets/images/aws-cloud-practitioner.png
 m2cpcd: assets/images/small_professional_cloud_developer.png
 m2ccs: assets/images/small_solution_specialist_m2.png
 mcss: assets/images/small_solution_specialist.png
+psm1: assets/images/scrum-master-psm-1.png
+cspo: assets/images/certified-scrum-product-owner.png
 
 #Additional Pages
 about: /about/
