@@ -11,40 +11,40 @@ img4: assets/images/4x3/amazon-aws-certified-cloud-practitioner-exam-preparation
 img16: assets/images/16x9/amazon-aws-certified-cloud-practitioner-exam-preparation.jpg
 ---
 
-Getting AWS certified can be a challenge for some of us. The main question remains, where do i start?
-I understand it can be overwhelming, so many product, some many names, so many configurations to tryout and learn.
+Getting <strong>AWS certified</strong> can be a challenge for some of us. The main question remains, where do I start?
+I understand it can be overwhelming, so many products, some many names, so many configurations to try out and learn.
 
-Depending on the level of entry some parts maybe common if you have been working in IT for a while, but where other new components maybe totally new and can be hard to manage at first. Since there are many ways to study I would like to share mine. It maybe be not the best, but it was the most fun (which i guess is also important). Being a dyslexic person, and have to read so many pdf's, docs, white papers etc. is not the most efficient way for me. And if not mistaken to many IT folks out there (It appears many IT nerds suffer from dyslexia).
+Depending on the level of entry some parts may be common if you have been working in IT for a while, but where other new components maybe new and can be hard to manage at first. Since there are many ways to study I would like to share mine. It may be be not the best, but it was the most fun (which I guess is also important). Being a dyslexic person, and have to read so many pdf's, docs, white papers. etc. is not the most efficient way for me. And if not mistaken to many IT folks out there (It appears many IT nerds suffer from dyslexia).
 
-So my method was watching most of all online training video's. The one I most liked was created by <strong>Stephane Maarek</strong> posted on <strong>Udemy.com</strong> [Ultimate AWS Certified Cloud Practitioner - 2021](https://www.udemy.com/course/aws-certified-cloud-practitioner-new/).
+So my method was watching most of all online training videos. The one I most liked was created by <strong>Stephane Maarek</strong> posted on <strong>Udemy.com</strong> [Ultimate AWS Certified Cloud Practitioner - 2021](https://www.udemy.com/course/aws-certified-cloud-practitioner-new/).
 
 This <strong>Ultimate AWS Certified Cloud Practitioner - CLF-C01</strong> online training contains:
-* 11 hours on-demand video
+* 11 hours of on-demand video
 * 5 docs
 * 1 practice exams
 * livelong Access
-* access via PC, App or TV
+* access via PC, App, or TV
 
 ### Practice exams
 
 Although you have a single option to test your gained knowledge I recommend signing up for the additional practice exams. 5 extra practice exams cannot hurt I guess.
 * [5 extra practice exams](https://www.udemy.com/course/practice-exams-aws-certified-cloud-practitioner/)
 
-In case you like to do some more testing and prep yourself for the exam then goto [https://www.examtopics.com/](https://www.examtopics.com/exams/amazon/aws-certified-cloud-practitioner/view/). They have more then 520 questions to test yourself against.
+In case you like to do some more testing and prep yourself for the exam then go to [https://www.examtopics.com/](https://www.examtopics.com/exams/amazon/aws-certified-cloud-practitioner/view/). They have more than 520 questions to test yourself against.
 
 ### Exam score
 
-To pass the AWS Certified Cloud Practitioner exam you need a score of 700 or higher. This sounds doable and it is, but only if you prepped well. The exam has 65 single and multiple choice questions. Some are easy, some harder but the takeaway lies in reading the question multiple times before you pick your answer. Take your time, you have 90 minutes which should be fine. In case you have prepped well and taken multiple practice exams it will take you on average ~60 minutes to complete the exam.
+To pass the AWS Certified Cloud Practitioner exam you need a score of 700 or higher. This sounds doable and it is, but only if you prepped well. The exam has 65 single and multiple-choice questions. Some are easy, some harder but the takeaway lies in reading the question multiple times before you pick your answer. Take your time, you have 90 minutes which should be fine. In case you have prepped well and taken multiple practice exams it will take you on average ~60 minutes to complete the exam.
 
-Don't worry about time, and in case you need more time please watch the "Ultimate AWS Certified Cloud Practitioner" video on Udemy. The last chapter well share a tip to gain 30 extra minutes during the live exam. This means you can have 120 minutes to PASS the <strong>AWS Certified Cloud Practitioner - CLF-C01 exam</strong>.
+Don't worry about time, and in case you need more time please watch the "Ultimate AWS Certified Cloud Practitioner" video on Udemy. The last chapter will share a tip to gain 30 extra minutes during the live exam. This means you can have 120 minutes to PASS the <strong>AWS Certified Cloud Practitioner - CLF-C01 exam</strong>.
 
 <amp-img src="/assets/images/amazon-aws-certified-cloud-practitioner-exam-score.jpg" width="730" height="327" layout="responsive" alt="Amazon AWS Certified Cloud Practitioner Exam Score"></amp-img>
 
 ### Getting started
 
-Below you will find a ton of links, white papers, product names/acronyms, screenshots and much more. These notes helped me to structure what I needed to pass the <strong>Amazon AWS Certified Cloud Practitioner Exam</strong>.
+Below you will find a ton of links, white papers, product names/acronyms, screenshots, and much more. These notes helped me to structure what I needed to pass the <strong>Amazon AWS Certified Cloud Practitioner Exam</strong>.
 
-Take all the time you need, but depending on the study time you have prepping for the exam is doable within 2 months time. Ofcourse depending on your background knowledge. I spend on average 1.5 hours per day, 4 days per week over the period of 2 months on it.
+Take all the time you need, but depending on the study time you have prepping for the exam is doable within 2 months'. Of course depending on your background knowledge. I spend on average 1.5 hours per day, 4 days per week for 2 months on it.
 
 ### White Papers
 
@@ -255,6 +255,6 @@ Enjoy your journey to get AWS Certified!
 
 ### Why getting AWS Certified?
 
-Being a member of the <strong>Magento</strong>/<strong>Adobe</strong> company and working on a daily basis with one of the largest ecommerce companies over the world I liked to upscale my knowledge to support them. Since the future of Magento and Adobe product ain't standing still and new inspiring product releases are ahead of us my goal was to be ready. The new <strong>Magento Cloud</strong> and <strong>Adobe AEP (Adobe Experience Platform)</strong> are all based on Amazon AWS this was a no-brainer.
+Being a member of the <strong>Magento</strong>/<strong>Adobe</strong> company and working daily with one of the largest e-commerce companies globally I liked to upscale my knowledge to support them. Since the future of Magento and Adobe product ain't standing still and new inspiring product releases are ahead of us my goal was to be ready. The new <strong>Magento Cloud</strong> and <strong>[Adobe AEP (Adobe Experience Platform)](https://www.adobe.com/be_nl/experience-platform.html)</strong> are all based on Amazon AWS this was a no-brainer.
 
 The next journey is to become a certified <strong>AWS Solutions Architect Associate</strong>. So many more prep notes to come...
