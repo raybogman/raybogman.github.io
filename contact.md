@@ -21,6 +21,11 @@ permalink: /contact/
     <textarea name="message" class="block border-none p0 m0 user-valid valid" id="ip2" placeholder="Your message"></textarea>
     <label for="ip2" class="absolute top-0 right-0 bottom-0 left-0" aria-hidden="true">Your message</label>
   </div>
+  <amp-recaptcha-input layout="nodisplay"
+      name="recaptcha_token"
+      data-sitekey="6Lc-PIcaAAAAAOOVt5xvHSZGw-G-78M_REbfE9-F"
+      data-action="recaptcha_example">
+  </amp-recaptcha-input>
   <div>
     <button id="sendBtn" class="ampstart-btn" type="submit">Send</button>
   </div>
