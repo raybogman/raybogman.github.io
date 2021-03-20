@@ -4,6 +4,7 @@ cover:
 intro: Contact
 title: Contact Ray Bogman
 description:
+nav: contact
 permalink: /contact/
 ---
 
