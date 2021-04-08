@@ -26,6 +26,7 @@ Over the years several media engagement taken place. Here you can find a overvie
 - [https://ecommercecafe.nl/de-toekomst-van-magento/](https://ecommercecafe.nl/de-toekomst-van-magento/)
 
 ### Emerce
+- [https://emerce-b2b-digital-1.heysummit.com/talks/digitale-revolutie-waar-begin-ik-aan/](https://emerce-b2b-digital-1.heysummit.com/talks/digitale-revolutie-waar-begin-ik-aan/)
 - [https://www.emerce.nl/achtergrond/toekomst-vanmagentoin-5-vragen-antwoorden](https://www.emerce.nl/achtergrond/toekomst-vanmagentoin-5-vragen-antwoorden)
 
 ### Elsner
