@@ -31,6 +31,7 @@ Here is a list of some of the events:
 - Magento Developers Paradise (Summer and Winter editions since 2010)
 - Exact meets Ecommerce (2015/2016/2017)
 - Emerce Ecommerce live! (2018/2019)
+- Emerce B2B Digital (2021)
 - Youwe Fundamentals Magento 1 to Magento 2 (2018)
 - Magento E-commerce Diner REM Eiland Amsterdam (2018)
 - Magento E-commerce Diner Galgenwaard Utrecht (2019)
