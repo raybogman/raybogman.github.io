@@ -45,6 +45,9 @@ Over the years several media engagement taken place. Here you can find a overvie
 ### Cloudways
 - [https://www.cloudways.com/blog/cwchat-with-ray-bogman/](https://www.cloudways.com/blog/cwchat-with-ray-bogman/)
 
+### MageFounders
+- [https://magefounders.com/individual/ray-bogman-magento-adobe/](https://magefounders.com/individual/ray-bogman-magento-adobe/)
+
 ### FireGento
 - [https://firegento.com/blog/2017/12/15/turchen-15-magento-performance-monitoring-with-grafana-dashboards-and-alerts/](https://firegento.com/blog/2017/12/15/turchen-15-magento-performance-monitoring-with-grafana-dashboards-and-alerts/)
 
