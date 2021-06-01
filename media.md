@@ -25,6 +25,9 @@ Over the years several media engagement taken place. Here you can find a overvie
 ### Ecommerce Cafe
 - [https://ecommercecafe.nl/de-toekomst-van-magento/](https://ecommercecafe.nl/de-toekomst-van-magento/)
 
+### Talk Commerce
+- [https://talk-commerce.com/2021/05/20/ray-bogman-adobe-professional-services/](https://talk-commerce.com/2021/05/20/ray-bogman-adobe-professional-services/)
+
 ### Emerce
 - [https://emerce-b2b-digital-1.heysummit.com/talks/digitale-revolutie-waar-begin-ik-aan/](https://emerce-b2b-digital-1.heysummit.com/talks/digitale-revolutie-waar-begin-ik-aan/)
 - [https://www.emerce.nl/achtergrond/toekomst-vanmagentoin-5-vragen-antwoorden](https://www.emerce.nl/achtergrond/toekomst-vanmagentoin-5-vragen-antwoorden)
@@ -68,6 +71,9 @@ Over the years several media engagement taken place. Here you can find a overvie
 - [http://www.blogtalkradio.com/southlasalle/2011/01/11/the-bob-bloom-show-tbbs26-magento-and-joomla-part-two-with-ray-bogman](http://www.blogtalkradio.com/southlasalle/2011/01/11/the-bob-bloom-show-tbbs26-magento-and-joomla-part-two-with-ray-bogman)
 
 ### Video's - Youtube/Vimeo/Wistia
+
+#### Talk Commerce (2020) EPISODE 10: Ray Bogman | Adobe Professional Services
+<amp-youtube data-videoid="XfNnvJYdWCo" layout="responsive" width="480" height="270"></amp-youtube>
 
 #### Ecommerce Cafe (2020) De toekomst van Magento, met Ray Bogman
 <amp-youtube data-videoid="RUP7BEm-U_Y" layout="responsive" width="480" height="270"></amp-youtube>
