@@ -29,7 +29,7 @@ Over the years several media engagement taken place. Here you can find a overvie
 - [https://talk-commerce.com/2021/05/20/ray-bogman-adobe-professional-services/](https://talk-commerce.com/2021/05/20/ray-bogman-adobe-professional-services/)
 
 ### Emerce
-- [https://emerce-b2b-digital-1.heysummit.com/talks/digitale-revolutie-waar-begin-ik-aan/](https://emerce-b2b-digital-1.heysummit.com/talks/digitale-revolutie-waar-begin-ik-aan/)
+- [https://www.emerce.nl/webcasts/digitale-revolutie-waar-begin-ik](https://www.emerce.nl/webcasts/digitale-revolutie-waar-begin-ik)
 - [https://www.emerce.nl/achtergrond/toekomst-vanmagentoin-5-vragen-antwoorden](https://www.emerce.nl/achtergrond/toekomst-vanmagentoin-5-vragen-antwoorden)
 
 ### Elsner
