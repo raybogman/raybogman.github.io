@@ -18,6 +18,9 @@ Over the years several media engagement taken place. Here you can find a overvie
 - [https://www.dutchento.org/podcast-waar-ben-je-zonder-kussentjes/](https://www.dutchento.org/podcast-waar-ben-je-zonder-kussentjes/)
 - [https://soundcloud.com/dutchento/waar-ben-je-zonder-kussentjes](https://soundcloud.com/dutchento/waar-ben-je-zonder-kussentjes)
 
+### Smash the Bug (SwiftOtter)
+- [https://www.youtube.com/watch?v=UztpN0q4wjs](https://swiftotter.com/magento-evolutions-architectural-insights-ray-bogman/#/)
+
 ### AskMathijs
 - [https://www.askmathijs.com/shows/ray-bogman/](https://www.askmathijs.com/shows/ray-bogman/)
 - [https://www.askmathijs.com/podcast/magento-2-snelheid-pwa-amp-implementatie/](https://www.askmathijs.com/podcast/magento-2-snelheid-pwa-amp-implementatie/)
