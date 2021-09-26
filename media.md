@@ -22,8 +22,8 @@ Over the years several media engagement taken place. Here you can find a overvie
 - [https://www.youtube.com/watch?v=UztpN0q4wjs](https://swiftotter.com/magento-evolutions-architectural-insights-ray-bogman/#/)
 
 ### AskMathijs
-- [https://www.askmathijs.com/shows/ray-bogman/](https://www.askmathijs.com/shows/ray-bogman/)
-- [https://www.askmathijs.com/podcast/magento-2-snelheid-pwa-amp-implementatie/](https://www.askmathijs.com/podcast/magento-2-snelheid-pwa-amp-implementatie/)
+- [https://www.mathijskok.com/shows/ray-bogman/](https://www.mathijskok.com/shows/ray-bogman/)
+- [https://www.mathijskok.com/podcast/magento-2-snelheid-pwa-amp-implementatie//](https://www.mathijskok.com/podcast/magento-2-snelheid-pwa-amp-implementatie/)
 
 ### Ecommerce Cafe
 - [https://ecommercecafe.nl/de-toekomst-van-magento/](https://ecommercecafe.nl/de-toekomst-van-magento/)
