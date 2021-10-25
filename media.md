@@ -75,7 +75,11 @@ Over the years several media engagement taken place. Here you can find a overvie
 
 ### Video's - Youtube/Vimeo/Wistia
 
-#### Talk Commerce (2020) EPISODE 10: Ray Bogman | Adobe Professional Services
+https://www.youtube.com/watch?v=
+#### GoPWA (2021) How to Deploy on AWS ECS/Fargate (Serverless) | Ray Bogman | GoPWA Online Conference
+<amp-youtube data-videoid="ZK0Qo5UYiTs" layout="responsive" width="480" height="270"></amp-youtube>
+
+#### Talk Commerce (2021) EPISODE 10: Ray Bogman | Adobe Professional Services
 <amp-youtube data-videoid="XfNnvJYdWCo" layout="responsive" width="480" height="270"></amp-youtube>
 
 #### Ecommerce Cafe (2020) De toekomst van Magento, met Ray Bogman
