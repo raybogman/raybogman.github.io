@@ -10,6 +10,12 @@ nav: media
 
 Over the years several media engagement taken place. Here you can find a overview of several interviews, podcasts, blogs or presentations.
 
+### Internet Retailing
+- [https://form.internetretailing.net/future-gazing-into-2022-a-3-part-series-with-sweaty-betty-liberty-and-more/](https://form.internetretailing.net/future-gazing-into-2022-a-3-part-series-with-sweaty-betty-liberty-and-more/)
+
+### Econsultancy Live
+- [https://econsultancy.com/event/econsultancy-live/nov-21/agenda/](https://econsultancy.com/event/econsultancy-live/nov-21/agenda/)
+
 ### Dutchento
 - [https://www.dutchento.org/author/raybogman/](https://www.dutchento.org/author/raybogman/)
 - [https://www.dutchento.org/interview-met-ray-bogman-over-zijn-overstap-naar-magento/](https://www.dutchento.org/interview-met-ray-bogman-over-zijn-overstap-naar-magento/)
