@@ -75,7 +75,12 @@ Over the years several media engagement taken place. Here you can find a overvie
 
 ### Video's - Youtube/Vimeo/Wistia
 
-https://www.youtube.com/watch?v=
+#### Future Gazing into 2022 | Ray Bogman | Internet Retailing
+<amp-youtube data-videoid="4aTOk3ovbpc" layout="responsive" width="480" height="270"></amp-youtube>
+
+#### Fireside Chat Composable Commerce | Ray Bogman | Econsultancy Live
+<amp-youtube data-videoid="_zOudkCqbMU" layout="responsive" width="480" height="270"></amp-youtube>
+
 #### GoPWA (2021) How to Deploy on AWS ECS/Fargate (Serverless) | Ray Bogman | GoPWA Online Conference
 <amp-youtube data-videoid="ZK0Qo5UYiTs" layout="responsive" width="480" height="270"></amp-youtube>
 
