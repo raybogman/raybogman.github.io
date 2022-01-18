@@ -1,4 +1,11 @@
 <h1>EN</h1>
+<p>Ray is an IT professional and evangelist from the Netherlands. He started working with computers in 1993 as a hobby at first. In the past, he has worked for KPN, a large Dutch Telecom company, as a senior security officer.</p>
+<p>Over the last years he co-founded many businesses as a CTO (Jira ICT, Yireo, Wild Hibiscus, Rapido and SupportDesk.) As a trainer/consultant he has trained over 1,000 Magento experts worldwide since 2008.</p> 
+<p>Currently he is working as a Senior Global Software Support Manager supporting the Customer Engineering team on support and automation.</p>
+
+OLD
+
+<h1>EN</h1>
 <p>Ray Bogman is an IT professional and Magento evangelist from the Netherlands. He started working with computers in 1993 as a hobby at first. In the past, he has worked for KPN, a large Dutch Telecom company, as a senior security officer.</p>
 <p>He has been the CTO of Wild Hibiscus, Netherlands, since 2010, and cofounder and business creator of Yireo until 2011, Jira ICT since 2005, and CTO of SupportDesk B.V., which he cofounded in 2011.</p>
 <p>At SupportDesk B.V., he is a Magento, Joomla, OroCRM, web / server / mobile performance specialist, and security evangelist. His focus during the day is business/product development and training webmasters and consultants about the power of Magento, from the basics up to an advanced level. He has trained over 1,000 Magento and 750 Joomla experts worldwide since 2005.</p>
