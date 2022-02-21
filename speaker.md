@@ -10,7 +10,7 @@ permalink: /speaker/
 Sharing knowledge is one of my pleasures, so I am a regular speaker at Magento, Joomla, Mobile, Performance, Security and E-commerce events world-wide.
 Here is a list of some of the events:
 
-- Adobe Summit (2021)
+- Adobe Summit (2021/2022)
 - Meet Magento Netherlands (since 2009 annually)
 - Meet Magento Germany (2010/2017)
 - Meet Magento Zwiterland (2014/2015)
@@ -41,6 +41,7 @@ Here is a list of some of the events:
 - GoPWA  (2021)
 - Econsultancy Live (2021)
 - Internetretailing (2021)
+- Adobe Experience Forum (2022)
 
 Besides speaking at events I host a monthly Magento User Group in Amsterdam since 2010. Also sharing knowledge as the Magento Doctor at Meet Magento events since 2012 worldwide.
 
