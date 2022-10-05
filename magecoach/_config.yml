@@ -1,7 +1,7 @@
 url: https://raybogman.com/magecoach
 url-non: https://raybogman.com/magecoach
 static-url: https://static.mage.coach
-baseurl:
+baseurl: /magecoach
 
 # Site settings
 title: Mage Coach
