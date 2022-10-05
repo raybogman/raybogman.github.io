@@ -1,0 +1,32 @@
+{
+  "@context": "http://schema.org",
+  "@type": "NewsArticle",
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "{{page.url}}"
+  },
+  "headline": "{{page.title}}",
+  "image": {
+    "@type": "ImageObject",
+    "url": "{{site.static-url}}{{page.image}}",
+    "height": 800,
+    "width": 800
+  },
+  "datePublished": "{{page.datePublished}}",
+  "dateModified": "{{page.dateModified}}",
+  "author": {
+    "@type": "Person",
+    "name": "{{page.authorname}}"
+  },
+   "publisher": {
+    "@type": "Organization",
+    "name": "Mage.coach",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "{{site.static-url}}{{site.logo}}",
+      "width": 600,
+      "height": 60
+    }
+  },
+  "description": "{{post.description}}"
+}

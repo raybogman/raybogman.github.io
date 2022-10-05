@@ -1,0 +1,44 @@
+---
+layout: compress
+---
+<!DOCTYPE html>
+<html ⚡ lang="en">
+{% include head.html %}
+<body>
+	{% include ga.html %}
+	{% include header.html %}
+<div class="grid">
+		<div class="col-1-1">
+			{{ content }}
+		</div>
+</div>
+<div class="white">
+	<div class="grid">
+		<div class="col-1-2">
+			{% capture box1 %}{% include index/box1.md %}{% endcapture %}
+			{{ box1 | markdownify }}
+		</div>
+		<div class="col-1-2">
+			{% capture box2 %}{% include index/box2.md %}{% endcapture %}
+			{{ box2 | markdownify }}
+		</div>
+	</div>
+	<div class="grid">
+		<div class="col-1-2">
+			{% capture box3 %}{% include index/box3.md %}{% endcapture %}
+			{{ box3 | markdownify }}
+		</div>
+		<div class="col-1-2">
+			{% capture box4 %}{% include index/box4.md %}{% endcapture %}
+			{{ box4 | markdownify }}
+		</div>
+	</div>
+</div>
+
+<div class="grid">
+	<div class="col-1-1">
+		{% include footer.html %}
+	</div>
+</div>
+</body>
+</html>
