@@ -20,7 +20,7 @@ Currently he is working for **Magento an Adobe Company** as a **Senior Business 
 Files:
 - [Download Bio]({{site.url}}/assets/Bio - Ray Bogman.txt)
 - [Download Résumé]({{site.url}}/assets/Resume - Ray Bogman.pdf)
-- [Download Profile Photo]({{site.url}}/assets/images/ray-bogman-2022-1.png)
+- [Download Profile Photo]({{site.url}}/assets/images/ray-bogman-2022.jpg)
 
 
 {% include reviews.html %}
