@@ -100,7 +100,7 @@ Over the years several media engagement taken place. Here you can find a overvie
 <amp-youtube data-videoid="XfNnvJYdWCo" layout="responsive" width="480" height="270"></amp-youtube>
 
 #### Adobe Summit (2021) Marc van der Heijden & Ray Bogman | Adobe Professional Services
-<amp-youtube data-videoid="kAgkQuruo-0)" layout="responsive" width="480" height="270"></amp-youtube>
+<amp-youtube data-videoid="kAgkQuruo-0" layout="responsive" width="480" height="270"></amp-youtube>
 
 #### Ecommerce Cafe (2020) De toekomst van Magento, met Ray Bogman
 <amp-youtube data-videoid="RUP7BEm-U_Y" layout="responsive" width="480" height="270"></amp-youtube>
