@@ -11,7 +11,7 @@ Sharing knowledge is one of my pleasures, so I am a regular speaker at Magento, 
 Here is a list of some of the events:
 
 - Adobe Summit (2021/2022)
-- Meet Magento Netherlands (since 2009 annually)
+- Meet Magento Netherlands (since 2009-2019)
 - Meet Magento Germany (2010/2017)
 - Meet Magento Zwiterland (2014/2015)
 - Meet Magento Belgian (2017)
