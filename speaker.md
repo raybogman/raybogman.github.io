@@ -11,7 +11,6 @@ Sharing knowledge is one of my pleasures, so I am a regular speaker at Magento, 
 Here is a list of some of the events:
 
 - Adobe Summit (2021/2022)
-- Meet Magento Baltics (2022)
 - Meet Magento Netherlands (since 2009 annually)
 - Meet Magento Germany (2010/2017)
 - Meet Magento Zwiterland (2014/2015)
@@ -20,7 +19,11 @@ Here is a list of some of the events:
 - Meet Magento Spain (2016/2017)
 - Meet Magento Italia (2018/2021)
 - Meet Magento Sweden (2018)
+- Meet Magento Baltics (2022)
 - Meet Magento UK (2020/2021/2022)
+- Meet Magento Singapore (2022)
+- Meet Magento New York (2022)
+- Meet Magento India (2023)
 - Bargento France (2011)
 - J and Beyound (2011)
 - Joomladays Netherlands (since 2005)
@@ -45,6 +48,7 @@ Here is a list of some of the events:
 - Adobe Experience Forum (2022)
 - Youseum (2022)
 - DevOps Pro Europe (2022)
+- Meet Commerce Madrid (2022)
 
 Besides speaking at events I host a monthly Magento User Group in Amsterdam since 2010. Also sharing knowledge as the Magento Doctor at Meet Magento events since 2012 worldwide.
 
