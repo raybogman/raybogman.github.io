@@ -1,7 +1,8 @@
 <h1>EN</h1>
 <p>Ray is an IT professional and evangelist from the Netherlands. He started working with computers in 1993 as a hobby at first. In the past, he has worked for KPN, a large Dutch Telecom company, as a senior security officer.</p>
 <p>Over the last years he co-founded many businesses as a CTO (Jira ICT, Yireo, Wild Hibiscus, Rapido and SupportDesk.) As a trainer/consultant he has trained over 1,000 Magento experts worldwide since 2008.</p> 
-<p>Started working for Magento Inc. in 2008 as a Senior Business Solution Architect supporting projects like HP & Alshaya and currently, and Senior Global Software Support Manager supporting the Customer Engineering team on support and automation but now responsible as Head of Commerce, Customer Engineering EMEA.</p>
+<p>Started working for Magento Inc. in 2008 as a Senior Business Solution Architect supporting projects like HP & Alshaya and Senior Global Software Support Manager supporting the Customer Engineering team on support and automation.</p>
+<p>Currently, he is responsible as of Head of Commerce, Customer Engineering EMEA on support and automation.</p>
 
 OLD
 
