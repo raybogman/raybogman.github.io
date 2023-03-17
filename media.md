@@ -84,6 +84,9 @@ Over the years several media engagement taken place. Here you can find a overvie
 
 ### Video's - Youtube/Vimeo/Wistia
 
+#### Composable Commerce | Ray Bogman | Tweakwise Tuesday Talks 2022
+<amp-youtube data-videoid="BevGRFTovW8" layout="responsive" width="480" height="270"></amp-youtube>
+
 #### What is Composable Commerce | Ray Bogman & Marion Freijsen | Meet Magento UK 2022
 <amp-youtube data-videoid="Sf5S3BU2ANw" layout="responsive" width="480" height="270"></amp-youtube>
 
