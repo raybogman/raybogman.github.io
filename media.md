@@ -10,6 +10,9 @@ nav: media
 
 Over the years several media engagement taken place. Here you can find a overview of several interviews, podcasts, blogs or presentations.
 
+### Hirobe Talks
+- [https://hirobe.io/article/hirobe-talks-to-ray-bogman-head-of-commerce-customer-engineering-emea](https://hirobe.io/article/hirobe-talks-to-ray-bogman-head-of-commerce-customer-engineering-emea)
+
 ### Adobe Experience Forum
 - [https://meettheboss.com/venue/Adobe-Content-and-Commerce/](https://meettheboss.com/venue/Adobe-Content-and-Commerce/) Breakout D 
 
