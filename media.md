@@ -13,6 +13,9 @@ Over the years several media engagement taken place. Here you can find a overvie
 ### Hirobe Talks
 - [https://hirobe.io/article/hirobe-talks-to-ray-bogman-head-of-commerce-customer-engineering-emea](https://hirobe.io/article/hirobe-talks-to-ray-bogman-head-of-commerce-customer-engineering-emea)
 
+### Shelf: The Building Blocks of Commerce (podcast)
+- [https://open.spotify.com/episode/3gqeLGDGDakjNJi0LcqoUI?si=gr5tACLITjGu6lG-teK8eA](https://open.spotify.com/episode/3gqeLGDGDakjNJi0LcqoUI?si=gr5tACLITjGu6lG-teK8eA)
+
 ### Adobe Experience Forum
 - [https://meettheboss.com/venue/Adobe-Content-and-Commerce/](https://meettheboss.com/venue/Adobe-Content-and-Commerce/) Breakout D 
 
@@ -87,7 +90,10 @@ Over the years several media engagement taken place. Here you can find a overvie
 
 ### Video's - Youtube/Vimeo/Wistia
 
-#### Composable Commerce | Ray Bogman | Tweakwise Tuesday Talks 2022
+#### Hirobe talks to:| Ray Bogman | 2023
+<amp-youtube data-videoid="RRMOewpEn7E" layout="responsive" width="480" height="270"></amp-youtube>
+
+#### Composable Commerce | Ray Bogman | Tweakwise Tuesday Talks 2023
 <amp-youtube data-videoid="BevGRFTovW8" layout="responsive" width="480" height="270"></amp-youtube>
 
 #### What is Composable Commerce | Ray Bogman & Marion Freijsen | Meet Magento UK 2022
