@@ -93,6 +93,9 @@ Over the years several media engagement taken place. Here you can find a overvie
 #### Hirobe talks to:| Ray Bogman | 2023
 <amp-youtube data-videoid="RRMOewpEn7E" layout="responsive" width="480" height="270"></amp-youtube>
 
+#### Jar of Destiny - Justin Biddle | Ray Bogman | 2023
+<amp-youtube data-videoid="gqlsOUpfAwc" layout="responsive" width="480" height="270"></amp-youtube>
+
 #### Composable Commerce | Ray Bogman | Tweakwise Tuesday Talks 2023
 <amp-youtube data-videoid="BevGRFTovW8" layout="responsive" width="480" height="270"></amp-youtube>
 
