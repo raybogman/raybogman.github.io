@@ -3,7 +3,7 @@ layout: page
 cover: 'assets/images/raybogman-about.jpg'
 intro: About
 title: About Ray Bogman
-description: 'Ray Bogman is an IT professional and Magento evangelist from the Netherlands. Over the last years he co-founded many businesses as a CTO (Jira ICT, Yireo, Wild Hibiscus, Rapido and SupportDesk.) As a trainer/consultant he has trained over 1,000 Magento experts worldwide since 2008. By the end of 2016 he created a new Magento Performance Open Source project called: Mage.coach. Currently he is working for Magento and Adobe Company as a Senior Business Solutions Architect in the EMEA/APAC region.'
+description: 'Ray Bogman is an IT professional and Magento evangelist from the Netherlands. Over the last years he co-founded many businesses as a CTO (Jira ICT, Yireo, Wild Hibiscus, Rapido and SupportDesk.) As a trainer/consultant he has trained over 1,000 Magento experts worldwide since 2008. By the end of 2016 he created a new Magento Performance Open Source project called: Mage.coach. Currently he is working for Magento and Adobe Company as a Head of Commerce Customer Engineering in the EMEA region.'
 permalink: /about/
 ---
 
@@ -15,7 +15,11 @@ At Magento events (worldwide) he has been a regular speaker since 2009. He has p
 
 In 2016 his first Magento book got published, Magento 2 Cookbook. By the end of 2016 he created a new Magento Performance Open Source project called: Mage.coach [https://mage.coach](https://mage.coach).
 
-Currently he is working for **Magento an Adobe Company** as a **Senior Business Solutions Architect** in the EMEA/APAC region.
+At Magento, an Adobe Company, my role as Senior Business Solutions Architect in the EMEA/APAC region I am responsible for Architecting Solutions for Clients seeking services from Magento, Proxy Product Owners, and Scrum Master on large scale international projects, Gather and write requirements (User Stories and Use Cases) and Onboarding projects to the Magento Commerce Cloud.
+
+As a Senior Global Software Support Manager delivering exceptional customer experiences and leading and building high-performing teams. Proficient in Adobe Commerce Cloud engineering, software automation, and fostering partnerships.
+
+Currently managing as **Head of Commerce Customer Engineering** the EMEA team. Strong focus on customer success and software automation. Passionate about driving success and continuous improvement.
 
 Files:
 - [Download Bio]({{site.url}}/assets/Bio - Ray Bogman.txt)
