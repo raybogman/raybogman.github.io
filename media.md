@@ -90,6 +90,10 @@ Over the years several media engagement taken place. Here you can find a overvie
 
 ### Video's - Youtube/Vimeo/Wistia
 
+
+#### The Future is Adobe Commerce with Ray Bogman | 2023
+<amp-youtube data-videoid="xcG_P3ACq3k" layout="responsive" width="480" height="270"></amp-youtube>
+
 #### Support, or not to Support…that’s the question! | Ray Bogman | 2023
 <amp-youtube data-videoid="9y5I-JUsahg" layout="responsive" width="480" height="270"></amp-youtube>
 
