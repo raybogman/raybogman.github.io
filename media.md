@@ -90,6 +90,9 @@ Over the years several media engagement taken place. Here you can find a overvie
 
 ### Video's - Youtube/Vimeo/Wistia
 
+#### Support, or not to Support…that’s the question! | Ray Bogman | 2023
+<amp-youtube data-videoid="9y5I-JUsahg" layout="responsive" width="480" height="270"></amp-youtube>
+
 #### Hirobe talks to:| Ray Bogman | 2023
 <amp-youtube data-videoid="RRMOewpEn7E" layout="responsive" width="480" height="270"></amp-youtube>
 
