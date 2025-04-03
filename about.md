@@ -17,7 +17,7 @@ In 2016 his first Magento book was published, Magento 2 Cookbook. By the end of 
 
 At Magento, an Adobe Company, his role as Senior Business Solutions Architect in the EMEA/APAC region involves Architecting Solutions for Clients seeking services from Magento, Proxy Product Owners, and Scrum Masters on large-scale international projects, Gathering and writing requirements (User Stories and Use Cases), and Onboarding projects to the Magento Commerce Cloud.
 
-As a Senior Global Software Support Manager, he deliver exceptional customer experiences and lead and build high-performing teams. Proficient in Adobe Commerce Cloud engineering, software automation, and fostering partnerships.
+As a Senior Global Software Support Manager, he delivers exceptional customer experiences and leads and builds high-performing teams. Proficient in Adobe Commerce Cloud engineering, software automation, and fostering partnerships.
 
 Currently innovating as **Head of Innovation** at [Alumio](https://alumio.com). Strong focus on innovation, customer success, sales, and product. Passionate about driving success and continuous innovative improvement.
 
