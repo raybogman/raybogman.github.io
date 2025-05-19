@@ -3,12 +3,18 @@ layout: page
 cover: 'assets/images/raybogman-media.jpg'
 intro: In the Media
 title: Ray Bogman in the Media
-description: 'Ray Bogman in the Media - A collation of interviews, podcasts, blogs or presentations.'
+description: 'Ray Bogman in the Media - A collation of interviews, podcasts, blogs, or presentations.'
 permalink: /media/
 nav: media
 ---
 
-Over the years several media engagement taken place. Here you can find a overview of several interviews, podcasts, blogs or presentations.
+Over the years, several media engagements have taken place. Here, you can find an overview of several interviews, podcasts, blogs, or presentations.
+
+### Beyond Coding Podcast - Xebia
+- [https://www.youtube.com/watch?v=fm7nui9WUcQ](https://www.youtube.com/watch?v=fm7nui9WUcQ)
+
+### The Future of e-commerce (Dutch only) - CloudSuite
+[https://open.spotify.com/episode/5JBUXXqMt4EKFRk1bG3A1E?si=Gxkgm47LQhWGTjhTx3APRQ](https://open.spotify.com/episode/5JBUXXqMt4EKFRk1bG3A1E?si=Gxkgm47LQhWGTjhTx3APRQ)
 
 ### Hirobe Talks
 - [https://hirobe.io/article/hirobe-talks-to-ray-bogman-head-of-commerce-customer-engineering-emea](https://hirobe.io/article/hirobe-talks-to-ray-bogman-head-of-commerce-customer-engineering-emea)
