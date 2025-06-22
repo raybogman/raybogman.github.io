@@ -96,6 +96,8 @@ Over the years, several media engagements have taken place. Here, you can find a
 
 ### Video's - Youtube/Vimeo/Wistia
 
+### Beyond Coding Podcast - Xebia | 2025
+<amp-youtube data-videoid="fm7nui9WUcQ" layout="responsive" width="480" height="270"></amp-youtube>
 
 #### The Future is Adobe Commerce with Ray Bogman | 2023
 <amp-youtube data-videoid="xcG_P3ACq3k" layout="responsive" width="480" height="270"></amp-youtube>
