@@ -24,7 +24,7 @@ Currently innovating as **Head of Innovation** at [Alumio](https://alumio.com). 
 Files:
 - [Download Bio]({{site.url}}/assets/Bio - Ray Bogman.txt)
 - [Download Résumé]({{site.url}}/assets/Resume - Ray Bogman.pdf)
-- [Download Profile Photo]({{site.url}}/assets/images/ray.png)
+- [Download Profile Photo]({{site.url}}/assets/images/ray-bogman-2025-1.png)
 
 
 {% include reviews.html %}
