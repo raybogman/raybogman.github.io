@@ -44,12 +44,14 @@ Here is a list of some of the events:
 - Magento PWA Webinar (2020)
 - GoPWA  (2021)
 - Econsultancy Live (2021)
-- Internetretailing (2021)
+- Internet retailing (2021)
 - Adobe Experience Forum (2022)
 - Youseum (2022)
 - DevOps Pro Europe (2022)
 - Meet Commerce Madrid (2022)
+- Dutch Innovation Days (2024)
+- Hyvä Camp Kiel (2025)
 
-Besides speaking at events I host a monthly Magento User Group in Amsterdam since 2010. Also sharing knowledge as the Magento Doctor at Meet Magento events since 2012 worldwide.
+Besides speaking at events, I have hosted a monthly Magento User Group in Amsterdam since 2010. Also sharing knowledge as the Magento Doctor at Meet Magento events since 2012 worldwide.
 
 {% include reviews.html %}
