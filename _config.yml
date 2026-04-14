@@ -1,0 +1,96 @@
+title: Ray Bogman
+tagline: Fractional CTO · AI Innovator · Speaker · Author
+description: "Ray Bogman — Fractional CTO, AI Innovator and Head of Innovation at Alumio. Senior tech leadership for teams scaling AI, cloud, integration and digital commerce."
+
+url: "https://raybogman.com"
+baseurl: ""
+lang: en
+locale: en_US
+timezone: Europe/Amsterdam
+
+author:
+  name: Ray Bogman
+  email: hello@raybogman.com
+  url: https://raybogman.com
+  twitter: raybogman
+
+# Default OG / social-share image (used when a page has no featured_image)
+image: /assets/images/raybogman-about.jpg
+logo: /assets/images/logo.png
+
+# jekyll-seo-tag — social profiles
+twitter:
+  username: raybogman
+  card: summary_large_image
+
+social:
+  name: Ray Bogman
+  links:
+    - https://linkedin.com/in/raybogman
+    - https://github.com/raybogman
+    - https://twitter.com/raybogman
+    - https://facebook.com/raybogman
+    - https://instagram.com/raybogman
+
+collections:
+  pages:
+    output: true
+    permalink: /:name
+  posts:
+    output: true
+    permalink: /blog/:slug
+  projects:
+    output: true
+    permalink: /project/:slug
+
+defaults:
+  -
+    scope:
+      path: ""
+    values:
+      layout: "default"
+  -
+    scope:
+      path: ""
+      type: "pages"
+    values:
+      layout: "page"
+  -
+    scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
+  -
+    scope:
+      path: ""
+      type: "projects"
+    values:
+      layout: "project"
+
+markdown: kramdown
+
+kramdown:
+  input: GFM
+  syntax_highlighter: rouge
+  parse_block_html: true
+
+sass:
+  style: compressed
+
+plugins:
+  - jekyll-paginate
+  - jekyll-sitemap
+  - jekyll-feed
+  - jekyll-seo-tag
+
+paginate: 6
+paginate_path: "/blog/page:num/"
+
+exclude:
+  - README.md
+  - Gemfile
+  - Gemfile.lock
+  - vendor
+  - magecoach
+  - mage2cookbook

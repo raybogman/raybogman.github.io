@@ -1,0 +1,186 @@
+basic_settings:
+  site_title: Ray Bogman
+  favicon_image: /assets/images/favicon.png
+
+header_settings:
+  logo_image: /assets/images/logo.png
+  logo_width: 200
+
+menu_settings:
+  menu_items:
+    - title: 'Home'
+      url: '/'
+    - title: 'Services'
+      url: '/services'
+      children:
+        - title: 'Fractional CTO'
+          url: '/fractional-cto'
+        - title: 'Consultant'
+          url: '/consultant'
+        - title: 'Speaker'
+          url: '/speaker'
+        - title: 'Trainer'
+          url: '/trainer'
+        - title: 'Host'
+          url: '/host'
+    - title: 'About'
+      url: '/about'
+    - title: 'Author'
+      url: '/author'
+      children:
+        - title: 'Publications'
+          url: '/author'
+        - title: 'Magento 2 Cookbook'
+          url: '/magento-2-cookbook'
+    - title: 'Projects'
+      url: '/mage-coach'
+      children:
+        - title: 'Mage.coach'
+          url: '/mage-coach'
+    - title: 'Media'
+      url: '/media'
+    - title: 'Contact'
+      url: '/contact'
+
+footer_settings:
+  footer_tagline: Entrepreneur · Fractional CTO · AI Innovator · Speaker · Trainer · Author · Consultant
+
+hero_settings:
+  overlay_opacity: 0.8
+
+post_settings:
+  grid_spacing: 10
+
+contact_settings:
+  form_action: ''
+  confirmation_url: '/thanks'
+  email_subject: 'Contact form submission from raybogman.com'
+  send_button_text: 'Send Message'
+
+social_settings:
+  facebook_url: 'https://facebook.com/raybogman'
+  twitter_url: 'https://twitter.com/raybogman'
+  instagram_url: 'https://instagram.com/raybogman'
+  snapchat_url: ''
+  youtube_url: ''
+  google-plus_url: ''
+  vimeo_url: ''
+  pinterest_url: ''
+  medium_url: ''
+  quora_url: ''
+  amazon_url: ''
+  apple_url: ''
+  android_url: ''
+  tumblr_url: ''
+  dribbble_url: ''
+  behance_url: ''
+  deviantart_url: ''
+  github_url: 'https://github.com/raybogman'
+  reddit_url: ''
+  flickr_url: ''
+  etsy_url: ''
+  kickstarter_url: ''
+  soundcloud_url: ''
+  spotify_url: ''
+  bandcamp_url: ''
+  linkedin_url: 'https://linkedin.com/in/raybogman'
+
+color_settings:
+  background_color: '#ffffff'
+  background_alt_color: '#f4f5f6'
+  text_dark_color: '#2A2F36'
+  text_medium_color: '#6C7A89'
+  text_light_color: '#ABB7B7'
+  accent_color: '#f46f25'
+  border_color: '#dddddd'
+  hero_background_color: '#000000'
+  hero_text_color: '#ffffff'
+  error_color: '#D64541'
+
+font_settings:
+  font_embed: '<link href="https://fonts.googleapis.com/css?family=Muli:300,400,600,700" rel="stylesheet">'
+  title_font: '"Muli", sans-serif'
+  body_font: '"Muli", sans-serif'
+  regular_weight: 400
+  bold_weight: 600
+  site_title:
+    small_size: 25
+    medium_size: 30
+    large_size: 35
+    weight: 700
+    letter_spacing: -0.02
+  menu:
+    small_size: 30
+    medium_size: 15
+    large_size: 17
+    weight: 600
+    letter_spacing: 0
+  h1:
+    small_size: 35
+    medium_size: 45
+    large_size: 60
+    weight: 700
+    letter_spacing: -0.03
+    line_height: 1.2
+  h2:
+    small_size: 22
+    medium_size: 30
+    large_size: 35
+    weight: 700
+    letter_spacing: -0.02
+    line_height: 1.2
+  h3:
+    small_size: 22
+    medium_size: 25
+    large_size: 30
+    weight: 600
+    letter_spacing: -0.02
+    line_height: 1.3
+  h4:
+    small_size: 17
+    medium_size: 22
+    large_size: 22
+    weight: 700
+    letter_spacing: 0
+    line_height: 1.6
+  h5:
+    small_size: 17
+    medium_size: 20
+    large_size: 20
+    weight: 700
+    letter_spacing: 0
+    line_height: 1.6
+  h6:
+    small_size: 17
+    medium_size: 20
+    large_size: 20
+    weight: 700
+    letter_spacing: 0
+    line_height: 1.6
+  p:
+    small_size: 18
+    medium_size: 20
+    large_size: 22
+    weight: 400
+    letter_spacing: 0
+    line_height: 1.6
+  blockquote:
+    small_size: 25
+    medium_size: 35
+    large_size: 45
+    weight: 300
+    letter_spacing: -0.02
+    line_height: 1.6
+  buttons:
+    weight: 600
+    letter_spacing: 0
+
+advanced_settings:
+  ajax_loading: true
+  analytics_code: |
+    <!-- Cloudflare Web Analytics -->
+    <script defer src='https://static.cloudflareinsights.com/beacon.min.js' data-cf-beacon='{"token": "2765ba66265a450c9ae03904a1e81098"}'></script>
+    <!-- End Cloudflare Web Analytics -->
+  custom_styles: ""
+  header_js: ""
+  footer_js: ""

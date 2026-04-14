@@ -1,0 +1,18 @@
+<div class="reviews" markdown="0">
+<h2>Testimonials</h2>
+<div class="reviews__grid">
+{% for review in site.data.review %}{% if review.status == 'active' and review.review != '' %}
+<div class="reviews__item">
+<div class="reviews__item__content">
+<blockquote class="reviews__item__quote">
+<p>{{ review.review }}</p>
+</blockquote>
+<div class="reviews__item__meta">
+<p class="reviews__item__name">{{ review.name }}</p>
+{% if review.qualities %}<p class="reviews__item__qualities">{{ review.qualities }}</p>{% endif %}
+</div>
+</div>
+</div>
+{% endif %}{% endfor %}
+</div>
+</div>

@@ -1,0 +1,117 @@
+// - - - - - - - - - - - - - - - - - -
+
+// Reviews / Testimonials
+
+// - - - - - - - - - - - - - - - - - -
+
+.reviews {
+	margin-top: 40px;
+	padding-top: 40px;
+	border-top: 2px solid $background-alt-color;
+
+	@include mq(tabletp) {
+		margin-top: 60px;
+		padding-top: 60px;
+	}
+
+	@include mq(laptop) {
+		margin-top: 80px;
+		padding-top: 80px;
+	}
+
+	h2 {
+		margin-top: 0;
+	}
+}
+
+.reviews__grid {
+	margin-top: 20px;
+
+	@include mq(tabletp) {
+		margin-top: 30px;
+	}
+
+	@include mq(laptop) {
+		margin-top: 40px;
+	}
+}
+
+.reviews__item {
+	margin-top: 20px;
+
+	&:first-child {
+		margin-top: 0;
+	}
+
+	@include mq(tabletp) {
+		margin-top: 30px;
+
+		&:first-child {
+			margin-top: 0;
+		}
+	}
+}
+
+.reviews__item__content {
+	height: 100%;
+	padding: 10px;
+	background: $background-alt-color;
+	@include transition(all 0.4s cubic-bezier(0.2, 0.3, 0, 1));
+
+	&:hover {
+		@include box-shadow(0, 6px, 16px, rgba(0,0,0,0.1));
+	}
+}
+
+.reviews__item__quote {
+	margin-top: 0;
+	border-left: 2px solid $accent-color;
+	padding: 0 0 0 15px;
+
+	@include mq(tabletp) {
+		border-left-width: 3px;
+		padding: 0 0 0 20px;
+	}
+
+	p {
+		font-size: 15px;
+		font-weight: $p-weight;
+		line-height: 1.6;
+		letter-spacing: $p-spacing;
+		color: $text-medium-color;
+		font-style: italic;
+		margin-top: 0;
+
+		@include mq(tabletp) {
+			font-size: 16px;
+		}
+
+		@include mq(laptop) {
+			font-size: 17px;
+		}
+	}
+}
+
+.reviews__item__meta {
+	margin-top: 15px;
+}
+
+.reviews__item__name {
+	font-family: $title-font;
+	font-size: 14px;
+	font-weight: $bold-weight;
+	color: $text-dark-color;
+	margin-top: 0;
+	line-height: 1.4;
+
+	@include mq(tabletp) {
+		font-size: 15px;
+	}
+}
+
+.reviews__item__qualities {
+	font-size: 13px;
+	color: $text-light-color;
+	margin-top: 4px;
+	line-height: 1.4;
+}

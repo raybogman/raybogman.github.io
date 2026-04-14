@@ -1,0 +1,57 @@
+---
+layout: default
+title: "Ray Bogman — Fractional CTO & AI Innovator"
+description: "Ray Bogman — Fractional CTO, AI Innovator, Head of Innovation at Alumio. Senior tech leadership for teams scaling AI, cloud, integration, and digital commerce."
+featured_image: /assets/images/raybogman-1280.jpg
+---
+
+<section class="hero">
+
+	<div class="hero__image" style="background-image: url({{ page.featured_image | relative_url }})">
+		<div class="hero__overlay"></div>
+	</div>
+
+	<div class="wrap">
+
+		<h1>Ray Bogman</h1>
+		<p>{{ site.data.settings.footer_settings.footer_tagline }}</p>
+
+		{% include socials.html %}
+
+	</div>
+
+</section>
+
+<section class="listing">
+
+	<div class="wrap">
+
+		{% for post in site.posts %}
+
+		<article class="post">
+
+			<div class="post__image-wrap">
+				<div class="post__image" style="background-image: url({{ post.featured_image | relative_url }})"></div>
+			</div>
+
+			<div class="post__content-wrap">
+				<div class="post__content">
+					<h2 class="post__title"><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h2>
+					<p class="post__subtitle">{{ post.date | date: "%B %d, %Y" }}</p>
+					<p class="post__description">{{ post.description }}</p>
+				</div>
+			</div>
+
+		</article>
+
+		{% endfor %}
+
+	</div>
+
+</section>
+
+<section>
+	<div class="wrap">
+		{% include reviews.html %}
+	</div>
+</section>

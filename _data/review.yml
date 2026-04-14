@@ -1,0 +1,296 @@
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+# Featured testimonials (shown first)
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+- name: Yoav Kutner — Co-Founder, CEO at OroCommerce
+  review: "Ray Bogman is one of the top PHP engineers I have met. He has vast knowledge of web-technologies, security and of the Magento platform. He is a rare and great professional to do business with."
+  qualities: Great Results, Good Value, High Integrity
+  position: 1
+  status: active
+
+- name: Marc van der Heijden — CTO, Interim Manager, Training & Coaching
+  review: "I have worked with Ray over the past years jointly building up our eCommerce capabilities. Ray is a real team player. On top of that he brings his extensive competence into play to the benefit of the team on an ongoing basis. He connects easily with people and creates an atmosphere where problems are discussed and addressed in an open, professional and efficient way. It was a great pleasure working with Ray. Thanks Ray for all the support over the past years."
+  position: 2
+  status: active
+
+- name: Matt O'Daly — Service Line Director, Experience Platforms at SQLI Digital
+  review: "Working with Ray for the past 3 years at Adobe has been and continues to be an absolute pleasure. A wealth of knowledge in the Commerce sector, a willingness to always find the right solutions and a strategic mindset that customers love to engage with. I would happily bring Ray into any customer discussion, confident that he would always bring his a-game at all times. I find him to be both very personable and supremely professional, gaining trust and being effective in his insights and leadership. For me he is an exceptional team player and one I would not hesitate to work with again and again."
+  position: 3
+  status: active
+
+- name: Arif Ahmad — Technical Manager, Principal Architect
+  review: "I was so honored to get a chance to work with Ray. Ray is one of the very rare talents I have got a chance to work with. He is very keen to learn new things and loves to share them with team/colleagues as well. We worked on one of the largest Magento projects with massive amount of data hosted on more than 100 EC2. You feel so much empowered working with Ray. You feel more confident and always have a plan that works :-)"
+  position: 4
+  status: active
+
+- name: MeenakshiSundaram Ramasamy — Technical Architect at Adobe
+  review: "Ray is a great person and a good leader. He is always learning new things and trying to implement them with Magento and other systems. He helped us improve the performance of the website, he always follows the process and makes others follow to streamline things in the IT world. Thanks a lot for sharing your knowledge at the infra level with us."
+  position: 5
+  status: active
+
+- name: Deepak Moktan — Sr. Manager at Adobe, Adobe Commerce Leader
+  review: "'RARE' is the word that comes to my mind when I think of Ray. Some are great technical consultants while others are superb business analysts. Ray is both. That's why Ray is RARE. I had an opportunity to work closely with Ray for insanely complex eCommerce implementations. His futuristic vision of making reusable components and attention to granular details make him an outstanding professional. He has amazing skills in tracking every tiny detail and managing complex requirements in the simplest form possible. His exemplary leadership nature made a very strong team of people from diverse backgrounds and skillsets work towards a single GOAL and succeed ultimately. And, hey people, the genius is down to earth and always greets with a smile!"
+  position: 6
+  status: active
+
+- name: Alex Kiselov — Enterprise Architecture Consultant
+  review: "I was happy to work with Ray! Great architect, leader and mentor! Exceptional performance in enterprise architecture and focus towards the business goals."
+  position: 7
+  status: active
+
+- name: Vikrant Shukla — Sr. Practice Lead, Cloud Acceleration at Adobe
+  review: "I have always known Ray and looked up to the 'Magento Doctor' (that is what the community calls him). Before joining Adobe or since the time I have been working with Magento, I have come across Ray in a way or another. My first assignment in Adobe was with Ray and I was so glad that it happened. He is one of the most humble and knowledgeable people I have come across. The best part about Ray is that he is always willing to go the extra mile if you reach out to him with a support request. I am sure, with capable leaders like him, Magento is in a safe place. I have huge respect and trust in Ray's capabilities and I wish him all the best in everything he wants to do."
+  position: 8
+  status: active
+
+- name: Chris Hare — Project Management Specialist, Award-Winning Author
+  review: "Ray is simply a superstar. I have worked with professionals over the years who excelled in different areas; however, never had I worked with one possessing skills not only in technical and functional implementation and management, but also impressive and mind-blowing skills in coaching, speaking, project management, client management, you name it... Ray can do it. He is beloved and a coveted employee here at Adobe, and I got so lucky to have him on my team more than once. Ray is the best."
+  position: 9
+  status: active
+
+- name: Darren C — EMEA Senior Project Manager at Adobe
+  review: "Fantastic Magento E-Commerce Business Solutions Architect with excellent foresight and technical consulting skills. Ray was a key asset to my project team and helped to successfully deliver a $1M Managed Services Engagement. I highly recommend Ray, and I look forward to working with him on future client engagements."
+  position: 10
+  status: active
+
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+# Additional testimonials
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+- name: Ben van Duijn — JMango
+  review: "Ray and I were introduced to each other a couple of years ago by a mutual friend. I perceive Ray as a gifted man. Somehow he is able to be a hardcore developer and he has an excellent developed skill set to present, do sales and negotiate while finding the best outcome for all parties. In product development he is able to truly think out of the box and be a source of inspiration. The combination of these skills to be found in 1 man is quite rare. If you're lucky enough to work with Ray please send him my heartfelt wishes."
+  qualities: Great Results, Good Value, High Integrity
+  position: 11
+  status: active
+
+- name: David Talso — VP, Marketing Operations at FMG Suite
+  review: "Ray offered what he said he would and went beyond that in helping me with some questions even though he was not a support consultant. Ray was easy to work with and even helped me at times that were probably not the best for him since there was a 7 hour difference. I will use Ray again if I need other Magento help."
+  qualities: Great Results, Good Value, High Integrity
+  position: 12
+  status: active
+
+- name: Jonas De Smet — Senior PHP Developer (Laravel)
+  review: "Ray learned me the basics of Magento and some expert tricks. Ray knows very well what the goal of the course was and teached it on a good way. A guy you really want as a teacher."
+  qualities: Great Results, Good Value, High Integrity
+  position: 13
+  status: active
+
+- name: Remmelt Beckers — Area Manager BENE IT Office at DPG Media IT
+  review: "Ray provided us with an in-depth explanation on Magento's backend. Clearly showing us how backend structures can be built within the short timespan of 3 days. They have done a real good job at clearly structuring and visualizing documentation for this, as this information very much lacks from the original source. Worth every penny."
+  qualities: Great Results, Good Value, High Integrity
+  position: 14
+  status: active
+
+- name: Julie Pan — CXP Holland B.V.
+  review: "Dear Ray, Thank you for your time and effort. I really appreciate that you shared so much of your knowledge with me. Your training provided me a solid basis for the company I am currently building."
+  qualities: Great Results, Personable, High Integrity
+  position: 15
+  status: active
+
+- name: Marieke Vos — E-commerce Specialist
+  review: "Ray is speaking very enthousiastic about his work. After the workshop you will get also enthousiastic about it."
+  qualities: Personable, Expert, Creative
+  position: 16
+  status: active
+
+- name: Daan Beverdam
+  review: "Ray is a great person to work with, both on a personal and technical level. He's kind, open minded and has a real passion for tech and Magento in particular. I'm sure his dedication and hard work will inspire many more!"
+  qualities: Great Results, Good Value, High Integrity
+  position: 17
+  status: active
+
+- name: Ronald Bethlehem
+  review: "Ray is always up to date on the latest tech, and inspiring to work with."
+  qualities: Great Results, Good Value, High Integrity
+  position: 18
+  status: active
+
+- name: Enno Stuurman
+  review: "I have been working closely with Ray for more than five years now. It has always been a great pleasure to work with him. Ray is a great CTO, teacher, and a passionate, driven web professional with a sharp instinct for new technologies and technical improvements. His knowledge spans all web areas: from server to search engine (SEO) and everything in between. Besides being technically proficient, Ray has a great feel for e-commerce. Ray has always been an Open Source supporter. Last but not least, Ray is a straightforward person. He always challenges himself and others with an open mind. I am sure his drive and passion will be a valuable asset for Magento Inc. for many years to come!"
+  qualities: Great Results, Good Value, High Integrity
+  position: 19
+  status: active
+
+- name: Rachel Tjong-A-Hung
+  review: "In the relatively short time I've worked with Ray, I've learned a lot from him. His enthusiasm was infectious and his Magento and/or internet knowledge seemed infinite. I very much enjoyed working with Ray and hope to do so again in the near future!"
+  qualities: Great Results, Good Value, High Integrity
+  position: 20
+  status: active
+
+- name: Guido X Jansen — Community Builder
+  review: "Ray helped me a lot with my own business by providing me with useful feedback. He is enthusiastic, cooperative and works proactive on ICT security issues."
+  qualities: Great Results, Good Value, High Integrity
+  position: 21
+  status: active
+
+- name: Martin Willekes — Coach, Teambuilder, Interim Manager
+  review: "Ray is a very qualified and experienced requirements engineer. Ray is a creative individual with a well-developed talent for unconventional approaches to problem-solving. Keep track on the problem and if he can tries to solve it. Or address it to the correct person in a correct and proper manner."
+  qualities: Great Results, Good Value, High Integrity
+  position: 22
+  status: active
+
+- name: Olaf van Arkel — KPMG Advisory, Operational Excellence
+  review: "Ray is een zeer enthousiaste specialist op internet- en websitegebied. Zijn kracht is om gebruikerswensen snel heel scherp te krijgen en hen daarmee te verrassen. Ik heb Ray ervaren als een zeer prettige en betrokken collega!"
+  position: 23
+  status: active
+
+- name: Marleen Boer — Office Manager at Torino Outdoor BV
+  review: "Ik heb super veel gehad aan de training/coaching die ik bij SupportDesk heb gehad met betrekking tot Joomla!, MageBridge en Magento. Een paar fijne leerzame dagen. De persoonlijkheid van Ray heeft hier ook zeker aan bijgedragen. Echt een training op maat die ik iedereen die met de genoemde 3 pakketten stoeit kan aanbevelen."
+  position: 24
+  status: active
+
+- name: Gerard de Visser — Magento / Adobe Commerce Tech Lead at Youwe
+  review: "Naar aanleiding van een ingewikkeld Magento project heb ik vanuit Het Nieuwe Web een Magento cursus gevolgd bij Ray, waarvoor ik vijf keer een dag op training ben geweest. Zijn ervaring en all-round Magento kennis kwamen daarbij zeer van pas om de bottlenecks in een vroeg stadium in het vizier te krijgen en daar een adequate oplossing voor te zoeken. Het heeft me erg geholpen om het project op een professionele manier vorm te kunnen geven!"
+  position: 25
+  status: active
+
+- name: Jordy Steemers — ICT Beheerder bij Ons Middelbaar Onderwijs Helmond
+  review: "Ray is zeer deskundig op het gebied van implementatie en configuratie van Magento / Joomla / MageBridge. Ik heb in deze cursus veel geleerd over bovenstaande zaken, en heb nu ook al een werkende site in de lucht. Ik beveel deze cursus van SupportDesk dan ook zeker aan voor de mensen die de fijne kneepjes en truckjes van Magento / Joomla / MageBridge willen leren! Kortom een dikke 10 voor Ray Bogman en SupportDesk!"
+  position: 26
+  status: active
+
+- name: Job van Barneveld — Global Partner Development Manager at Planon
+  review: "Ray has excellent knowledge of the Joomla (CMS) and Magento (e-commerce) suites. He knows to translate needs to solutions and helped me to keep focus on my project. I would certainly consider Ray as a business partner or knowledge supplier in future projects."
+  position: 27
+  status: active
+
+- name: Joop Mulder — Sales Manager at Nic Gelato Nederland
+  review: "Ray is zeer kundig op het gebied van Magento, SEO en SEA. In de maatwerk training van 4 dagen heeft hij mij met veel enthousiasme de nodige vaardigheden en kennis bijgebracht. Dankzij het begrijpelijk vertalen van de techniek achter Magento door Ray ben ik inmiddels in staat zelfstandig de Magento themes aan te passen en plugins te schrijven. Ray leert je niet gewoon een trucje, Ray zorgt ervoor dat je begrijpt hoe het werkt en waarom! Deze training is elke euro meer dan waard geweest!"
+  position: 28
+  status: active
+
+- name: Jan Wierenga — Category Manager
+  review: "March 2012 I followed a 1 on 1 Magento training at the Magento Competence Center. Ray was inspiring and above all practical."
+  position: 29
+  status: active
+
+- name: Geby de Jong — Commercieel Vastgoed, MSRE
+  review: "Ray heeft mij in één dag de basis van Magento en de do's en don'ts bijgebracht. Veel antwoorden gekregen en nog meer ideeën opgedaan dan waar ik mee kwam. Thanks, Ray."
+  position: 30
+  status: active
+
+- name: John Ruis — Coordinator Operational Safety & Quality at Eneco
+  review: "Ik heb Ray binnen een dag leren kennen als een zeer vakkundige ICT'er die weet waar het om draait. Wellicht wil ik graag in de toekomst ook gebruik maken van Ray zijn kennis voor SEO optimalisatie en evt. uitbreiding van webwinkels. Bedankt Ray, ik heb heel veel van je geleerd gister."
+  position: 31
+  status: active
+
+- name: Ghio Coste — Website & E-commerce Specialist
+  review: "If we talk about professionals here is THE ONE! A day with Ray... Ask him everything you want, about Magento and e-commerce! But you don't need to ask him because you don't get the chance... he will tell you in a professional way everything you need to know... and more. Thanks Ray. Great to meet you."
+  position: 32
+  status: active
+
+- name: John Ploeg — MKB Webdesign
+  review: "Outletplanet heeft mij ingehuurd voor ICT activiteiten. De Magento webshop werd op enig moment erg traag. Dit was de aanleiding een Magento expert in te schakelen. Via onze hoster kwamen we in contact met Ray van JIRA. Hij heeft voor ons de tabellen geoptimaliseerd en het wijze van caching aangepast. Dit heeft geleid tot een enorme performance verbetering. Hij is een echte Magento expert. Een aanrader dus."
+  position: 33
+  status: active
+
+- name: Chris Rommers — Web Strategist
+  review: "Ray is een 'wandelend kennisvat' en vindt volgens mij niets leuker dan die kennis te delen. In een door hem gegeven training kwam de ene na de andere eye opener voorbij. Diepgaande 'hard core' know-how, maar op een begrijpelijke en leuke manier overgebracht. Voor zover ik kan beoordelen een van de grootste Magento-experts in NL."
+  position: 34
+  status: active
+
+- name: Freek Jan ter Haar — Senior IT & Cybersecurity Specialist
+  review: "Ray weet echt alles van webshops in Magento. Niet alleen op technisch gebied heeft hij ons het nodige bijgebracht, maar hij kan ook alles vertellen over de gedachtegang achter een webshop. Een Magento cursus is echt een aanrader!"
+  position: 35
+  status: active
+
+- name: Manuel Putmans — Owner at HomeMade Webdesign
+  review: "Ray is a professional and specialist with great communication skills. In a MageBridge private course he taught me a lot to understand the concept of a site with MageBridge and what chances there are for a Joomla/Magento site. He showed me a lot of handles to make a success of a Joomla/Magento project! Thanks!"
+  position: 36
+  status: active
+
+- name: Henry Jansen — Retired Web Developer
+  review: "Ray heeft met zijn mensen van Jira een dedicated server voor onze nieuwe Magento website op www.houtweb.nl perfect ingeregeld. En op zeer korte termijn. De site loopt lekker vlot! Bedankt Ray!"
+  position: 37
+  status: active
+
+- name: Tim Sombroek — DGA bij Webreturn B.V.
+  review: "Raad iedereen aan om de maatwerk MageBridge cursus te volgen. Ray denkt met je mee en in oplossingen. Deze cursus is voor mij het startpunt geweest voor het zelf ontwikkelen van meerdere Magento webshops."
+  position: 38
+  status: active
+
+- name: Dennis Schrauwen — Owner at UglyXmas
+  review: "Ray is naast een kundige Magento en Joomla expert een consultant die zeer goed de business-zijde van e-commerce snapt. Het resultaat van een (gezellige) dag samenwerken is dat je met meer antwoorden naar huis gaat dan je vooraf aan vragen bij je had."
+  position: 39
+  status: active
+
+- name: Pier Rienks — Publisher and Bookseller
+  review: "I worked with Jira concerning web development and security issues. Ray Bogman proved to be both a creative business partner and a person who really understands what online retailing is about. His background in online security is of great value. Our business objective is to implement Magento and MageBridge, a Jira product. With the support of Ray Bogman and his Jira team we have all the ingredients for a successful implementation."
+  position: 40
+  status: active
+
+- name: Darcy Kieran — Entrepreneur, Executive, Author
+  review: "Products offered by Yireo are outstanding (especially MageBridge). An additional consulting job was well done — very professional. High quality work. Instructions provided are detailed, precise and accurate (which is rare nowadays). I would buy more products and services without any hesitation."
+  position: 41
+  status: active
+
+- name: Grietje Zijlstra
+  review: "De Magento maatwerk cursus was voor mij als beginnend webwinkelier een eye opener en erg waardevol. Ray, bedankt voor het inzicht in Magento en het meedenken in mijn concept."
+  position: 42
+  status: active
+
+- name: Bas Debie — WordPress Developer & SEO Specialist
+  review: "Hi Ray, Thanks for the great one-day Magento training. I've learned a lot from it and it gave me a good Magento kick-start!"
+  position: 43
+  status: active
+
+- name: Andries Molenaar
+  review: "De maatwerk Magento cursus van Jira met Ray Bogman (a day with Ray) is fantastisch. Ray weet echt waar hij het over heeft — de zeldzame combinatie van diepgaande kennis en de communicatieve vaardigheden om het over te brengen. Want Magento? Go Jira."
+  position: 44
+  status: active
+
+- name: Sheila Brugman — Brand Manager Internet & Data Analyst at Robeco
+  review: "Ray is an expert on Magento and the e-commerce business. He's very enthusiastic about his work and willing to share his knowledge."
+  position: 45
+  status: active
+
+- name: Marco Vis — Owner at Macrovisie
+  review: "Ray is a true professional with an eye for details that others may not notice. His recommendations have helped us to fine-tune our e-commerce platform multiple times."
+  position: 46
+  status: active
+
+- name: Tim Vermeulen
+  review: "Ray is a professional e-commerce consultant. He is very patient and knows a lot of the Magento system. Want professional no-nonsense Magento advice? Ray is your man!"
+  position: 47
+  status: active
+
+- name: Eric Van Cann — Business Development Manager
+  review: "Ray is in the forefront of IT and software/security issues and knows to put issues in perspective for your business. His vibrant and enthusiastic approach works stimulating for his trainees and puts things immediately in motion."
+  position: 48
+  status: active
+
+- name: Isolde van Oosterhout-Huitzing — Magento Developer
+  review: "Ray has an amazing knowledge of the Magento e-commerce subject. He has a good overview of the subject and knows it right down to the smallest details (and this for a subject that has been around for only a year). Not only does he have an amazing knowledge of the subject, he is also gifted at explaining in a clear way all that you need to know!"
+  position: 49
+  status: active
+
+- name: Meindert van Dijk — Author & Photographer
+  review: "Ray Bogman and Jisse Reitsma are great people who helped me a lot building my first new Joomla! internet site I hosted at Jira ICT. Also in the evening and in the weekends. I appreciated this very much. They also helped me when I had problems with my website. They gave me useful feedback. I learned a lot of these professional and enthusiastic guys!"
+  position: 50
+  status: active
+
+- name: Bart Kraaijenbrink — Senior Adviseur Kantoorautomatisering, VBVB ICT
+  review: "Ray heeft in korte tijd de nieuwe website voor I&O Netsys (www.ieno.nl) gerealiseerd. Daarbij zijn vooral zijn expertise, zijn snelheid van werken en zijn vermogen om mee te denken met ons opgevallen. Mede daarom is de website erg mooi geworden en was het heel prettig samenwerken. Ik kan Jira / Ray van harte aanbevelen aan iedereen die graag snel & binnen budget een mooie website gerealiseerd wil zien."
+  position: 51
+  status: active
+
+- name: Ebo Eppenga — Digital Marketing Operations Manager
+  review: "Ray is not your average security professional. Besides the normal expectancies, he cares about your project, drills down deeper and therefore delivering higher quality results. We were greatly surprised about the level of his expertise and he has contributed a great deal to our website."
+  position: 52
+  status: active
+
+- name: Wouter den Otter — Web Hosting Specialist
+  review: "Ray has delivered several websites for me in the past and still maintains these. Service provided is quick, to the point and for a good price. He is willing to make an extra effort using both his technical knowledge as well as his drive to results."
+  position: 53
+  status: active
+
+- name: Henk van Cann — Security & Blockchain Specialist
+  review: "'Security specialist' might be a bit worn out title. But in case of Ray we must say hands-on security expert. If he wants he could wreck your LAMP stack in a blink of an eye. But Ray is such a gentleman and professional that he lets you learn by doing, and he is always there to help you out."
+  position: 54
+  status: active
+
+- name:
+  review: ""
+  qualities: Great Results, Good Value, High Integrity
+  position: 99
+  status: inactive
