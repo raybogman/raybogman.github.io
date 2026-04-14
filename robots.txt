@@ -1,5 +1,7 @@
 ---
+layout: null
 permalink: /robots.txt
+sitemap: false
 ---
 # Default — allow all crawlers
 User-agent: *

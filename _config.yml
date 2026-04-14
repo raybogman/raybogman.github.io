@@ -35,13 +35,13 @@ social:
 collections:
   pages:
     output: true
-    permalink: /:name
+    permalink: /:name/
   posts:
     output: true
-    permalink: /blog/:slug
+    permalink: /blog/:slug/
   projects:
     output: true
-    permalink: /project/:slug
+    permalink: /project/:slug/
 
 defaults:
   -
