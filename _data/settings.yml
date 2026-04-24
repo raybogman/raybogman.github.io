@@ -37,6 +37,11 @@ menu_settings:
       children:
         - title: 'Mage.coach'
           url: '/mage-coach'
+    - title: 'Products'
+      url: '/products/'
+      children:
+        - title: 'AI Content Orchestrator'
+          url: '/products/ai-content-orchestrator/'
     - title: 'Media'
       url: '/media'
     - title: 'Contact'
@@ -183,4 +188,4 @@ advanced_settings:
     <!-- End Cloudflare Web Analytics -->
   custom_styles: ""
   header_js: ""
-  footer_js: ""
+  footer_js: '<script src="https://assets.lemonsqueezy.com/lemon.js" defer></script>'
