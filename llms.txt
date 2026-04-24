@@ -21,12 +21,17 @@ sitemap: false
 - [Host]({{ site.url }}/host): Event hosting, moderation, and community building.
 - [Services overview]({{ site.url }}/services): Hub page for all services.
 
+## Products
+
+- [AI Content Orchestrator]({{ site.url }}/products/ai-content-orchestrator/): WordPress plugin — end-to-end AI content pipeline. Website scanning, dual AI (Claude + OpenAI), 12 blog styles, SEO with competitor gap analysis, automatic internal linking, AI-generated featured images (DALL-E 3 / Ideogram), LinkedIn auto-share, content repurposing (email, X, Instagram, Pinterest), bulk creation with scheduling, human-in-the-loop approval queue, content refresh for existing posts, Thrive Architect integration, Yoast SEO integration. Timeout-proof 4-step pipeline, works on shared hosting. Version 2.0.9.
+- [All products]({{ site.url }}/products/): Hub page for all products.
+
 ## Publications and projects
 
-- [Magento 2 Cookbook]({{ site.url }}/magento-2-cookbook): Co-authored with Vladimir Kerkhoff, published by Packt Publishing in 2016. 342 pages, 50 in-depth Magento 2 recipes.
-- [Mage.coach]({{ site.url }}/mage-coach): Open-source Magento performance analysis tool created with Ronald Bethlehem in 2016 (archived).
-- [Media appearances]({{ site.url }}/media): Interviews, podcasts, videos, and press features.
-- [Author]({{ site.url }}/author): Books, articles, technical reviews, and certification exam writing.
+- [Magento 2 Cookbook]({{ site.url }}/magento-2-cookbook/): Co-authored with Vladimir Kerkhoff, published by Packt Publishing in 2016. 342 pages, 50 in-depth Magento 2 recipes.
+- [Mage.coach]({{ site.url }}/mage-coach/): Open-source Magento performance analysis tool created with Ronald Bethlehem in 2016 (archived).
+- [Media appearances]({{ site.url }}/media/): Interviews, podcasts, videos, and press features.
+- [Author]({{ site.url }}/author/): Books, articles, technical reviews, and certification exam writing.
 
 ## Key facts
 

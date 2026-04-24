@@ -1,7 +1,7 @@
 ---
 title: Products
 subtitle: Tools built by Ray Bogman
-description: 'Digital products and WordPress tools by Ray Bogman. AI-powered content orchestration, built for teams that ship.'
+description: 'WordPress plugins and digital products by Ray Bogman. AI-powered content orchestration for teams that ship.'
 featured_image: /assets/images/raybogman-consultant.jpg
 permalink: /products/
 ---
@@ -9,7 +9,7 @@ permalink: /products/
 Tools I've built to solve real problems I've seen across 25+ years of working with teams, platforms, and content at scale.
 
 ### [AI Content Orchestrator](/products/ai-content-orchestrator/)
-A complete content pipeline for WordPress. Not just another "AI writer" — it orchestrates the entire journey from research to publication.
+End-to-end AI content pipeline for WordPress. Website scanning, dual AI (Claude + OpenAI), 12 blog styles, SEO with competitor gap analysis, automatic internal linking, AI-generated featured images (DALL-E 3 / Ideogram), LinkedIn auto-share, content repurposing, bulk creation, scheduled publishing with approval queue, and content refresh. Not just another AI writer — a complete orchestration layer.
 
 ---
 
