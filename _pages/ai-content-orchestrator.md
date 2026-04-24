@@ -65,13 +65,13 @@ Every AI writing tool on the market does the same thing: you type a prompt, it s
 
 <div class="pricing" markdown="0">
 <div class="contact-actions">
-  <a href="https://raybogman.lemonsqueezy.com/buy/PLACEHOLDER_PERSONAL" class="lemonsqueezy-button button button--large">
+  <a href="https://raybogman.lemonsqueezy.com/checkout/buy/e147e6d6-2622-4a8a-9110-458884c221c4" class="lemonsqueezy-button button button--large">
     <i class="fas fa-user"></i> Personal — 1 site
   </a>
-  <a href="https://raybogman.lemonsqueezy.com/buy/PLACEHOLDER_BUSINESS" class="lemonsqueezy-button button button--large">
+  <a href="https://raybogman.lemonsqueezy.com/checkout/buy/e147e6d6-2622-4a8a-9110-458884c221c4" class="lemonsqueezy-button button button--large">
     <i class="fas fa-building"></i> Business — 3 sites
   </a>
-  <a href="https://raybogman.lemonsqueezy.com/buy/PLACEHOLDER_AGENCY" class="lemonsqueezy-button button button--large">
+  <a href="https://raybogman.lemonsqueezy.com/checkout/buy/e147e6d6-2622-4a8a-9110-458884c221c4" class="lemonsqueezy-button button button--large">
     <i class="fas fa-rocket"></i> Agency — unlimited sites
   </a>
 </div>
