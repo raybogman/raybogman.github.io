@@ -40,6 +40,12 @@
 	{% include json-ld-faq-about.html %}
 	{% endif %}
 
+	<!-- Product + FAQ JSON-LD (AI Content Orchestrator) -->
+	{% if page.url contains '/products/ai-content-orchestrator' %}
+	{% include json-ld-product-aico.html %}
+	{% include json-ld-faq-aico.html %}
+	{% endif %}
+
 	{% if site.data.settings.font_settings.font_embed %}
 	{{ site.data.settings.font_settings.font_embed }}
 	{% endif %}
