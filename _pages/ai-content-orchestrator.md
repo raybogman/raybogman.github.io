@@ -8,6 +8,8 @@ permalink: /products/ai-content-orchestrator/
 
 ## Stop writing content. Start orchestrating it.
 
+<img src="/assets/images/ai-content-orchestrator-logo.png" alt="AI Content Orchestrator" style="float: right; width: 240px; max-width: 40%; margin: 0 0 1rem 1.5rem;" />
+
 Every AI writing plugin does the same thing: prompt in, text out. Then you're left with the same problems — no research, no SEO strategy, no images, no internal links, no distribution. Just raw text in a WordPress editor.
 
 **AI Content Orchestrator** is different. It manages the **entire content pipeline** inside WordPress — from scanning your website for context, through SEO-first content generation, to featured images, internal linking, LinkedIn auto-sharing, and multi-platform repurposing. One plugin, zero copy-paste.
