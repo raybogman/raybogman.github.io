@@ -160,7 +160,39 @@ Generate ready-to-use versions from any blog post, one click each:
 
 ---
 
+## Free vs Enterprise
+
+Start free. Upgrade when you're ready to scale.
+
+| What you get | Free | Enterprise |
+|---|:---:|:---:|
+| **Types of blog posts you can write** | 4 popular formats | All 13 formats — including comparisons, case studies, ultimate guides |
+| **AI artwork for your post** | 1 image style | 2 image styles to pick from |
+| **See what competitors are missing** | — | ✓ |
+| **Auto-post to LinkedIn** | — | ✓ |
+| **Ready-to-paste Instagram captions** | — | ✓ |
+| **Works with Thrive Architect page builder** | — | ✓ |
+| **Use your own PDFs as source material** | — | ✓ |
+| **Number of websites you can pull info from** | 1 site | As many as you need |
+| **Automatic links between your blog posts** | Up to 3 links, inside the text | Up to 15 links, inside the text and at the bottom |
+| **Plan a whole month of posts in one click** | Pick each date by hand | Auto-schedule (daily, weekly, monthly...) |
+| **Email when a post goes live** | — | ✓ |
+| **Write 10+ posts at once** | — | ✓ |
+| **Refresh old posts that are getting stale** | — | ✓ |
+| **Turn a post into emails, tweets, Pinterest pins** | ✓ | ✓ |
+| **Choose between Claude or ChatGPT** | ✓ | ✓ |
+| **AI writes your SEO title, description, keywords** | ✓ | ✓ |
+| **Works with Yoast SEO plugin** | ✓ | ✓ |
+| **Set your brand voice once, use everywhere** | ✓ | ✓ |
+
+---
+
 ## Pricing
+
+| Plan | Monthly | Annual | Lifetime |
+|---|:---:|:---:|:---:|
+| **Free** | $0 | $0 | — |
+| **Enterprise** | **$24.99** | **$249.99** *(save ~$50/yr)* | **$699.99** *(one-time)* |
 
 <div class="contact-actions" markdown="0">
   <a href="https://raybogman.lemonsqueezy.com/checkout/buy/e147e6d6-2622-4a8a-9110-458884c221c4" class="lemonsqueezy-button button button--large">
@@ -168,7 +200,7 @@ Generate ready-to-use versions from any blog post, one click each:
   </a>
 </div>
 
-Pricing details coming soon. You only pay for the plugin — AI costs (Claude / OpenAI API usage) are paid directly to your chosen provider. Typical cost per post: **$0.02–$0.10** for text + **$0.04** for a DALL-E 3 featured image.
+You only pay for the plugin — AI costs (Claude / OpenAI API usage) are paid directly to your chosen provider. Typical cost per post: **$0.02–$0.10** for text + **$0.04** for a DALL-E 3 featured image.
 
 ---
 

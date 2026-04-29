@@ -30,17 +30,54 @@
     "Brand voice / Project Vision baseline",
     "Real-time progress logging"
   ],
-  "offers": {
-    "@type": "Offer",
-    "url": "https://raybogman.lemonsqueezy.com/checkout/buy/e147e6d6-2622-4a8a-9110-458884c221c4",
-    "availability": "https://schema.org/InStock",
-    "priceCurrency": "USD",
-    "seller": {
-      "@type": "Organization",
-      "name": "Ray Bogman",
-      "url": "{{ site.url }}"
+  "offers": [
+    {
+      "@type": "Offer",
+      "name": "Free",
+      "url": "{{ site.url }}/products/ai-content-orchestrator/",
+      "availability": "https://schema.org/InStock",
+      "price": "0",
+      "priceCurrency": "USD"
+    },
+    {
+      "@type": "Offer",
+      "name": "Enterprise — Monthly",
+      "url": "https://raybogman.lemonsqueezy.com/checkout/buy/e147e6d6-2622-4a8a-9110-458884c221c4",
+      "availability": "https://schema.org/InStock",
+      "price": "24.99",
+      "priceCurrency": "USD",
+      "priceSpecification": {
+        "@type": "UnitPriceSpecification",
+        "price": "24.99",
+        "priceCurrency": "USD",
+        "billingDuration": "P1M",
+        "unitText": "MONTH"
+      }
+    },
+    {
+      "@type": "Offer",
+      "name": "Enterprise — Annual",
+      "url": "https://raybogman.lemonsqueezy.com/checkout/buy/e147e6d6-2622-4a8a-9110-458884c221c4",
+      "availability": "https://schema.org/InStock",
+      "price": "249.99",
+      "priceCurrency": "USD",
+      "priceSpecification": {
+        "@type": "UnitPriceSpecification",
+        "price": "249.99",
+        "priceCurrency": "USD",
+        "billingDuration": "P1Y",
+        "unitText": "YEAR"
+      }
+    },
+    {
+      "@type": "Offer",
+      "name": "Enterprise — Lifetime",
+      "url": "https://raybogman.lemonsqueezy.com/checkout/buy/e147e6d6-2622-4a8a-9110-458884c221c4",
+      "availability": "https://schema.org/InStock",
+      "price": "699.99",
+      "priceCurrency": "USD"
     }
-  },
+  ],
   "author": {
     "@id": "{{ site.url }}/#person"
   },
