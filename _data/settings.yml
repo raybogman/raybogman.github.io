@@ -188,4 +188,4 @@ advanced_settings:
     <!-- End Cloudflare Web Analytics -->
   custom_styles: ""
   header_js: ""
-  footer_js: '<script src="https://assets.lemonsqueezy.com/lemon.js" defer></script>'
+  footer_js: ""

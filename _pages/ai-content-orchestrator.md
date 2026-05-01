@@ -195,10 +195,12 @@ Start free. Upgrade when you're ready to scale.
 | **Enterprise** | **$24.99** | **$249.99** *(save ~$50/yr)* | **$699.99** *(one-time)* |
 
 <div class="contact-actions" markdown="0">
-  <a href="https://raybogman.lemonsqueezy.com/checkout/buy/e147e6d6-2622-4a8a-9110-458884c221c4" class="lemonsqueezy-button button button--large">
-    <i class="fas fa-rocket"></i> Get AI Content Orchestrator
+  <a href="https://checkout.freemius.com/plugin/28680/plan/47216/?billing_cycle=annual" class="button button--large">
+    <i class="fas fa-rocket"></i> Get Enterprise — Annual
   </a>
 </div>
+
+<p style="text-align: center; opacity: 0.7; margin-top: 0.75rem;"><em>Free version coming soon to <strong>WordPress.org</strong> — submission in review.</em></p>
 
 You only pay for the plugin — AI costs (Claude / OpenAI API usage) are paid directly to your chosen provider. Typical cost per post: **$0.02–$0.10** for text + **$0.04** for a DALL-E 3 featured image.
 
