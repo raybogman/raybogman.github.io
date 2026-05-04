@@ -6,11 +6,11 @@ featured_image: "/assets/images/aws-certified-ai-practitioner-how-i-passed.jpeg"
 tags: [AI Practitioner, AWS Certification, AWS Training, Cloud Computing, Machine Learning]
 ---
 
-**Most cloud certifications tell you what AWS can do. The AWS Certified AI Practitioner certification tells the world what _you_ can do with AI — and right now, that distinction is worth everything.**
+**<img src="/assets/images/aws-certified-ai-practitioner-early-adopter-300x300.png" alt="aws-certified-ai-practitioner-early-adopter" width="300" height="300" style="float:right;margin:0 0 16px 16px;" />Most cloud certifications tell you what AWS can do. The AWS Certified AI Practitioner certification tells the world what _you_ can do with AI — and right now, that distinction is worth everything.**
 
- I recently passed the [**AWS Certified AI Practitioner**](https://aws.amazon.com/certification/certified-ai-practitioner/) exam as part of the early adopter program, and I want to be honest with you: this was not just another badge to hang on a LinkedIn wall. This certification forced me to think differently about how artificial intelligence, machine learning, and generative AI intersect with real-world cloud architecture — and that shift in thinking is already paying dividends in my day-to-day work.
+ I recently passed the [AWS Certified AI Practitioner](https://aws.amazon.com/certification/certified-ai-practitioner/) exam as part of the early adopter program, and I want to be honest with you: this was not just another badge to hang on a LinkedIn wall. This certification forced me to think differently about how artificial intelligence, machine learning, and generative AI intersect with real-world cloud architecture — and that shift in thinking is already paying dividends in my day-to-day work.
 
- A huge shout-out to [**Alex Gayan**](https://www.linkedin.com/in/alexgayan/), who was an outstanding study peer throughout this journey. Having someone to bounce ideas off, challenge assumptions, and hold each other accountable made a measurable difference. Certifications are often treated as solo missions. They don’t have to be.
+ A huge shout-out to [Alex Gayan](https://www.linkedin.com/in/alexgayan/), who was an outstanding study peer throughout this journey. Having someone to bounce ideas off, challenge assumptions, and hold each other accountable made a measurable difference. Certifications are often treated as solo missions. They don’t have to be.
 
  In this post, I’ll walk you through the tools I used to prepare, why I believe this certification matters more than people are giving it credit for, and what it means for professionals navigating the AI-driven cloud landscape right now.
 
