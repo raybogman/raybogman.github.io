@@ -6,7 +6,7 @@ featured_image: "/assets/images/aws-certified-ai-practitioner-how-i-passed.jpeg"
 tags: [AI Practitioner, AWS Certification, AWS Training, Cloud Computing, Machine Learning]
 ---
 
-**![aws-certified-ai-practitioner-early-adopter](https://raybogman.com/wp-content/uploads/2026/05/aws-certified-ai-practitioner-early-adopter-300x300.png)Most cloud certifications tell you what AWS can do. The AWS Certified AI Practitioner certification tells the world what _you_ can do with AI — and right now, that distinction is worth everything.**
+**![aws-certified-ai-practitioner-early-adopter](/assets/images/aws-certified-ai-practitioner-early-adopter-300x300.png)Most cloud certifications tell you what AWS can do. The AWS Certified AI Practitioner certification tells the world what _you_ can do with AI — and right now, that distinction is worth everything.**
 
  I recently passed the [**AWS Certified AI Practitioner**](https://aws.amazon.com/certification/certified-ai-practitioner/) exam as part of the early adopter program, and I want to be honest with you: this was not just another badge to hang on a LinkedIn wall. This certification forced me to think differently about how artificial intelligence, machine learning, and generative AI intersect with real-world cloud architecture — and that shift in thinking is already paying dividends in my day-to-day work.
 
