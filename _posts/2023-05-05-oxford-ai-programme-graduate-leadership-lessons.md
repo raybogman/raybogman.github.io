@@ -6,7 +6,7 @@ featured_image: "/assets/images/oxford-ai-programme-graduate-leadership-lessons.
 tags: [AI Ethics, Artificial Intelligence, Leadership, Machine Learning, Oxford AI Programme]
 ---
 
-**<img src="/assets/images/oxford-artificial-intelligence-programme-logo-300x300.png" alt="oxford-artificial-intelligence-programme" width="300" height="300" style="float:right;margin:0 0 16px 16px;" />Most leaders talk about AI. Few actually study it. I decided to do both — and what I learned at Oxford changed how I think about leadership, technology, and the future of business forever.**
+**<img src="/assets/images/oxford-artificial-intelligence-programme-logo-300x300.png" alt="University of Oxford Saïd Business School Online Programme circular badge logo on navy blue background" width="300" height="300" style="float:right;margin:0 0 16px 16px;" />Most leaders talk about AI. Few actually study it. I decided to do both — and what I learned at Oxford changed how I think about leadership, technology, and the future of business forever.**
 
  In early 2023, I completed the [Oxford Artificial Intelligence Programme](https://info.oxford-onlineprogrammes.getsmarter.com/presentations/lp/oxford-artificial-intelligence-programme) through Oxford’s online learning platform, finishing with an overall grade of **88.9%** — above the class average of 83.2%. But the grade is almost beside the point. What matters far more is what six intensive modules of deep, structured learning revealed about where AI is heading, how leaders should respond, and why most organisations are still asking the wrong questions.
 
