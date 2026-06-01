@@ -3,6 +3,8 @@ title: Mage.coach
 subtitle: Your Magento Performance Coach (2016 – archived)
 description: 'Mage.coach — open-source Magento frontend performance analysis tool by Ray Bogman and Ronald Bethlehem (2016 – archived). Built on Sitespeed.io.'
 featured_image: /assets/images/mage-coach-hero.jpg
+redirect_from:
+  - /mage-coach-0.1.1-released/
 ---
 
 > **Note:** Mage.coach is a historical / archived project. This page documents what it was, how it worked, and the community around it. The live service is no longer active.

@@ -42,6 +42,8 @@ menu_settings:
       children:
         - title: 'AI Content Orchestrator'
           url: '/products/ai-content-orchestrator/'
+        - title: 'AI WordPress Sync'
+          url: '/products/ai-wordpress-jekyll-sync/'
     - title: 'Media'
       url: '/media'
     - title: 'Contact'

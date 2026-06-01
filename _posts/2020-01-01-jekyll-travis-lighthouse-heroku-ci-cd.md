@@ -4,6 +4,8 @@ date: 2020-01-01 00:00:00
 description: 'Use Lighthouse Server now and monitor your Jekyll Performance on every Git push.'
 featured_image: '/assets/images/jekyll-travis-lighthouse-heroku-ci-cd.jpg'
 tags: [Jekyll, Travis, Lighthouse, Heroku, ci/cd]
+redirect_from:
+  - /jekyll-travis-lighthouse-heroku-ci-cd/
 ---
 
 Ever since Github started supporting **Jekyll** within **[Github Pages](https://pages.github.com/)** I was sold. So when it comes to easy, fast, stable, flexible, security free and **high-performance websites** I like to build them in Jekyll.

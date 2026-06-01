@@ -1,0 +1,112 @@
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What does this plugin do?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Converts WordPress posts and pages to Markdown with YAML front matter, uploads featured and inline images to your Jekyll repository's assets/images folder, rewrites internal links, and commits everything to GitHub — all from inside WordPress admin."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Is it really free?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes. GPL-2.0-or-later. No paid tier, no premium upgrade, no telemetry. The full source is open. The only optional cost is AI generation, which uses your own Claude or OpenAI key and bills you directly."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How does the GitHub login work?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Standard OAuth App flow. Click Connect to GitHub in plugin settings, authorize the app on github.com, and you're in. No personal access tokens to generate, copy, or rotate."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What is style-aware conversion?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "The plugin reads your existing Jekyll site (_config.yml plus a sample of existing posts) and detects your front matter schema, Markdown conventions (heading style, list style, emphasis, fences), and permalink patterns. Pushed content matches your site's conventions automatically — no find-replace cleanup after the first sync."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How does URL rewriting work?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Internal links pointing at your WordPress domain are rewritten to your Jekyll site URL — taken from _config.yml's url field or set manually in the plugin's Content tab. External links are left alone."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Can I auto-publish on WordPress publish?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes. Toggle Auto-push on publish and every approved post is pushed to GitHub the moment you click Publish in WordPress."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Can I preview the Markdown before pushing?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes. The Articles list has a Preview button that opens a modal showing the exact Markdown output the plugin would push."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What is the Diff view?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "A colour-coded comparison (green for additions, red for deletions) between your current WordPress content and the live version on Jekyll. Useful for spotting drift before a re-push."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What is Verify?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "A file-hash comparison against the GitHub copy. If someone edited the Markdown directly in the GitHub repo, Verify flags it so you don't accidentally overwrite their edit."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Does the AI feature cost extra?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "The plugin is free. AI usage is optional and uses your own Claude or OpenAI API key — costs go directly to the provider. Disable AI entirely and the plugin works fully without it."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Will this work with Yoast SEO or RankMath?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes. Both are auto-detected. SEO title, meta description, focus keyphrase, and (where present) Open Graph fields are mapped into the Jekyll front matter."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Does it support Pages, not just Posts?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes. Toggle Posts and Pages independently in the Content tab. Each has its own target path in the repo (_posts and _pages by default — configurable)."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Can I migrate an existing WordPress site to Jekyll with this?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes — that's a primary use case. Run a one-shot bulk sync to push every post into a fresh Jekyll repo, then keep using the plugin for ongoing edits."
+      }
+    }
+  ]
+}
+</script>

@@ -4,6 +4,9 @@ date: 2019-10-20 00:00:00
 description: 'Build your own Magento PWA Studio production setup using Nginx proxy.'
 featured_image: '/assets/images/magento-pwa-studio-production-setup.jpg'
 tags: [magento, pwa-studio]
+redirect_from:
+  - /Magento PWA/
+  - /magento-pwa/
 ---
 
 It's have been some time since my last blog or any writing at all. My latest work dates back to the [**Magento 2 Cookbook**](https://raybogman.com/magento-2-cookbook) published in 2016. I am a big fan of small tutorials or recipes style blogs and could not resist creating a new one on **Magento's PWA Studio**.

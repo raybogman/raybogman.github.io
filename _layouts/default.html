@@ -46,6 +46,12 @@
 	{% include json-ld-faq-aico.html %}
 	{% endif %}
 
+	<!-- Product + FAQ JSON-LD (AI WordPress Sync for Jekyll & GitHub Pages) -->
+	{% if page.url contains '/products/ai-wordpress-jekyll-sync' %}
+	{% include json-ld-product-ai-wordpress-jekyll-sync.html %}
+	{% include json-ld-faq-ai-wordpress-jekyll-sync.html %}
+	{% endif %}
+
 	{% if site.data.settings.font_settings.font_embed %}
 	{{ site.data.settings.font_settings.font_embed }}
 	{% endif %}
