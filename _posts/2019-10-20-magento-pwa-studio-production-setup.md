@@ -1,6 +1,7 @@
 ---
 title: 'Magento PWA Studio Production setup'
 date: 2019-10-20 00:00:00
+last_modified_at: 2026-06-01 00:00:00
 description: 'Build your own Magento PWA Studio production setup using Nginx proxy.'
 featured_image: '/assets/images/magento-pwa-studio-production-setup.jpg'
 tags: [magento, pwa-studio]

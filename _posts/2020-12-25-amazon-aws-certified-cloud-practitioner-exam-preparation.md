@@ -1,6 +1,7 @@
 ---
 title: 'Amazon AWS Certified Cloud Practitioner exam preparation'
 date: 2020-12-25 00:00:00
+last_modified_at: 2026-06-01 00:00:00
 description: 'Getting AWS certified can be a challenge for some of us. Here are my notes and tips for passing the AWS Certified Cloud Practitioner exam.'
 featured_image: '/assets/images/amazon-aws-certified-cloud-practitioner-exam-preparation.jpg'
 tags: [aws, certified, cloud-practitioner]

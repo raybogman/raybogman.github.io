@@ -1,6 +1,7 @@
 ---
 title: 'Jekyll+Travis+Lighthouse+Heroku=CI/CD'
 date: 2020-01-01 00:00:00
+last_modified_at: 2026-06-01 00:00:00
 description: 'Use Lighthouse Server now and monitor your Jekyll Performance on every Git push.'
 featured_image: '/assets/images/jekyll-travis-lighthouse-heroku-ci-cd.jpg'
 tags: [Jekyll, Travis, Lighthouse, Heroku, ci/cd]
