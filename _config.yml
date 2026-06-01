@@ -67,6 +67,16 @@ defaults:
       type: "projects"
     values:
       layout: "project"
+  -
+    scope:
+      path: "assets/slides"
+    values:
+      sitemap: false
+  -
+    scope:
+      path: "assets/Resume - Ray Bogman.pdf"
+    values:
+      sitemap: false
 
 markdown: kramdown
 

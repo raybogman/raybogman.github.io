@@ -3,6 +3,8 @@ title: Magento 2 Cookbook
 subtitle: Ray Bogman & Vladimir Kerkhoff
 description: 'Magento 2 Cookbook - 342 pages and 50 in-depth Magento 2 recipes, written by Ray Bogman & Vladimir Kerkhoff. Published by Packt Publishing, 2016.'
 featured_image: /assets/images/mage2cookbook/magento2cookbook.jpg
+redirect_from:
+  - /mage2cookbook/
 ---
 
 More than **342 pages** and **50 in-depth Magento 2 recipes** — the definitive hands-on guide to installing, configuring, optimizing, theming and extending Magento 2.

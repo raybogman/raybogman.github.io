@@ -5,6 +5,8 @@ description: 'Mage.coach — open-source Magento frontend performance analysis t
 featured_image: /assets/images/mage-coach-hero.jpg
 redirect_from:
   - /mage-coach-0.1.1-released/
+  - /mage-coach-talk-meet-magento/
+  - /mage-coach-sticker-swag/
 ---
 
 > **Note:** Mage.coach is a historical / archived project. This page documents what it was, how it worked, and the community around it. The live service is no longer active.

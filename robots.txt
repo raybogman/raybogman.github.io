@@ -7,6 +7,7 @@ sitemap: false
 User-agent: *
 Allow: /
 Disallow: /thanks/
+Disallow: /assets/Bio%20-%20Ray%20Bogman.txt
 
 # AI / LLM crawlers — explicitly allowed (training + live search)
 # Training: content may be used to train AI models
