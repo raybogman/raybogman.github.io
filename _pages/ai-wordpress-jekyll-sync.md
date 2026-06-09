@@ -1,5 +1,5 @@
 ---
-title: AI WordPress Sync for Jekyll & GitHub Pages
+title: AI WordPress Sync for Jekyll & GitHub Pages — Free WordPress Plugin
 subtitle: AI-assisted WordPress → Jekyll on GitHub Pages sync. One click.
 description: 'AI WordPress Sync for Jekyll & GitHub Pages — open-source WordPress plugin that converts posts and pages to Jekyll Markdown with YAML front matter and pushes them straight to a GitHub Pages repository. Free, GPL-licensed, with style-aware conversion, two-way sync, GitHub OAuth, and optional AI for SEO descriptions and image alt text.'
 featured_image: /assets/images/ai-content-orchestrator.png
