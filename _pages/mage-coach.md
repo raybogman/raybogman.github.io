@@ -7,6 +7,7 @@ redirect_from:
   - /mage-coach-0.1.1-released/
   - /mage-coach-talk-meet-magento/
   - /mage-coach-sticker-swag/
+  - /mage-coach-beta-is-open/
 ---
 
 > **Note:** Mage.coach is a historical / archived project. This page documents what it was, how it worked, and the community around it. The live service is no longer active.
