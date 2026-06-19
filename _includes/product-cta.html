@@ -22,7 +22,9 @@
 {%- endif -%}
 
 <aside class="product-cta" aria-label="Tools built by Ray Bogman">
+  {%- unless include.eyebrow == "false" -%}
   <p class="product-cta__eyebrow">Tools I build</p>
+  {%- endunless -%}
 
   {%- if force_all or match_count > 0 -%}
   <div class="product-cta__grid">

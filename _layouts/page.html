@@ -25,6 +25,8 @@ layout: default
 
 			{{ page.content }}
 
+			{% if page.product_cta %}{% include product-cta.html mode="all" eyebrow="false" %}{% endif %}
+
 		</article>
 
 	</div>
