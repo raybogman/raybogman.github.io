@@ -38,7 +38,7 @@ In one pass: automatic internal linking, an AI-generated featured image, and Yoa
 
 ## What's inside
 
-Everything below is in the **free** WordPress.org version unless marked **_(Enterprise)_**. Full side-by-side breakdown in [Free vs Enterprise](#free-vs-enterprise).
+The **free** WordPress.org version includes the complete pipeline below. **Enterprise** layers on the [Enterprise features](#enterprise-features) further down — full side-by-side in [Free vs Enterprise](#free-vs-enterprise). Within free sections, individual lines are marked _(free)_ or _(Enterprise)_ where a capability is split.
 
 ### Dual AI — Claude + OpenAI
 Switch between providers anytime. No lock-in.
@@ -46,9 +46,9 @@ Switch between providers anytime. No lock-in.
 - **Claude** — Sonnet 4.6, Opus 4.6, Haiku 4.5
 - **OpenAI** — GPT-4o, GPT-4o Mini, GPT-4 Turbo, GPT-4.1, GPT-4.1 Mini, GPT-4.1 Nano
 - One-click API key validation for both providers
-- Configurable token budgets per task (metadata, content, repurposing)
+- Configurable token budgets per task
 
-### Website scanner + PDF library
+### Website scanner
 - Scan a single URL — extract headings, paragraphs, and metadata for context _(free)_
 - Crawl multiple pages with smart URL prioritization — services, about, blog first _(Enterprise)_
 - Save frequently-used URLs for one-click reuse _(Enterprise)_
@@ -68,48 +68,6 @@ Switch between providers anytime. No lock-in.
 - Upload custom bold/italic fonts (TTF, OTF, WOFF) _(free)_
 - Regenerate overlay text without regenerating the post _(free)_
 
-### LinkedIn auto-share _(Enterprise)_
-- **OAuth 2.0** — secure authentication, no passwords
-- AI generates a native LinkedIn post (1,000–1,300 chars) with hook, insights, and CTA
-- Auto-share on publish, or share manually from the dashboard
-- Edit and regenerate LinkedIn commentary before posting
-- Toggle per-post — share some posts, skip others
-
-### Content repurposing _(Enterprise)_
-Generate ready-to-use versions from any blog post, one click each:
-
-- **Email newsletter** — 150–250 word summary with CTA
-- **X / Twitter thread** — 5–8 numbered tweets with hook and hashtags
-- **Instagram caption** — 150–300 words with emojis and 15–20 hashtags
-- **Pinterest pin** — 100–200 words, optimized for Pinterest search
-
-### Bulk content creation _(Enterprise)_
-- Queue multiple posts with topics, styles, and dates
-- **AI topic suggestions** — enter a seed keyword, get 5 ideas with recommended blog style
-- **Auto-fill dates** — based on your publishing schedule (daily, every 2–3 days, weekly, bi-weekly, monthly)
-- Generate all sequentially with live progress tracking
-- Skip weekends toggle, configurable publish time
-
-### Scheduled publishing + approval queue _(Enterprise)_
-- **Draft + schedule** — posts saved for human review before going live
-- **Visual timeline** — see all scheduled content with status indicators (green = scheduled, yellow = pending approval)
-- Countdown timers, LinkedIn sharing indicators
-- Approve, reschedule, or delete from the queue
-- WordPress cron-based publishing with rate-limited catch-up (max one per minute)
-
-### Content refresh _(Enterprise)_
-- Select any published post — AI analyzes for thin content, missing FAQ, missing internal links, outdated information
-- Intelligent rewriting preserves URL and SEO value
-- Automatic internal link addition on refresh
-- Dashboard shows stale content (older than 6 months) needing attention
-
-### Thrive Architect integration _(Enterprise)_
-- Toggle between WordPress (standard) or Thrive Architect output format
-- AI HTML auto-converted to Thrive TCB2 markup with proper block wrapping
-- Auto-inject your saved Thrive **Table of Contents** and **CTA templates**
-- Template CSS injected into post custom styles
-- Auto-generated heading IDs for TOC linking
-
 ### Brand voice control
 - **Project Vision** — baseline instructions applied to every generation
 - Ensures consistent tone, style, vocabulary, and guardrails across all content
@@ -121,6 +79,54 @@ Generate ready-to-use versions from any blog post, one click each:
 - Stale content needing refresh
 - Quick action buttons for common tasks
 - Real-time progress logging with downloadable log files
+
+---
+
+## Enterprise features
+
+Everything above is in the free plugin. The capabilities below unlock with the [Enterprise plan](#pricing) — shown here in full so you know exactly what you scale into.
+
+### LinkedIn auto-share
+- **OAuth 2.0** — secure authentication, no passwords
+- AI generates a native LinkedIn post (1,000–1,300 chars) with hook, insights, and CTA
+- Auto-share on publish, or share manually from the dashboard
+- Edit and regenerate LinkedIn commentary before posting
+- Toggle per-post — share some posts, skip others
+
+### Content repurposing
+Generate ready-to-use versions from any blog post, one click each:
+
+- **Email newsletter** — 150–250 word summary with CTA
+- **X / Twitter thread** — 5–8 numbered tweets with hook and hashtags
+- **Instagram caption** — 150–300 words with emojis and 15–20 hashtags
+- **Pinterest pin** — 100–200 words, optimized for Pinterest search
+
+### Bulk content creation
+- Queue multiple posts with topics, styles, and dates
+- **AI topic suggestions** — enter a seed keyword, get 5 ideas with recommended blog style
+- **Auto-fill dates** — based on your publishing schedule (daily, every 2–3 days, weekly, bi-weekly, monthly)
+- Generate all sequentially with live progress tracking
+- Skip weekends toggle, configurable publish time
+
+### Scheduled publishing + approval queue
+- **Draft + schedule** — posts saved for human review before going live
+- **Visual timeline** — see all scheduled content with status indicators (green = scheduled, yellow = pending approval)
+- Countdown timers, LinkedIn sharing indicators
+- Approve, reschedule, or delete from the queue
+- WordPress cron-based publishing with rate-limited catch-up (max one per minute)
+
+### Content refresh
+- Select any published post — AI analyzes for thin content, missing FAQ, missing internal links, outdated information
+- Intelligent rewriting preserves URL and SEO value
+- Automatic internal link addition on refresh
+- Dashboard shows stale content (older than 6 months) needing attention
+
+### Thrive Architect integration
+- Toggle between WordPress (standard) or Thrive Architect output format
+- AI HTML auto-converted to Thrive TCB2 markup with proper block wrapping
+- Auto-inject your saved Thrive **Table of Contents** and **CTA templates**
+- Template CSS injected into post custom styles
+- Auto-generated heading IDs for TOC linking
 
 ---
 
