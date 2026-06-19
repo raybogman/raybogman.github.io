@@ -23,20 +23,22 @@ Every AI writing plugin does the same thing: prompt in, text out. Then you're le
 A timeout-proof pipeline that completes reliably even on shared hosting.
 
 ### Step 1 — Scan & context
-Crawl any website via sitemaps and internal links, or upload PDFs. The plugin extracts headings, content, and metadata to build a rich context block — so AI writes **about your business**, not generic filler.
+Point the plugin at a URL and it extracts headings, content, and metadata to build a rich context block — so AI writes **about your business**, not generic filler. _(Free scans a single URL; Enterprise adds multi-page crawling and PDF uploads.)_
 
 ### Step 2 — SEO metadata
 AI generates an optimized SEO title (max 60 chars), meta description (155 chars), slug, focus keyphrase, tags, and categories — before a single word of content is written. Strategy first, always.
 
 ### Step 3 — Content generation
-Full HTML content (1,000–2,000 words for blog posts, 500–1,000 for pages) generated against your brief, brand voice, and SEO metadata. Choose from **12 blog styles**: Standard, How-To, Listicle, Ultimate Guide, Comparison, Case Study, Problem-Solution, Beginner's Guide, Data-Driven, Storytelling, Opinion, or Checklist.
+Full HTML content (1,000–2,000 words for blog posts, 500–1,000 for pages) generated against your brief, brand voice, and SEO metadata. The **free version** includes 4 blog styles — Standard, How-To, Listicle, and Beginner's Guide. **Enterprise** unlocks all **13** — adding Ultimate Guide, Comparison, Case Study, Problem-Solution, Data-Driven, Storytelling, Opinion, Checklist, and Recipe.
 
 ### Step 4 — Enhance & publish
-In one pass: automatic internal linking, AI-generated featured images, Yoast SEO field population, LinkedIn post generation, and publish/draft/schedule. Done.
+In one pass: automatic internal linking, an AI-generated featured image, and Yoast SEO field population, then publish or save as a draft. Done. _(Enterprise adds LinkedIn post generation and scheduling.)_
 
 ---
 
 ## What's inside
+
+Everything below is in the **free** WordPress.org version unless marked **_(Enterprise)_**. Full side-by-side breakdown in [Free vs Enterprise](#free-vs-enterprise).
 
 ### Dual AI — Claude + OpenAI
 Switch between providers anytime. No lock-in.
@@ -47,34 +49,33 @@ Switch between providers anytime. No lock-in.
 - Configurable token budgets per task (metadata, content, repurposing)
 
 ### Website scanner + PDF library
-- Crawl any public website — extracts headings, paragraphs, metadata from up to 25 pages
-- Smart URL prioritization (services, about, blog pages first)
-- Save frequently-used URLs for one-click reuse
-- Upload PDFs (up to 100MB) — auto-extract text, reuse across future generations
-- Configurable scan limits, context length, and timeout
+- Scan a single URL — extract headings, paragraphs, and metadata for context _(free)_
+- Crawl multiple pages with smart URL prioritization — services, about, blog first _(Enterprise)_
+- Save frequently-used URLs for one-click reuse _(Enterprise)_
+- Upload PDFs (up to 100MB) — auto-extract text, reuse across future generations _(Enterprise)_
+- Configurable context length and timeout
 
 ### SEO engine
-- **Competitor gap analysis** — AI analyzes top-ranking content, identifies 2–3 gaps, feeds them into your generation
-- **Automatic internal linking** — scans published posts, scores by keyword relevance, inserts 3–5 contextual links with smart anchor text (multi-word phrases, never single words)
-- **Link placement options** — inline only, "Related articles" section, or both (adaptive split by content length)
-- **Yoast SEO integration** — auto-populates title, meta description, and focus keyphrase when Yoast is active
-- **Focus keyphrase alignment** — AI aligns generated content with your chosen keywords
+- **Automatic internal linking** — scans published posts, scores by keyword relevance, and inserts contextual links with smart anchor text (multi-word phrases, never single words). Up to 3 inline links _(free)_; up to 15, inline and in a "Related articles" block _(Enterprise)_
+- **Yoast SEO integration** — auto-populates title, meta description, and focus keyphrase when Yoast is active _(free)_
+- **Focus keyphrase alignment** — AI aligns generated content with your chosen keywords _(free)_
+- **Competitor gap analysis** — AI analyzes top-ranking content, identifies 2–3 gaps, feeds them into your generation _(Enterprise)_
 
 ### AI-generated featured images
-- **DALL-E 3** (OpenAI) or **Ideogram** — choose your provider
-- 4 AI-generated options per post — pick your favourite from a visual grid
-- **Title overlay** — composite your blog title onto a base image with custom fonts, colors, and two-line auto-fit layout
-- Upload custom bold/italic fonts (TTF, OTF, WOFF)
-- Regenerate overlay text without regenerating the post
+- **gpt-image-1** (OpenAI) image generation _(free)_; **Ideogram** as a second provider _(Enterprise)_
+- 4 AI-generated options per post — pick your favourite from a visual grid _(free)_
+- **Title overlay** — composite your blog title onto a base image with custom fonts, colors, and two-line auto-fit layout _(free)_
+- Upload custom bold/italic fonts (TTF, OTF, WOFF) _(free)_
+- Regenerate overlay text without regenerating the post _(free)_
 
-### LinkedIn auto-share
+### LinkedIn auto-share _(Enterprise)_
 - **OAuth 2.0** — secure authentication, no passwords
 - AI generates a native LinkedIn post (1,000–1,300 chars) with hook, insights, and CTA
 - Auto-share on publish, or share manually from the dashboard
 - Edit and regenerate LinkedIn commentary before posting
 - Toggle per-post — share some posts, skip others
 
-### Content repurposing
+### Content repurposing _(Enterprise)_
 Generate ready-to-use versions from any blog post, one click each:
 
 - **Email newsletter** — 150–250 word summary with CTA
@@ -82,27 +83,27 @@ Generate ready-to-use versions from any blog post, one click each:
 - **Instagram caption** — 150–300 words with emojis and 15–20 hashtags
 - **Pinterest pin** — 100–200 words, optimized for Pinterest search
 
-### Bulk content creation
+### Bulk content creation _(Enterprise)_
 - Queue multiple posts with topics, styles, and dates
 - **AI topic suggestions** — enter a seed keyword, get 5 ideas with recommended blog style
 - **Auto-fill dates** — based on your publishing schedule (daily, every 2–3 days, weekly, bi-weekly, monthly)
 - Generate all sequentially with live progress tracking
 - Skip weekends toggle, configurable publish time
 
-### Scheduled publishing + approval queue
+### Scheduled publishing + approval queue _(Enterprise)_
 - **Draft + schedule** — posts saved for human review before going live
 - **Visual timeline** — see all scheduled content with status indicators (green = scheduled, yellow = pending approval)
 - Countdown timers, LinkedIn sharing indicators
 - Approve, reschedule, or delete from the queue
 - WordPress cron-based publishing with rate-limited catch-up (max one per minute)
 
-### Content refresh
+### Content refresh _(Enterprise)_
 - Select any published post — AI analyzes for thin content, missing FAQ, missing internal links, outdated information
 - Intelligent rewriting preserves URL and SEO value
 - Automatic internal link addition on refresh
 - Dashboard shows stale content (older than 6 months) needing attention
 
-### Thrive Architect integration
+### Thrive Architect integration _(Enterprise)_
 - Toggle between WordPress (standard) or Thrive Architect output format
 - AI HTML auto-converted to Thrive TCB2 markup with proper block wrapping
 - Auto-inject your saved Thrive **Table of Contents** and **CTA templates**
@@ -141,7 +142,7 @@ Generate ready-to-use versions from any blog post, one click each:
 | One AI provider, locked in | Dual AI: Claude + OpenAI, switch anytime |
 | No context about your business | Website scanner + PDF library for real context |
 | Manual internal linking | Automatic smart linking with keyword scoring |
-| No images | DALL-E 3 / Ideogram + title overlay with custom fonts |
+| No images | gpt-image-1 / Ideogram + title overlay with custom fonts |
 | No distribution | LinkedIn auto-share + email / X / Instagram / Pinterest repurposing |
 | Timeouts on shared hosting | 4-step pipeline, timeout-proof architecture |
 | One post at a time | Bulk queue with scheduling, approval, and visual timeline |
@@ -151,7 +152,7 @@ Generate ready-to-use versions from any blog post, one click each:
 
 ## Technical details
 
-- **WordPress** 5.8 – 6.7+ (tested up to 6.7)
+- **WordPress** 5.9+ (tested up to 7.0)
 - **PHP** 7.4+
 - **No external libraries** — pure PHP + jQuery, lightweight
 - **No custom database tables** — uses standard WordPress options and post meta
@@ -179,7 +180,7 @@ Start free. Upgrade when you're ready to scale.
 | **Email when a post goes live** | — | ✓ |
 | **Write 10+ posts at once** | — | ✓ |
 | **Refresh old posts that are getting stale** | — | ✓ |
-| **Turn a post into emails, tweets, Pinterest pins** | ✓ | ✓ |
+| **Turn a post into emails, tweets, Pinterest pins** | — | ✓ |
 | **Choose between Claude or ChatGPT** | ✓ | ✓ |
 | **AI writes your SEO title, description, keywords** | ✓ | ✓ |
 | **Works with Yoast SEO plugin** | ✓ | ✓ |
@@ -195,14 +196,17 @@ Start free. Upgrade when you're ready to scale.
 | **Enterprise** | **$24.99** | **$249.99** *(save ~$50/yr)* | **$699.99** *(one-time)* |
 
 <div class="contact-actions" markdown="0">
+  <a href="https://wordpress.org/plugins/raybogman-ai-content-orchestrator/" class="button button--large">
+    <i class="fab fa-wordpress"></i> Get the Free Plugin
+  </a>
   <a href="https://checkout.freemius.com/plugin/28680/plan/47216/?billing_cycle=annual" class="button button--large">
     <i class="fas fa-rocket"></i> Get Enterprise — Annual
   </a>
 </div>
 
-<p style="text-align: center; opacity: 0.7; margin-top: 0.75rem;"><em>Free version coming soon to <strong>WordPress.org</strong> — submission in review.</em></p>
+<p style="text-align: center; opacity: 0.7; margin-top: 0.75rem;"><em>Free version now <a href="https://wordpress.org/plugins/raybogman-ai-content-orchestrator/">live on <strong>WordPress.org</strong></a> — install it free today.</em></p>
 
-You only pay for the plugin — AI costs (Claude / OpenAI API usage) are paid directly to your chosen provider. Typical cost per post: **$0.02–$0.10** for text + **$0.04** for a DALL-E 3 featured image.
+You only pay for the plugin — AI costs (Claude / OpenAI API usage) are paid directly to your chosen provider. Typical cost per post: **$0.02–$0.10** for text + **~$0.06** for a gpt-image-1 featured image.
 
 ---
 
@@ -230,7 +234,7 @@ Yes. Toggle "Thrive Architect" output format and AI-generated HTML is auto-conve
 Yes. The plugin works on any WordPress installation. Install it on each client site or manage from a multisite.
 
 ### How much does AI usage cost?
-You pay AI providers directly. Typical per-post cost: $0.02–$0.10 for text generation (varies by model and content length), plus $0.04 per DALL-E 3 featured image. No hidden markup.
+You pay AI providers directly. Typical per-post cost: $0.02–$0.10 for text generation (varies by model and content length), plus ~$0.06 per gpt-image-1 featured image. No hidden markup.
 
 ### What's the difference between this and AI Content Creator?
 AI Content Orchestrator is the successor to AI Content Creator. It includes a built-in migration path — detects the old plugin, imports settings, and offers one-click deactivation.
