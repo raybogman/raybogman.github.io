@@ -2,7 +2,7 @@
 title: "The AI Content Pipeline WordPress Has Been Missing"
 date: "2026-06-19 09:00:00 +0000"
 description: "Most AI writing plugins stop at raw text. AI Content Orchestrator runs the full pipeline inside WordPress — scan, SEO, write, image, link, publish. Free on WordPress.org."
-featured_image: "/assets/images/ai-content-orchestrator.png"
+featured_image: "/assets/images/ai-content-pipeline-for-wordpress.png"
 tags: [AI, WordPress, Content Marketing, SEO, Open Source, Plugin]
 ---
 

@@ -1,7 +1,7 @@
 ---
 title: AI Content Orchestrator
 subtitle: The complete content pipeline for WordPress
-description: 'AI Content Orchestrator — end-to-end AI content pipeline for WordPress. Website scanning, SEO, featured images, LinkedIn auto-share, Yoast integration. Supports Claude and OpenAI.'
+description: 'AI Content Orchestrator — a complete AI content pipeline inside WordPress: scan, SEO, write, image, link, publish. Free on WordPress.org. Supports Claude and OpenAI.'
 featured_image: /assets/images/ai-content-orchestrator.png
 permalink: /products/ai-content-orchestrator/
 seo:
