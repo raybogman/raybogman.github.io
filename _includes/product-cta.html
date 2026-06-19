@@ -1,0 +1,75 @@
+{%- comment -%}
+  Contextual product CTA block. Used at the end of blog posts and on /products.
+  - Posts: shows products whose `tags` (in _data/products.yml) intersect page.tags.
+    If none match, falls back to a single soft "all tools" card (no irrelevant push).
+  - Pass mode="all" to force every product as a card (used on the /products hub).
+  Relevance + DRY by design — add a product in _data/products.yml and it appears here.
+{%- endcomment -%}
+
+{%- assign force_all = false -%}
+{%- if include.mode == "all" -%}{%- assign force_all = true -%}{%- endif -%}
+
+{%- comment -%} count tag matches first {%- endcomment -%}
+{%- assign match_count = 0 -%}
+{%- if page.tags -%}
+  {%- for product in site.data.products -%}
+    {%- assign hit = false -%}
+    {%- for t in page.tags -%}
+      {%- if product.tags contains t -%}{%- assign hit = true -%}{%- break -%}{%- endif -%}
+    {%- endfor -%}
+    {%- if hit -%}{%- assign match_count = match_count | plus: 1 -%}{%- endif -%}
+  {%- endfor -%}
+{%- endif -%}
+
+<aside class="product-cta" aria-label="Tools built by Ray Bogman">
+  <p class="product-cta__eyebrow">Tools I build</p>
+
+  {%- if force_all or match_count > 0 -%}
+  <div class="product-cta__grid">
+    {%- assign shown = 0 -%}
+    {%- for product in site.data.products -%}
+      {%- assign hit = false -%}
+      {%- if page.tags -%}
+        {%- for t in page.tags -%}
+          {%- if product.tags contains t -%}{%- assign hit = true -%}{%- break -%}{%- endif -%}
+        {%- endfor -%}
+      {%- endif -%}
+      {%- if force_all or hit -%}
+        {%- if shown < 2 -%}
+        <a class="product-cta__card" href="{{ product.url | relative_url }}" data-cta="product-content">
+          <span class="product-cta__media">
+            <img src="{{ product.image | relative_url }}" alt="{{ product.name }}" loading="lazy" decoding="async">
+          </span>
+          <span class="product-cta__body">
+            <span class="product-cta__name">{{ product.name }}</span>
+            <span class="product-cta__tagline">{{ product.tagline }}</span>
+            <span class="product-cta__link">{{ product.cta }} <span aria-hidden="true">&rarr;</span></span>
+          </span>
+        </a>
+        {%- assign shown = shown | plus: 1 -%}
+        {%- endif -%}
+      {%- endif -%}
+    {%- endfor -%}
+  </div>
+  {%- else -%}
+  <a class="product-cta__all" href="{{ '/products/' | relative_url }}" data-cta="product-all">
+    Explore the WordPress plugins and tools I've built <span aria-hidden="true">&rarr;</span>
+  </a>
+  {%- endif -%}
+</aside>
+
+<style>
+.product-cta{margin:3.5rem 0 0;padding:2rem;border:1px solid rgba(10,30,55,.12);border-radius:14px;background:linear-gradient(160deg,#fbfcfe,#f4f7fb)}
+.product-cta__eyebrow{margin:0 0 1.1rem;font-size:.78rem;font-weight:700;letter-spacing:.16em;text-transform:uppercase;color:#ff7e00}
+.product-cta__grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:1rem}
+.product-cta__card{display:flex;flex-direction:column;overflow:hidden;border:1px solid rgba(10,30,55,.12);border-radius:12px;background:#fff;text-decoration:none;transition:transform .15s ease,box-shadow .15s ease,border-color .15s ease}
+.product-cta__card:hover{transform:translateY(-3px);box-shadow:0 12px 28px rgba(10,30,55,.12);border-color:rgba(255,126,0,.5)}
+.product-cta__media{display:block;aspect-ratio:16/9;background:#0b1d31;overflow:hidden}
+.product-cta__media img{width:100%;height:100%;object-fit:cover;display:block}
+.product-cta__body{display:flex;flex-direction:column;gap:.45rem;padding:1.1rem 1.2rem 1.25rem}
+.product-cta__name{font-weight:700;font-size:1.08rem;line-height:1.25;color:#0b1d31}
+.product-cta__tagline{font-size:.92rem;line-height:1.45;color:#4a5b6e}
+.product-cta__link{margin-top:.25rem;font-weight:600;font-size:.92rem;color:#ff7e00}
+.product-cta__all{display:inline-block;font-weight:600;color:#0b1d31;text-decoration:none;border-bottom:2px solid #ff7e00;padding-bottom:2px}
+.product-cta__all:hover{color:#ff7e00}
+</style>

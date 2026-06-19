@@ -1,0 +1,16 @@
+# Products promoted by the end-of-content CTA block (_includes/product-cta.html).
+# Add a product here and it appears automatically on relevant blog posts + /products.
+# `tags` drive relevance matching against a post's front-matter tags.
+- name: AI Content Orchestrator
+  url: /products/ai-content-orchestrator/
+  image: /assets/images/ai-content-orchestrator.png
+  tagline: The complete AI content pipeline inside WordPress — scan, SEO, write, image, link, publish. Free on WordPress.org.
+  cta: Explore the plugin
+  tags: [AI, WordPress, Content Marketing, SEO, Plugin, Open Source]
+
+- name: AI WordPress Sync for Jekyll & GitHub Pages
+  url: /products/ai-wordpress-jekyll-sync/
+  image: /assets/images/ai-wordpress-sync-for-jekyll-github-pages.png
+  tagline: Edit in WordPress, publish to Jekyll on GitHub Pages in one click — with optional AI for SEO and alt text.
+  cta: Explore the plugin
+  tags: [WordPress, Jekyll, GitHub Pages, AI, Open Source, Plugin]
