@@ -1,7 +1,7 @@
 ---
 title: "AI WordPress Sync for Jekyll & GitHub Pages: Edit in WordPress, Publish to GitHub"
 date: "2026-06-01 09:00:00 +0000"
-description: "I built and released a free, open-source WordPress plugin that publishes posts to Jekyll on GitHub Pages — with optional AI for SEO descriptions and image alt text. Download from GitHub today."
+description: "I built and released a free, open-source WordPress plugin that publishes posts to Jekyll on GitHub Pages — with optional AI for SEO descriptions and image alt text. Now free on WordPress.org."
 featured_image: "/assets/images/ai-wordpress-sync-for-jekyll-github-pages.png"
 tags: [AI, WordPress, Jekyll, GitHub Pages, Open Source, Plugin]
 ---
@@ -10,7 +10,7 @@ tags: [AI, WordPress, Jekyll, GitHub Pages, Open Source, Plugin]
 
 After months of running this exact site (the one you're reading right now) on a hybrid setup — WordPress for writing, Jekyll on GitHub Pages for hosting — I built the missing piece and released it as free, open-source software.
 
-It's called **[AI WordPress Sync for Jekyll & GitHub Pages](/products/ai-wordpress-jekyll-sync/)**, and it's [available on GitHub today](https://github.com/raybogman/raybogman-ai-sync-for-jekyll). The WordPress.org listing is currently under review — once it ships, you'll be able to install it like any other plugin from the official directory.
+It's called **[AI WordPress Sync for Jekyll & GitHub Pages](/products/ai-wordpress-jekyll-sync/)**, and it's [live on WordPress.org](https://wordpress.org/plugins/raybogman-ai-sync-for-jekyll-github-pages/) today — install it like any other plugin from the official directory, or grab the source [on GitHub](https://github.com/raybogman/raybogman-ai-sync-for-jekyll).
 
 
 ## The Conventional Wisdom
@@ -85,13 +85,13 @@ Concrete use cases I'm already seeing:
 
 Here are my direct, actionable recommendations:
 
-1. **Download the plugin from GitHub today** — it's GPL-2.0-or-later, open source, and free forever. [github.com/raybogman/raybogman-ai-sync-for-jekyll](https://github.com/raybogman/raybogman-ai-sync-for-jekyll)
+1. **Install the plugin from WordPress.org today** — it's GPL-2.0-or-later, open source, and free forever. [wordpress.org/plugins/raybogman-ai-sync-for-jekyll-github-pages](https://wordpress.org/plugins/raybogman-ai-sync-for-jekyll-github-pages/) (or [grab the source on GitHub](https://github.com/raybogman/raybogman-ai-sync-for-jekyll))
 2. **Create a GitHub OAuth App** on your own GitHub account (free, takes two minutes). The plugin's settings page tells you exactly what callback URL to use.
 3. **Point it at your existing Jekyll repository** — style detection runs automatically against your `_config.yml` and existing posts.
 4. **Approve a test post and push it** — preview the Markdown output before committing if you want. Diff it against your existing posts to verify the style match.
 5. **Bring your own AI key (optional)** — Anthropic Claude or OpenAI. Costs go directly to the provider. Typical: ~$0.001 per SEO description, ~$0.01 per AI alt-text generation.
 
-If you'd rather wait, the WordPress.org listing is currently under review — once it ships you'll be able to install it like any other plugin from the official directory. The GitHub release is the same code, ready to go today.
+Prefer the official directory? It's [live on WordPress.org](https://wordpress.org/plugins/raybogman-ai-sync-for-jekyll-github-pages/) — install and auto-update like any other plugin. The GitHub release is the same code.
 
 
 ## Frequently Asked Questions
@@ -113,8 +113,8 @@ Both are auto-detected. Meta description, focus keyphrase, and (where present) O
 Yes — that's a primary use case. Run a one-shot bulk sync to push every post into a fresh Jekyll repo, then keep using the plugin for ongoing edits. The migration becomes a continuous process instead of a one-way door.
 
 
-### When is the WordPress.org listing coming?
-It's currently under review at WordPress.org. The GitHub release contains the same code — install it manually now, switch to the WordPress.org auto-update channel once the listing goes live.
+### Is it available on WordPress.org?
+Yes — it's live on the official directory: [wordpress.org/plugins/raybogman-ai-sync-for-jekyll-github-pages](https://wordpress.org/plugins/raybogman-ai-sync-for-jekyll-github-pages/). Install and auto-update like any other plugin, or grab the same code from GitHub.
 
 
 ### Is this related to AI Content Orchestrator?
@@ -125,4 +125,4 @@ They're independent plugins that compose well. Use [AI Content Orchestrator](/pr
 
 **The technology stack you choose for your blog should match the way you actually want to work.** If WordPress is where you think best, keep writing there. If Jekyll on GitHub Pages is where you want to serve, keep serving there. Stop letting the gap between the two cost you hours every week.
 
-Try it today: [github.com/raybogman/raybogman-ai-sync-for-jekyll](https://github.com/raybogman/raybogman-ai-sync-for-jekyll) — and let me know what you'd like to see in version 1.1. Drop a comment below, or [get in touch](/contact/) directly.
+Try it today: [wordpress.org/plugins/raybogman-ai-sync-for-jekyll-github-pages](https://wordpress.org/plugins/raybogman-ai-sync-for-jekyll-github-pages/) — and let me know what you'd like to see next. Drop a comment below, or [get in touch](/contact/) directly.

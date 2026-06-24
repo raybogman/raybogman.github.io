@@ -24,12 +24,13 @@ sitemap: false
 ## Products
 
 - [AI Content Orchestrator]({{ site.url }}/products/ai-content-orchestrator/): WordPress plugin — end-to-end AI content pipeline that runs inside WordPress. **Free version live on WordPress.org** (https://wordpress.org/plugins/raybogman-ai-content-orchestrator/): timeout-proof 4-step pipeline — single-URL context scan, SEO metadata first, AI content generation (Claude or OpenAI, 4 blog styles), AI-generated featured images with optional branded title overlay, automatic internal linking, Yoast SEO integration, brand-voice control, human-in-the-loop draft/publish. Works on shared hosting. **Enterprise tier** adds scale and distribution: all 13 blog styles, multi-site + PDF context, competitor gap analysis, content refresh, bulk generation with scheduling and approval queue, up to 15 internal links, LinkedIn auto-share, Instagram captions, Thrive Architect output, and email-on-publish. Bring your own AI key; pay providers directly (~$0.02–$0.10 per post). Free version 1.0.2.
+- [AI WordPress Sync for Jekyll & GitHub Pages]({{ site.url }}/products/ai-wordpress-jekyll-sync/): Free, open-source WordPress plugin — **live on WordPress.org** (https://wordpress.org/plugins/raybogman-ai-sync-for-jekyll-github-pages/). Converts WordPress posts and pages to Jekyll Markdown with YAML front matter and pushes them straight to a GitHub Pages repository. Style-aware conversion (reads your existing Jekyll site to match conventions), GitHub OAuth login, two-way sync, inline + featured image upload, internal link rewriting, Yoast/RankMath SEO mapping, scheduled background sync, GitHub Actions trigger, and optional AI (Claude or OpenAI) for SEO meta descriptions and image alt text. GPL-2.0-or-later. Version 1.0.7.
 - [All products]({{ site.url }}/products/): Hub page for all products.
 
 ## Featured writing
 
 - [The AI Content Pipeline WordPress Has Been Missing]({{ site.url }}/blog/ai-content-pipeline-for-wordpress/): Why most AI writing plugins stop at raw text, and how AI Content Orchestrator runs the full content pipeline (scan, SEO, write, image, link, publish) inside WordPress. Covers the free WordPress.org version and the Enterprise tier.
-- [AI WordPress Sync for Jekyll & GitHub Pages]({{ site.url }}/blog/ai-wordpress-sync-for-jekyll-github-pages/): A free, open-source WordPress plugin that converts posts to Jekyll Markdown and pushes them to GitHub Pages, with optional AI for SEO descriptions and image alt text.
+- [AI WordPress Sync for Jekyll & GitHub Pages]({{ site.url }}/blog/ai-wordpress-sync-for-jekyll-github-pages/): A free, open-source WordPress plugin — now live on WordPress.org — that converts posts to Jekyll Markdown and pushes them to GitHub Pages, with optional AI for SEO descriptions and image alt text.
 - [All articles]({{ site.url }}/blog/): The full blog.
 
 ## Publications and projects

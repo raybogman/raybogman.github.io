@@ -128,12 +128,15 @@ WP-Cron runs every 1, 6, 12, or 24 hours to catch posts you missed approving man
 ## Get it
 
 <div class="contact-actions" markdown="0">
+  <a href="https://wordpress.org/plugins/raybogman-ai-sync-for-jekyll-github-pages/" class="button button--large">
+    <i class="fab fa-wordpress"></i> Install from WordPress.org
+  </a>
   <a href="https://github.com/raybogman/raybogman-ai-sync-for-jekyll" class="button button--large">
-    <i class="fab fa-github"></i> Download from GitHub
+    <i class="fab fa-github"></i> View source on GitHub
   </a>
 </div>
 
-<p style="text-align: center; opacity: 0.7; margin-top: 0.75rem;"><em>Free and open source — install from GitHub today. A WordPress.org listing is on the way.</em></p>
+<p style="text-align: center; opacity: 0.7; margin-top: 0.75rem;"><em>Free and open source — now live on the official <a href="https://wordpress.org/plugins/raybogman-ai-sync-for-jekyll-github-pages/">WordPress.org plugin directory</a>. Install and auto-update like any other plugin, or grab the source on GitHub.</em></p>
 
 100% free, forever. No paid tier, no upsells, no telemetry. Optional AI features use your own Claude or OpenAI key — costs go directly to the provider. Typical: $0.001 per SEO description, $0.01 per AI alt-text generation.
 
