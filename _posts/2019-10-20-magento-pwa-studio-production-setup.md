@@ -6,6 +6,7 @@ description: 'Build your own Magento PWA Studio production setup using Nginx pro
 featured_image: '/assets/images/magento-pwa-studio-production-setup.jpg'
 tags: [magento, pwa-studio]
 redirect_from:
+  - /magento-pwa-studio-production-setup/
   - /Magento PWA/
   - /magento-pwa/
 ---
