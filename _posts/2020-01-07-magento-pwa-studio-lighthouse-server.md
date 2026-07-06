@@ -4,13 +4,15 @@ date: 2020-01-07 00:00:00
 description: 'Magento + PWA Studio = High Performance! Use Lighthouse Server now and monitor your Magento PWA Studio Performance on every Git push.'
 featured_image: '/assets/images/magento-pwa-studio-lighthouse-server.jpg'
 tags: [Magento, PWA, Lighthouse, ci/cd]
+redirect_from:
+  - /magento-pwa-studio-lighthouse-server/
 ---
 
 **Magento** + **PWA Studio** = **High Performance**! OOTB (Out Of The Box).
 
 But please keep in mind that every custom theme/layout/template or whatever style you prefer to implement could have some minor or major drawbacks in regards to web performance.
 
-So unless you have not read my previous blog on how to build a **[Lighthouse server](https://raybogman.com/jekyll-travis-lighthouse-heroku-ci-cd)**, please do before you continue.
+So unless you have not read my previous blog on how to build a **[Lighthouse server](/blog/jekyll-travis-lighthouse-heroku-ci-cd/)**, please do before you continue.
 
 When it comes to using **Google Lighthouse Server** I think it's possible to use two approaches:
 1. Basic - Using a CI server and testing your URL(s) remotely.

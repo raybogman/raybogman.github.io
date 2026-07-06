@@ -10,7 +10,7 @@ redirect_from:
   - /magento-pwa/
 ---
 
-It's have been some time since my last blog or any writing at all. My latest work dates back to the [**Magento 2 Cookbook**](https://raybogman.com/magento-2-cookbook) published in 2016. I am a big fan of small tutorials or recipes style blogs and could not resist creating a new one on **Magento's PWA Studio**.
+It's have been some time since my last blog or any writing at all. My latest work dates back to the [**Magento 2 Cookbook**](/magento-2-cookbook/) published in 2016. I am a big fan of small tutorials or recipes style blogs and could not resist creating a new one on **Magento's PWA Studio**.
 
 All thought there are many routes to Rome I am picking the high road on this one. Easy setup using a clean Ubuntu 16.04 including Nginx as a **reverse proxy** for SSL termination.
 
