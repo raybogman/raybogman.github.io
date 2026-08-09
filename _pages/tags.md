@@ -3,6 +3,8 @@ title: Tags
 subtitle: Browse by Tag
 description: 'Browse all blog posts by tag — AI, cloud, e-commerce, performance, security, and more from Ray Bogman.'
 featured_image: /assets/images/raybogman-about.jpg
+sitemap: false
+noindex: true
 ---
 
 {% capture site_tags %}{% for tag in site.tags %}{{ tag | first }}{% unless forloop.last %},{% endunless %}{% endfor %}{% endcapture %}

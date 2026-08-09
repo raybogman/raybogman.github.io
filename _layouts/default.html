@@ -16,6 +16,7 @@
 
 	<!-- jekyll-seo-tag handles title, description, canonical, OG, Twitter Card, JSON-LD -->
 	{% seo %}
+	{% if page.noindex %}<meta name="robots" content="noindex">{% endif %}
 
 	<!-- Override OG/Twitter image with the page's featured_image when set -->
 	{% if page.featured_image %}
