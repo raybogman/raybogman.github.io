@@ -1,9 +1,19 @@
 // - - - - - - - - - - Copy page (Markdown twin) widget
 
 .copymd-row {
+	// Mobile: its own right-aligned row above the content.
 	display: flex;
 	justify-content: flex-end;
-	margin: 0 0 1.5rem;
+	margin: 0 0 1rem;
+}
+
+// Desktop: float top-right so the page title sits on its left.
+@include mq(tabletl) {
+	.copymd-row {
+		display: block;
+		float: right;
+		margin: 0 0 1rem 1.5rem;
+	}
 }
 
 .copymd {
