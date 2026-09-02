@@ -23,13 +23,20 @@
 	}
 }
 
+// Matches the site's outline button (.button--light): square corners, 2px
+// border, weight 600, no letter-spacing, accent fill on hover.
 .copymd {
 	position: relative;
 	display: inline-flex;
 	align-items: stretch;
 	font-family: $body-font;
-	font-size: 14px;
+	font-size: 13px;
 	font-weight: $button-weight;
+	letter-spacing: $button-spacing;
+
+	@include mq(tabletp) {
+		font-size: 15px;
+	}
 }
 
 .copymd__icon {
@@ -43,35 +50,37 @@
 	align-items: center;
 	gap: 6px;
 	margin: 0;
-	padding: 9px 14px;
+	padding: 9px 14px 10px;
 	line-height: 1;
 	color: $text-dark-color;
-	background: $background-color;
-	border: 1px solid $border-color;
+	background: transparent;
+	border: 2px solid $text-dark-color;
 	cursor: pointer;
 	transition: background 0.15s ease, color 0.15s ease, border-color 0.15s ease;
 
 	&:hover,
 	&:focus-visible {
-		background: $background-alt-color;
+		background: $accent-color;
+		border-color: $accent-color;
+		color: $background-color;
 	}
 }
 
+// Square split button: the main segment shares the caret's left border.
 .copymd__btn--main {
-	border-radius: 24px 0 0 24px;
 	border-right: 0;
 }
 
 .copymd__btn--caret {
-	border-radius: 0 24px 24px 0;
 	padding-left: 9px;
 	padding-right: 11px;
 }
 
-// Copied! / failed feedback
+// Copied! / failed feedback — accent fill, matching the button hover state.
 .copymd--flash .copymd__btn--main {
-	color: $accent-color;
+	background: $accent-color;
 	border-color: $accent-color;
+	color: $background-color;
 }
 
 .copymd__menu {
@@ -79,11 +88,10 @@
 	top: calc(100% + 6px);
 	right: 0;
 	min-width: 230px;
-	padding: 6px;
+	padding: 0;
 	background: $background-color;
-	border: 1px solid $border-color;
-	border-radius: 12px;
-	box-shadow: 0 8px 24px rgba(0, 0, 0, 0.12);
+	border: 2px solid $text-dark-color;
+	@include box-shadow(0, 6px, 16px, rgba(0, 0, 0, 0.1));
 	z-index: 30;
 }
 
@@ -93,15 +101,18 @@
 	gap: 10px;
 	width: 100%;
 	margin: 0;
-	padding: 9px 10px;
+	padding: 11px 14px;
 	font: inherit;
 	text-align: left;
 	text-decoration: none;
 	color: $text-dark-color;
 	background: none;
 	border: 0;
-	border-radius: 8px;
 	cursor: pointer;
+
+	& + & {
+		border-top: 1px solid $border-color;
+	}
 
 	.copymd__icon {
 		color: $text-medium-color;
@@ -109,17 +120,21 @@
 
 	&:hover,
 	&:focus-visible {
-		background: $background-alt-color;
-		color: $text-dark-color;
+		background: $accent-color;
+		color: $background-color;
+
+		.copymd__icon {
+			color: $background-color;
+		}
 	}
 }
 
-// Compact (icon-only) below the desktop nav breakpoint.
+// Compact (icon-only) below the tablet breakpoint.
 .copymd__label {
 	display: none;
 }
 
-@include mq(tabletl) {
+@include mq(tabletp) {
 	.copymd__label {
 		display: inline;
 	}
