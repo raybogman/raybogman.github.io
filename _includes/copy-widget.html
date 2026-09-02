@@ -1,0 +1,28 @@
+{%- comment -%}
+  "Copy page" widget — Markdown twin controls, shown top-right of the article.
+  md_url: /about/ -> /about.md , /blog/slug/ -> /blog/slug.md (strip trailing slash, add .md)
+  The caret is a <button> menu toggle (no href — it opens a menu, it is not a link).
+  "Open Markdown" is the one real link; js-no-ajax makes the site's pjax do a full navigation.
+{%- endcomment -%}
+{%- assign md_url = page.url | split: '/' | join: '/' | append: '.md' | relative_url -%}
+<div class="copymd-row">
+  <div class="copymd js-copymd" data-md-url="{{ md_url }}">
+    <button type="button" class="copymd__btn copymd__btn--main js-copymd-copy" aria-label="Copy this page as Markdown">
+      <svg class="copymd__icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="9" y="9" width="13" height="13" rx="2"/><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"/></svg>
+      <span class="copymd__label">Copy page</span>
+    </button>
+    <button type="button" class="copymd__btn copymd__btn--caret js-copymd-toggle" aria-haspopup="menu" aria-expanded="false" aria-label="Markdown options">
+      <svg class="copymd__icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="6 9 12 15 18 9"/></svg>
+    </button>
+    <div class="copymd__menu" role="menu" hidden>
+      <button type="button" class="copymd__item js-copymd-copy" role="menuitem">
+        <svg class="copymd__icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="9" y="9" width="13" height="13" rx="2"/><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"/></svg>
+        Copy page as Markdown
+      </button>
+      <a class="copymd__item js-copymd-open js-no-ajax" role="menuitem" href="{{ md_url }}">
+        <svg class="copymd__icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><line x1="7" y1="17" x2="17" y2="7"/><polyline points="7 7 17 7 17 17"/></svg>
+        Open Markdown
+      </a>
+    </div>
+  </div>
+</div>
