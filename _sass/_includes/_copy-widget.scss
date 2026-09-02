@@ -1,0 +1,109 @@
+// - - - - - - - - - - Copy page (Markdown twin) widget
+
+.copymd-row {
+	display: flex;
+	justify-content: flex-end;
+	margin: 0 0 1.5rem;
+}
+
+.copymd {
+	position: relative;
+	display: inline-flex;
+	align-items: stretch;
+	font-family: $body-font;
+	font-size: 14px;
+	font-weight: $button-weight;
+}
+
+.copymd__icon {
+	width: 15px;
+	height: 15px;
+	flex: none;
+}
+
+.copymd__btn {
+	display: inline-flex;
+	align-items: center;
+	gap: 6px;
+	margin: 0;
+	padding: 9px 14px;
+	line-height: 1;
+	color: $text-dark-color;
+	background: $background-color;
+	border: 1px solid $border-color;
+	cursor: pointer;
+	transition: background 0.15s ease, color 0.15s ease, border-color 0.15s ease;
+
+	&:hover,
+	&:focus-visible {
+		background: $background-alt-color;
+	}
+}
+
+.copymd__btn--main {
+	border-radius: 24px 0 0 24px;
+	border-right: 0;
+}
+
+.copymd__btn--caret {
+	border-radius: 0 24px 24px 0;
+	padding-left: 9px;
+	padding-right: 11px;
+}
+
+// Copied! / failed feedback
+.copymd--flash .copymd__btn--main {
+	color: $accent-color;
+	border-color: $accent-color;
+}
+
+.copymd__menu {
+	position: absolute;
+	top: calc(100% + 6px);
+	right: 0;
+	min-width: 230px;
+	padding: 6px;
+	background: $background-color;
+	border: 1px solid $border-color;
+	border-radius: 12px;
+	box-shadow: 0 8px 24px rgba(0, 0, 0, 0.12);
+	z-index: 30;
+}
+
+.copymd__item {
+	display: flex;
+	align-items: center;
+	gap: 10px;
+	width: 100%;
+	margin: 0;
+	padding: 9px 10px;
+	font: inherit;
+	text-align: left;
+	text-decoration: none;
+	color: $text-dark-color;
+	background: none;
+	border: 0;
+	border-radius: 8px;
+	cursor: pointer;
+
+	.copymd__icon {
+		color: $text-medium-color;
+	}
+
+	&:hover,
+	&:focus-visible {
+		background: $background-alt-color;
+		color: $text-dark-color;
+	}
+}
+
+// Compact (icon-only) below the desktop nav breakpoint.
+.copymd__label {
+	display: none;
+}
+
+@include mq(tabletl) {
+	.copymd__label {
+		display: inline;
+	}
+}
