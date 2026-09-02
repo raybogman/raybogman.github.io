@@ -16,8 +16,9 @@
 	}
 
 	// Pull the first content element up so it lines up with the widget
-	// instead of sitting below it (headings/paragraphs carry a top margin).
-	.copymd-row + * {
+	// instead of sitting below it. Needs to out-specify `.single-post h2`
+	// (0,1,1), which sets a 40px top margin — hence the extra class here.
+	.single-post .copymd-row + * {
 		margin-top: 0;
 	}
 }
