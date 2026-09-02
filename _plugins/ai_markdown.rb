@@ -22,8 +22,12 @@ require "fileutils"
 module AiMarkdown
   FRONTMATTER = /\A---\s*\n.*?\n---\s*\n/m
 
-  # Sections in the order they appear in llms.txt.
-  SECTION_ORDER = ["Pages", "Blog", "Projects", "Mage-Coach", "Magento 2 Cookbook"].freeze
+  # Sections in the order they appear in llms.txt. "Optional" is the spec's
+  # bucket for low-value/skippable pages and always sits last.
+  SECTION_ORDER = ["Pages", "Blog", "Projects", "Mage-Coach", "Magento 2 Cookbook", "Optional"].freeze
+
+  # Page slugs that belong under the "Optional" section (utility/thin pages).
+  OPTIONAL_SLUGS = %w[tags thanks].freeze
 
   # Repo/meta files that are not site content (matched case-insensitively, no ext).
   SKIP_BASENAMES = %w[readme changelog license licence contributing code_of_conduct 404].freeze
@@ -87,7 +91,8 @@ end
 
 Jekyll::Hooks.register :site, :post_write do |site|
   base = site.config["url"].to_s.chomp("/")
-  index = [] # each: { section:, title:, url:, description: }
+  index = []      # each: { section:, title:, url:, description: }
+  full_docs = []  # main-site pages/posts, for llms-full.txt
 
   # -- Jekyll documents (pages collection, posts, projects, ...) ------------
 
@@ -101,8 +106,13 @@ Jekyll::Hooks.register :site, :post_write do |site|
     description = doc.data["description"]
     url_abs = "#{base}#{doc.url.sub(%r{/\z}, '')}.md"
 
+    # Utility/thin pages go under "Optional" rather than the main list.
+    slug = File.basename(rel, ".md")
+    section = "Optional" if AiMarkdown::OPTIONAL_SLUGS.include?(slug)
+
     AiMarkdown.write(site, rel, AiMarkdown.build_file(title, url_abs, description, body))
     index << { section: section, title: title.to_s, url: url_abs, description: description }
+    full_docs << { title: title.to_s, url: url_abs, body: body }
   end
 
   # Root front-matter pages that are Markdown (skips index.html, 404.html, css, feeds…).
@@ -156,13 +166,26 @@ Jekyll::Hooks.register :site, :post_write do |site|
     end
   end
 
+  # -- Curated extras (blockquote summary + knowledge appendix) -------------
+  # _llms-extra.md holds hand-maintained, high-value content the page list
+  # can't express: a `>` summary, then (after a `---`) Key facts / certs /
+  # expertise / contact. Split on the first horizontal rule.
+  summary_block = nil
+  appendix_block = nil
+  extra_path = File.join(site.source, "_llms-extra.md")
+  if File.exist?(extra_path)
+    parts = File.read(extra_path).split(/^---\s*$/, 2)
+    summary_block = parts[0].to_s.strip
+    appendix_block = parts[1].to_s.strip
+  end
+
   # -- llms.txt index (Claude's format: links point at the .md versions) ----
 
   title_line = [site.config["title"], site.config["tagline"]].compact.reject(&:empty?).join(" — ")
   lines = ["# #{title_line}", ""]
-  lines << (site.config["description"] || "Machine-readable index. Each link is the Markdown twin of a page.")
+  lines << (summary_block && !summary_block.empty? ? summary_block : "> #{site.config['description']}")
   lines << ""
-  lines << "This site mirrors every page as Markdown at the same path with a `.md` suffix."
+  lines << "Every page is mirrored as Markdown at the same path with a `.md` suffix. The full text of the site is at #{base}/llms-full.txt."
   lines << ""
 
   ordered = index.group_by { |e| e[:section] }
@@ -179,7 +202,33 @@ Jekyll::Hooks.register :site, :post_write do |site|
     lines << ""
   end
 
+  if appendix_block && !appendix_block.empty?
+    lines << appendix_block
+    lines << ""
+  end
+
   AiMarkdown.write(site, "llms.txt", lines.join("\n").rstrip + "\n")
 
-  Jekyll.logger.info "AiMarkdown:", "wrote #{index.size} .md twins + llms.txt"
+  # -- llms-full.txt (full Markdown of every main-site page, concatenated) --
+
+  full = ["# #{title_line}", ""]
+  full << (summary_block && !summary_block.empty? ? summary_block : "> #{site.config['description']}")
+  full << ""
+  full << "Full Markdown of every page on #{base}."
+  full << ""
+  full_docs.each do |d|
+    full << "# #{d[:title]}"
+    full << ""
+    full << "Source: #{d[:url]}"
+    full << ""
+    full << d[:body].strip
+    full << ""
+    full << "---"
+    full << ""
+  end
+  full << appendix_block if appendix_block && !appendix_block.empty?
+
+  AiMarkdown.write(site, "llms-full.txt", full.join("\n").rstrip + "\n")
+
+  Jekyll.logger.info "AiMarkdown:", "wrote #{index.size} .md twins + llms.txt + llms-full.txt"
 end
