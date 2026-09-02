@@ -7,12 +7,18 @@
 	margin: 0 0 1rem;
 }
 
-// Desktop: float top-right so the page title sits on its left.
+// Desktop: float top-right so the page title sits on its left, on the same line.
 @include mq(tabletl) {
 	.copymd-row {
 		display: block;
 		float: right;
 		margin: 0 0 1rem 1.5rem;
+	}
+
+	// Pull the first content element up so it lines up with the widget
+	// instead of sitting below it (headings/paragraphs carry a top margin).
+	.copymd-row + * {
+		margin-top: 0;
 	}
 }
 
