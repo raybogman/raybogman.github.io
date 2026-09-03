@@ -32,6 +32,8 @@ jobs:
         run: bundle exec jekyll build
         env:
           JEKYLL_ENV: production
+      - name: Verify agent-readiness
+        run: bash bin/check-agent-ready.sh _site
       - uses: actions/upload-pages-artifact@v3
         with:
           path: _site

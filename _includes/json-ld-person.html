@@ -162,3 +162,40 @@
   }
 }
 </script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": ["Organization", "ProfessionalService"],
+  "@id": "{{ site.url }}/#organization",
+  "name": "Ray Bogman",
+  "url": "{{ site.url }}",
+  "logo": "{{ '/assets/images/logo.png' | absolute_url }}",
+  "image": "{{ '/assets/images/raybogman-about.jpg' | absolute_url }}",
+  "description": "{{ site.description | strip_html | xml_escape }}",
+  "founder": { "@id": "{{ site.url }}/#person" },
+  "email": "mailto:hello@raybogman.com",
+  "telephone": "+31610884153",
+  "contactPoint": {
+    "@type": "ContactPoint",
+    "contactType": "business inquiries",
+    "email": "hello@raybogman.com",
+    "telephone": "+31610884153",
+    "availableLanguage": ["en", "nl"],
+    "url": "{{ site.url }}/contact"
+  },
+  "address": {
+    "@type": "PostalAddress",
+    "addressLocality": "Amstelveen",
+    "addressRegion": "North Holland",
+    "addressCountry": "NL"
+  },
+  "areaServed": "Worldwide",
+  "sameAs": [
+    "https://linkedin.com/in/raybogman",
+    "https://github.com/raybogman",
+    "https://twitter.com/raybogman",
+    "https://facebook.com/raybogman",
+    "https://instagram.com/raybogman"
+  ]
+}
+</script>
