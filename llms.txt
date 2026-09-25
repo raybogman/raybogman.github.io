@@ -29,6 +29,7 @@ sitemap: false
 
 ## Featured writing
 
+- [Organizational Bias: When AI Notes Become Company Truth]({{ site.url }}/blog/organizational-bias-when-ai-notes-become-company-truth/): Why unchecked AI meeting notes, summaries, and decision matrices become the version everyone trusts, what the research and recent court cases show, and five leadership habits that keep AI output from becoming company truth.
 - [The AI Content Pipeline WordPress Has Been Missing]({{ site.url }}/blog/ai-content-pipeline-for-wordpress/): Why most AI writing plugins stop at raw text, and how AI Content Orchestrator runs the full content pipeline (scan, SEO, write, image, link, publish) inside WordPress. Covers the free WordPress.org version and the Enterprise tier.
 - [AI WordPress Sync for Jekyll & GitHub Pages]({{ site.url }}/blog/ai-wordpress-sync-for-jekyll-github-pages/): A free, open-source WordPress plugin — now live on WordPress.org — that converts posts to Jekyll Markdown and pushes them to GitHub Pages, with optional AI for SEO descriptions and image alt text.
 - [All articles]({{ site.url }}/blog/): The full blog.
