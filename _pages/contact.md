@@ -3,6 +3,8 @@ title: Contact Ray Bogman
 subtitle: Let's get in touch
 description: 'Contact Ray Bogman — Fractional CTO, AI Innovator, Speaker. Book a 30-minute intro call, email, phone, or LinkedIn.'
 featured_image: /assets/images/raybogman-about.jpg
+seo:
+  type: ContactPage
 ---
 
 The easiest way to reach me is **email**. For faster conversations, phone/text works too — and I'm active on LinkedIn.

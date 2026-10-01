@@ -3,6 +3,8 @@ title: Ray Bogman as Author
 subtitle: Books, articles, reviews & exam writing
 description: 'Ray Bogman, tech author. Magento 2 Cookbook (Packt, 2016), security columns in Computable, 3× Adobe Commerce Subject Matter Expert and exam writer.'
 featured_image: /assets/images/raybogman-author.jpg
+seo:
+  type: ProfilePage
 ---
 
 Ray has been writing and contributing to technology publications since **2008** — on topics ranging from web security and performance, to Magento, Joomla, mobile, SEO, and now AI. He has authored one book, reviewed several, and is a 3× subject-matter expert and exam writer for Adobe Commerce certifications.

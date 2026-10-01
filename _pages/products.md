@@ -5,6 +5,8 @@ description: 'WordPress plugins and digital products by Ray Bogman. AI-powered c
 featured_image: /assets/images/raybogman-consultant.jpg
 permalink: /products/
 product_cta: true
+seo:
+  type: CollectionPage
 ---
 
 Tools I've built to solve real problems I've seen across 25+ years of working with teams, platforms, and content at scale. Each has a free version — explore them below.

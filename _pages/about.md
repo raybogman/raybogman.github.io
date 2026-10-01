@@ -3,6 +3,8 @@ title: About Ray Bogman
 subtitle: Entrepreneur · AI Innovator · CTO · Speaker · Trainer · Author
 description: 'Ray Bogman — 25+ years in tech. Ex-Adobe Head of Commerce Customer Engineering, founder of 5 companies, now Head of Innovation at Alumio building a new AI product.'
 featured_image: /assets/images/raybogman-about.jpg
+seo:
+  type: ProfilePage
 ---
 
 ## A 25-year career in tech

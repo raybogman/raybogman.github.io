@@ -24,8 +24,16 @@
 	<!-- RSS feed metadata -->
 	{% feed_meta %}
 
-	<!-- Person JSON-LD (sitewide) -->
+	<!-- Person + Organization JSON-LD (sitewide) -->
 	{% include json-ld-person.html %}
+
+	<!-- BreadcrumbList JSON-LD (every page except home) -->
+	{% include json-ld-breadcrumb.html %}
+
+	<!-- Book JSON-LD (Magento 2 Cookbook) -->
+	{% if page.url contains '/magento-2-cookbook' or page.url contains '/author' %}
+	{% include json-ld-book.html %}
+	{% endif %}
 
 	<!-- FAQPage JSON-LD (About page only) -->
 	{% if page.url contains '/about' %}
