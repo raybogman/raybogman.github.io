@@ -1,6 +1,6 @@
 ---
 title: "AI FinOps: The Economics of AI at Scale"
-date: "2026-10-01 09:00:00 +0000"
+date: "2026-10-01 08:00:00 +0000"
 description: "AI features are cheap to demo and easy to ship. Knowing what one accepted customer outcome costs is harder. A leadership perspective on designing AI economics into the product: cost per accepted outcome, pricing, ARR and MRR, observability, controlled model routing and ownership."
 featured_image: "/assets/images/ai-finops-economics-of-ai-at-scale.png"
 tags: [AI, FinOps, Leadership, Tech Leadership, Pricing, Observability, AI Governance]
