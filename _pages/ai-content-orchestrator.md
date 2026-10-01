@@ -43,8 +43,8 @@ The **free** WordPress.org version includes the complete pipeline below. **Enter
 ### Dual AI — Claude + OpenAI
 Switch between providers anytime. No lock-in.
 
-- **Claude** — Sonnet 4.6, Opus 4.6, Haiku 4.5
-- **OpenAI** — GPT-4o, GPT-4o Mini, GPT-4 Turbo, GPT-4.1, GPT-4.1 Mini, GPT-4.1 Nano
+- **Claude** — every model your Anthropic key can access (Sonnet, Opus, Haiku), loaded live from Anthropic so new releases appear automatically
+- **OpenAI** — every current GPT chat model your key can access (GPT-5 family, GPT-4.1, GPT-4o), loaded live from OpenAI
 - One-click API key validation for both providers
 - Configurable token budgets per task
 
@@ -89,7 +89,8 @@ Everything above is in the free plugin. The capabilities below unlock with the [
 ### LinkedIn auto-share
 - **OAuth 2.0** — secure authentication, no passwords
 - AI generates a native LinkedIn post (1,000–1,300 chars) with hook, insights, and CTA
-- Auto-share on publish, or share manually from the dashboard
+- Auto-share on publish, share manually from the dashboard, or **schedule the share** for a date and time of your choice — publish first, share the next morning
+- **Share existing posts** — add any published post or page to the LinkedIn queue without changing it, let the AI write the LinkedIn text, and share or schedule
 - Edit and regenerate LinkedIn commentary before posting
 - Toggle per-post — share some posts, skip others
 
@@ -111,7 +112,7 @@ Generate ready-to-use versions from any blog post, one click each:
 ### Scheduled publishing + approval queue
 - **Draft + schedule** — posts saved for human review before going live
 - **Visual timeline** — see all scheduled content with status indicators (green = scheduled, yellow = pending approval)
-- Countdown timers, LinkedIn sharing indicators
+- Countdown timers, LinkedIn sharing indicators and scheduled LinkedIn share times
 - Approve, reschedule, or delete from the queue
 - WordPress cron-based publishing with rate-limited catch-up (max one per minute)
 
@@ -149,7 +150,7 @@ Generate ready-to-use versions from any blog post, one click each:
 | No context about your business | Website scanner + PDF library for real context |
 | Manual internal linking | Automatic smart linking with keyword scoring |
 | No images | gpt-image-1 / Ideogram + title overlay with custom fonts |
-| No distribution | LinkedIn auto-share + email / X / Instagram / Pinterest repurposing |
+| No distribution | LinkedIn auto-share (also for existing posts, with scheduling) + email / X / Instagram / Pinterest repurposing |
 | Timeouts on shared hosting | 4-step pipeline, timeout-proof architecture |
 | One post at a time | Bulk queue with scheduling, approval, and visual timeline |
 | Write-and-forget | Content refresh with stale-detection and smart rewriting |
@@ -222,7 +223,7 @@ You only pay for the plugin — AI costs (Claude / OpenAI API usage) are paid di
 No. Most AI plugins stop at "generate text." AI Content Orchestrator manages the full pipeline — website scanning, SEO metadata, content generation, featured images, internal linking, LinkedIn sharing, and multi-platform repurposing. Every piece has strategy behind it before a single word is written.
 
 ### Which AI models does it support?
-Both Claude (Anthropic) and OpenAI — switch anytime. Claude: Sonnet 4.6, Opus 4.6, Haiku 4.5. OpenAI: GPT-4o, GPT-4o Mini, GPT-4 Turbo, GPT-4.1, GPT-4.1 Mini, GPT-4.1 Nano.
+Both Claude (Anthropic) and OpenAI — switch anytime. The model lists are loaded live from each provider with your API key, so new Claude and GPT models appear in the plugin automatically without an update. Current examples: Claude Sonnet 5.5, Opus 5.5 and Haiku 4.5; GPT-5.5, GPT-5.4, GPT-4.1 and GPT-4o.
 
 ### Does it work on shared hosting?
 Yes. The 4-step pipeline architecture ensures each step completes within 30–60 second server timeouts. No 504 errors, even on budget hosting.
