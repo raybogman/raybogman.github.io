@@ -18,15 +18,6 @@
 	{% seo %}
 	{% if page.noindex %}<meta name="robots" content="noindex">{% endif %}
 
-	<!-- Override OG/Twitter image with the page's featured_image when set -->
-	{% if page.featured_image %}
-	<meta property="og:image" content="{{ page.featured_image | absolute_url }}">
-	<meta name="twitter:image" content="{{ page.featured_image | absolute_url }}">
-	{% endif %}
-
-	<!-- Force large-image Twitter card on every page -->
-	<meta name="twitter:card" content="summary_large_image">
-
 	<!-- Robots -->
 	<meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1">
 
