@@ -37,7 +37,7 @@
         {%- endfor -%}
       {%- endif -%}
       {%- if force_all or hit -%}
-        {%- if shown < 2 -%}
+        {%- if force_all or shown < 2 -%}
         <a class="product-cta__card" href="{{ product.url | relative_url }}" data-cta="product-content">
           <span class="product-cta__media">
             <img src="{{ product.image | relative_url }}" alt="{{ product.name }}" loading="lazy" decoding="async">

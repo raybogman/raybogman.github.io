@@ -14,3 +14,10 @@
   tagline: Edit in WordPress, publish to Jekyll on GitHub Pages in one click. Free on WordPress.org, with optional AI for SEO and alt text.
   cta: Explore the plugin
   tags: [WordPress, Jekyll, GitHub Pages, AI, Open Source, Plugin]
+
+- name: Reloom for Human Design
+  url: /products/reloom-human-design/
+  image: /assets/images/reloom-human-design-card.png
+  tagline: Human Design charts, AI readings and PDF export inside wp-admin, powered by your reloom.life account. Free on WordPress.org, one-click Connect.
+  cta: Explore the plugin
+  tags: [WordPress, Plugin, Human Design, AI, Open Source]

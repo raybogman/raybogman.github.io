@@ -52,6 +52,17 @@
 	{% include json-ld-faq-ai-wordpress-jekyll-sync.html %}
 	{% endif %}
 
+	<!-- Product + FAQ JSON-LD (Reloom for Human Design) -->
+	{% if page.url contains '/products/reloom-human-design' %}
+	{% include json-ld-product-reloom-human-design.html %}
+	{% include json-ld-faq-reloom-human-design.html %}
+	{% endif %}
+
+	<!-- WebApplication + Video + FAQ JSON-LD (reloom project page) -->
+	{% if page.url == '/reloom/' %}
+	{% include json-ld-reloom.html %}
+	{% endif %}
+
 	{% if site.data.settings.font_settings.font_embed %}
 	{{ site.data.settings.font_settings.font_embed }}
 	{% endif %}
