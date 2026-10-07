@@ -9,6 +9,8 @@ Allow: /
 Disallow: /thanks/
 Disallow: /assets/Bio%20-%20Ray%20Bogman.txt
 Disallow: /assets/slides/
+# Cloudflare email-obfuscation endpoint (mailto: rewrite) — 404s for crawlers
+Disallow: /cdn-cgi/
 
 # AI / LLM crawlers — explicitly allowed (training + live search)
 # Training: content may be used to train AI models
