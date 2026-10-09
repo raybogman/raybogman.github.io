@@ -56,7 +56,7 @@ reloom started as something I built for myself: a way to turn a birth moment int
 
 What I kept hearing from the Human Design practitioners who tried it was the same thing: *"This is the reading I wish I could hand my clients — but my practice lives on WordPress."* The booking page, the blog, the intake form — all WordPress. The charts, though, lived somewhere else: another app, a folder of PDFs, a browser tab that never closes.
 
-So instead of asking practitioners to come to reloom, I brought reloom to them. **Reloom for Human Design** puts the client roster, the charts and the readings inside wp-admin, in sync with their reloom account. No second login. No copy-paste. The reading is the hero; the tools stay in the background.
+So instead of asking practitioners to come to reloom, I brought reloom to them. (Why I started reloom at all is in [this post](/blog/why-i-built-reloom/).) **Reloom for Human Design** puts the client roster, the charts and the readings inside wp-admin, in sync with their reloom account. No second login. No copy-paste. The reading is the hero; the tools stay in the background.
 
 ---
 

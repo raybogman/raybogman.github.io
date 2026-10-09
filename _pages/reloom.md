@@ -37,6 +37,8 @@ So I built the reading I wished existed: one that explains your design the way a
 
 That is how a personal project became reloom. The ambition grew; the reason did not change. **I wanted something that helps people remember who they are.**
 
+I wrote the personal story behind it in [Most of Us Navigate Life by Guessing. Why I Built reloom](/blog/why-i-built-reloom/).
+
 ---
 
 ## What Human Design is, in human terms
